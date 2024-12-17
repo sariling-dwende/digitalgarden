@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/great-art-as-a-referential-object-towards-human-nature/","tags":["humanity","thoughts"],"created":"2024-09-22T06:59:17.432+08:00","updated":"2024-12-17T17:56:24.855+08:00"}
+{"dg-publish":true,"permalink":"/ideas/great-art-as-a-referential-object-towards-human-nature/","tags":["humanity","thoughts"],"noteIcon":"2","created":"2024-09-22T06:59:17.432+08:00","updated":"2024-12-17T17:56:24.855+08:00"}
 ---
 
 The soul of art comes from the delicate soul of the artist that imbues the artwork with life. A certain type of mastery requires sacrifice, where that sacrifice becomes palpable to a work of art. This is beyond appreciation where it is an external application of a person's connection toward an artwork. 
