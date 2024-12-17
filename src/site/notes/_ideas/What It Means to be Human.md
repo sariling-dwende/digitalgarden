@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/what-it-means-to-be-human/","tags":["thoughts","humanity","dump"],"noteIcon":"2","created":"2024-09-22T06:59:18.254+08:00","updated":"2024-12-17T20:48:45.512+08:00"}
+{"dg-publish":true,"permalink":"/ideas/what-it-means-to-be-human/","tags":["thoughts","humanity","dump"],"noteIcon":"","created":"2024-09-22T06:59:18.254+08:00","updated":"2024-12-17T20:48:45.512+08:00"}
 ---
 
 

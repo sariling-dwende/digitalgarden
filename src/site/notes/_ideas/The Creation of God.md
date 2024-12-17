@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/the-creation-of-god/","tags":["thoughs","ideas","divine"],"noteIcon":"2","created":"2024-09-22T06:59:17.952+08:00","updated":"2024-12-17T17:58:02.819+08:00"}
+{"dg-publish":true,"permalink":"/ideas/the-creation-of-god/","tags":["thoughs","ideas","divine"],"noteIcon":"","created":"2024-09-22T06:59:17.952+08:00","updated":"2024-12-17T17:58:02.819+08:00"}
 ---
 
 Man's ceaseless search for a god ends up creating one. The externalized Other, whereas man can imagine a being bigger than himself while at the same time imagining himself in the process. This imagination of the self as a god in turn creates that distance dissociating himself from the being he is imagining: that gap due to man's inadequate belief of oneself springing from the necessity for a community because he knows that he alone cannot accomplish big things. The reality is he needs the help of other men. So he imagines a version of himself who can do everything, whereas that distance, that gap, is the missing link that differentiates man from god.

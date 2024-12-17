@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/apocrypha/","tags":["gardenEntry"],"noteIcon":"2","created":"2024-12-17T16:31:29.218+08:00","updated":"2024-12-17T20:58:19.679+08:00"}
+{"dg-publish":true,"permalink":"/ideas/apocrypha/","tags":["gardenEntry"],"noteIcon":"","created":"2024-12-17T16:31:29.218+08:00","updated":"2024-12-17T20:58:19.679+08:00"}
 ---
 
 Welcome to apocrypha.
