@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/happiness/","noteIcon":"","updated":"2024-12-17T20:48:08.075+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/happiness/","noteIcon":""}
 ---
 
 [[great joy comes with great sorrow\|great joy comes with great sorrow]]

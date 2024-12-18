@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/seeing-myself/","tags":["self","thinking","thought"],"noteIcon":"","updated":"2024-12-17T17:58:27.089+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/seeing-myself/","tags":["self","thinking","thought"],"noteIcon":""}
 ---
 
 

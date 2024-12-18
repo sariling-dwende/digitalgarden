@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/the-self/","noteIcon":"","updated":"2024-12-17T20:47:04.299+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/the-self/","noteIcon":""}
 ---
 
 [[_thoughts/D - Self-knowledge\|D - Self-knowledge]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/the-human-s-animal-impulse/","tags":["thoughts","dump","life"],"noteIcon":"","updated":"2024-12-17T20:45:19.716+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/the-human-s-animal-impulse/","tags":["thoughts","dump","life"],"noteIcon":""}
 ---
 
 

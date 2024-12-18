@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/the-failure-of-hedonistic-search-for-happiness/","tags":["self","humanity","life"],"noteIcon":"","updated":"2024-12-17T17:58:52.616+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/the-failure-of-hedonistic-search-for-happiness/","tags":["self","humanity","life"],"noteIcon":""}
 ---
 
 Happiness as often misunderstood as the goal of life, when in fact it is merely a desire for a positive, comfortable status of one's self. This drive, in this definition makes man's often happiness-seeking self, becomes hedonistic. Pain must be avoided; pleasure, we must seek. In making happiness the ultimate goal of life subjects the self into a life of hedonistic pleasures.

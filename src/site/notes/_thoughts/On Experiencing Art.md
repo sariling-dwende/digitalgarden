@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/on-experiencing-art/","tags":["humanity","thoughts","art"],"noteIcon":"","updated":"2024-12-17T17:56:10.922+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/on-experiencing-art/","tags":["humanity","thoughts","art"],"noteIcon":""}
 ---
 
 # time in experience

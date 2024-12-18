@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/monsters-and-overcoming-our-selves/","tags":["humanity","thoughts","self","monster"],"noteIcon":"","updated":"2024-12-17T17:57:23.020+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/monsters-and-overcoming-our-selves/","tags":["humanity","thoughts","self","monster"],"noteIcon":""}
 ---
 
 
