@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creative/declarations-of-the-body/","noteIcon":"","created":"2024-11-15"}
+{"dg-publish":true,"permalink":"/creative/declarations-of-the-body/","tags":["prose","body","self"],"noteIcon":"","created":"2024-11-15"}
 ---
 
 The body opens like a house with too many doors. Each morning I count the ways light enters—through eyelids, through pores, through the spaces between fingers when I hold my hand against the sun. The windows are clean but something is always missing. I check the mirrors: my reflection shifts between prisoner and guard.

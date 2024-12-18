@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/events/a-pocket-of-void-in-the-universe/","noteIcon":"","created":"2023-06-07"}
 ---
 
+## To hide the self from the world
+
 ![](https://substackcdn.com/image/fetch/w_5760,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7777a7a0-a404-4ed8-9f89-ccd390c40bbb_1920x533.png)
 
 > This is a continuation of [[_events/Making sense of making sense\|this post]].
