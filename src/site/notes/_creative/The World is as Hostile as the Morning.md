@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/creative/the-world-is-as-hostile-as-the-morning/","noteIcon":""}
+{"dg-publish":true,"permalink":"/creative/the-world-is-as-hostile-as-the-morning/","noteIcon":"","created":"2024-05-20"}
 ---
 
 ![Pasted image 20241217203410.png](/img/user/_attachments/Pasted%20image%2020241217203410.png)

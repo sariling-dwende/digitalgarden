@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/events/a-little-breathing-room/","noteIcon":"","created":"2024-01-23"}
 ---
 
-[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d600680-7f5c-4e86-b0fa-ab99f43ad842_6144x8160.jpeg)
+![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d600680-7f5c-4e86-b0fa-ab99f43ad842_6144x8160.jpeg)
 
 The last sunset of 2023 seen from Mandaluyong. Photo taken by the author.
 
