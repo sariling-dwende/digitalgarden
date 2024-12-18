@@ -4,11 +4,6 @@
 
 
 - [[_thoughts/Algorithmic-driven Thinking\|Algorithmic-driven Thinking]]
-- [[_thoughts/D - human greatness\|D - human greatness]]
-- [[_thoughts/D - male inequality\|D - male inequality]]
-- [[_thoughts/D - masculinity\|D - masculinity]]
-- [[_thoughts/D - Self-knowledge\|D - Self-knowledge]]
-- [[_thoughts/D - Stages of Building a God\|D - Stages of Building a God]]
 - [[_thoughts/Divinity\|Divinity]]
 - [[_thoughts/Great Art as a Referential Object Towards Human Nature\|Great Art as a Referential Object Towards Human Nature]]
 - [[_thoughts/Happiness\|Happiness]]
