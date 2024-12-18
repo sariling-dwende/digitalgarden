@@ -5,6 +5,7 @@
 
 - [[_creative/Before the World Caves In\|Before the World Caves In]]
 - [[_creative/Declarations_Of faith\|Declarations_Of faith]]
+- [[_creative/Declarations_Of linguistic cartographies\|Declarations_Of linguistic cartographies]]
 - [[_creative/Declarations_Of the body\|Declarations_Of the body]]
 - [[_creative/I. On the insatiability of desire\|I. On the insatiability of desire]]
 - [[_creative/II. On the narcissistic quest of filling the void\|II. On the narcissistic quest of filling the void]]
