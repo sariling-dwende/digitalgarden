@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/making-sense-of-making-sense/","noteIcon":"","created":"2024-12-17T20:29:15.303+08:00","updated":"2024-12-17T20:33:24.395+08:00"}
+{"dg-publish":true,"permalink":"/events/making-sense-of-making-sense/","noteIcon":"","updated":"2024-12-18T09:51:13.830+08:00"}
 ---
 
 I am a veteran in writing about the things I want to say in obscured language. Almost always, I free myself of the things I want to say by saying them in such a way that only shows the fringes of the idea that I want to communicate. What I write are silhouettes of expression. Mainly, and most probably because I am not ready to admit that what I am about to say is directly referenced by the type of person that I am.

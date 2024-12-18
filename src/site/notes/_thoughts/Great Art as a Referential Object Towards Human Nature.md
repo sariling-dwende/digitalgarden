@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/great-art-as-a-referential-object-towards-human-nature/","tags":["humanity","thoughts"],"noteIcon":"","created":"2024-09-22T06:59:17.432+08:00","updated":"2024-12-17T20:47:33.574+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/great-art-as-a-referential-object-towards-human-nature/","tags":["humanity","thoughts"],"noteIcon":"","updated":"2024-12-17T20:47:33.574+08:00"}
 ---
 
 The soul of art comes from the delicate soul of the artist that imbues the artwork with life. A certain type of mastery requires sacrifice, where that sacrifice becomes palpable to a work of art. This is beyond appreciation where it is an external application of a person's connection toward an artwork. 
 
-"I appreciate that work because it moves me." It is a declaration of a subjective experience. It can be said about every artwork, since it is in itself a declaration of a subjective experience. The appreciation comes as a response towards the artwork's "prompt," as if in [[_ideas/On Experiencing Art\|experiencing an artwork]], we engage to an idea where we only converse with with the work we feel most connected to.
+"I appreciate that work because it moves me." It is a declaration of a subjective experience. It can be said about every artwork, since it is in itself a declaration of a subjective experience. The appreciation comes as a response towards the artwork's "prompt," as if in [[_thoughts/On Experiencing Art\|experiencing an artwork]], we engage to an idea where we only converse with with the work we feel most connected to.
 
 Every artwork is a letter in a bottle thrown into the sea. 
 
@@ -12,4 +12,4 @@ Great art fleshes out a soul and a profound expression masterly crafted to evoke
 
 What makes art great depends on the scope of human nature it is mirroring. It requires degrees of nuances, and a razor-sharp edge precision in showing the layers. It is the art of dissecting the human while keeping it alive.
 
-> this idea is connected to man's conscious choice of a type of [[_ideas/Suffering\|Suffering]] that allows him to integrate [[the Shadow\|the Shadow]]. with these, art of great importance are made with [[_ideas/D - Self-knowledge\|D - Self-knowledge]] as its foundation.
+> this idea is connected to man's conscious choice of a type of [[_thoughts/Suffering\|Suffering]] that allows him to integrate [[the Shadow\|the Shadow]]. with these, art of great importance are made with [[_thoughts/D - Self-knowledge\|D - Self-knowledge]] as its foundation.

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/algorithmic-driven-thinking/","tags":["technology","humanity","thinking"],"noteIcon":"","created":"2024-09-22T06:59:17.315+08:00","updated":"2024-12-17T17:56:06.658+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/algorithmic-driven-thinking/","tags":["technology","humanity","thinking"],"noteIcon":"","updated":"2024-12-17T17:56:06.658+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ideas/to-see-the-self/","tags":["self","thoughts"],"noteIcon":"","created":"2024-09-22T06:59:18.179+08:00","updated":"2024-12-17T17:59:29.490+08:00"}
+{"dg-publish":true,"permalink":"/thoughts/to-see-the-self/","tags":["self","thoughts"],"noteIcon":"","updated":"2024-12-17T17:59:29.490+08:00"}
 ---
 
 
