@@ -13,6 +13,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
     gtag('config', 'G-0V2R281MZ4');
   </script>
+  
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
