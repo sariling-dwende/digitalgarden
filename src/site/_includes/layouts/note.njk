@@ -4,7 +4,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-        <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V2R281MZ4"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,6 +13,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
       gtag('config', 'G-0V2R281MZ4');
     </script>
+    
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
