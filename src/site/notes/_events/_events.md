@@ -8,4 +8,6 @@
 - [[_events/Making sense of making sense\|Making sense of making sense]]
 - [[_events/Perhaps a Prelude\|Perhaps a Prelude]]
 - [[_events/re_Locations\|re_Locations]]
+- [[_events/The breakdown\|The breakdown]]
+- [[_events/The point of it all\|The point of it all]]
 

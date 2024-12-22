@@ -6,6 +6,8 @@
 ***“Silent Peaks”** (2023) by Pope Bacay, acrylic on canvas*
 
 With the right amount of god complex, the desire to become human must be present. I must desire my own humanity and accept all of its contradictions. I must accept and understand that I cannot become a god. _I can only feel how it is to become god._
+{ #13cd6a}
+
 
 Balancing what I want to be against what I am capable of requires a certain set of parameters in making a decision. “Know thyself” is probably the most well-known adage from the Delphic maxims and it is so fundamental it remains to be timeless and profound yet forgettable at the same time. It is an expression of truth so known by our subconscious it starts to lose its meaning the moment it crosses our minds. A two-word statement so slippery and quick in its utterance it becomes difficult for the mind to latch. So then only those who pay conscious attention to it, to examine those two words carefully and stare at its mundane glory, can fully appreciate the simplicity of life and the difficulties of living well.
 
