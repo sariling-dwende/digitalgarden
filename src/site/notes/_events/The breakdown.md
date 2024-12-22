@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/events/the-breakdown/","tags":["self","writing"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/events/the-breakdown/","tags":["self","writing"],"noteIcon":"","created":"2024-12-22"}
 ---
 
 ## How it all started

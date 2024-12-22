@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/events/the-point-of-it-all/","tags":["writing"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/events/the-point-of-it-all/","tags":["writing"],"noteIcon":"","created":"2024-12-22"}
 ---
 
 >"Writing requires its own incarnation – hand–eye coordination, and some form of technology for making marks on a surface. We take a part of ourselves and turn it into physical inscriptions which outlive us. So that a future reader can breathe, in the words of Seamus Heaney, ‘air from another life and time and place’. When we write, we give ourselves a second body."
