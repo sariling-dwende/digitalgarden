@@ -20,6 +20,8 @@
       {% include imp %}
     {% endfor %}
   </head>
+
+
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgShowFileTree !== true %}
@@ -56,6 +58,7 @@
         {% include imp %}
       {% endfor %}
       </header>
+      
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
