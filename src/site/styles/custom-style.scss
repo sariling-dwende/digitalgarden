@@ -1,5 +1,5 @@
 body p, ul, ol, table {
-  font-size: .95em !important;
+  font-size: 1em !important;
   color: #c8bcac !important;
   font-family: Novela !important;
   font-weight: 100 !important;
@@ -29,11 +29,4 @@ h1, h2, h3, h4, h5, h6 {
 
 a:link {
   color:rgb(140, 127, 255) !important;
-}
-
-.container {
-  display: flex;
-  max-width: 1200px;
-  margin: 20px;
-  padding: 20px;
 }
