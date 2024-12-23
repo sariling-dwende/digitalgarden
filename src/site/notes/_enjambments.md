@@ -49,5 +49,7 @@ As of this moment, I only have 4 points of origin from where we can start. As th
 </div></div>
 
 
-### If there's other things you'd want to see here...
+#### Extending this site towards other things I can write about...
+If you have a topic in mind and are curious what I think about it, you can leave a request on my Ko-fi page below:
+
 Here's how you can [[How to share your love, support, and feedback to this site.\|share your love, support, and feedback to this site.]]
