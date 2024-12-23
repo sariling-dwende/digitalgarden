@@ -19,10 +19,10 @@ Each dot is a representation of a single note and depending on how many simultan
 ## Points of Origin
 As of this moment, I only have 4 points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
 
-* [[_creative/_creative\|_creative]]: prose, poetry, and other themes of writing
-* [[_events/_events\|_events]]: notes that often relate to describing real-world events in my life
-* [[_musings/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_events/_events\|life events]] as what was just mentioned above
-* [[_thoughts/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_events/_events\|life events]] or [[_musings/_musings\|musings]] that occur to me on a daily basis
+* [[_hidden/_creative\|_creative]]: prose, poetry, and other themes of writing
+* [[_hidden/_events\|_events]]: notes that often relate to describing real-world events in my life
+* [[_hidden/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_hidden/_events\|life events]] as what was just mentioned above
+* [[_hidden/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_hidden/_events\|life events]] or [[_hidden/_musings\|musings]] that occur to me on a daily basis
 
 ## A digital space for an evolving self-portrait
 I want to craft an image of myself that depends on my thoughts. After experiencing 
