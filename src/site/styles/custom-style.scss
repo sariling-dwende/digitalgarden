@@ -30,3 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 a:link {
   color:rgb(140, 127, 255) !important;
 }
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px;
+  padding: 20px;
