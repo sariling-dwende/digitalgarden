@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/christmas-eve-movie/","tags":["humanity","thought","observations"],"noteIcon":"","created":"2024-12-25"}
 ---
 
-Last night, Fatima and I watched [Juror #2](https://www.imdb.com/title/tt27403986/) as our Christmas Eve movie. It was something that has been brewing in my watchlist the moment I saw its poster online but I didn't watch any trailer about it.
+Last night, Fatima and I watched [Juror \#2](https://www.imdb.com/title/tt27403986/) as our Christmas Eve movie. It was something that has been brewing in my watchlist the moment I saw its poster online but I didn't watch any trailer about it.
 
 That was probably one of the best decisions I've made this year.
 ![Pasted image 20241225122411.png](/img/user/_attachments/Pasted%20image%2020241225122411.png)
@@ -13,7 +13,7 @@ It has been an ancient question to talk about justice. Which "good" do we talk a
 
 Before watching this movie, I have always believed that I can only judge people based on my own perception about them, which means that it is dynamic. It is always changing and it largely affects how I interact with other people. I often judge people based on how they portray themselves: physically and digitally. I am always curious about why people do what they do and interpreting their behaviors based on the manner of how they do it.
 
-You can say that it's a hobby of mine to have this mental exercise of mine to understand a person's intention or thought process. But at the end of the day, I know that what I have is my own interpretation and not the truth. I can be heavily forgiving but also a strict judge of character because I believe that people change. I just know that at this moment, you are one of the possible personalities that I have formed in my mind based on our interactions. You are only this person at this moment in time due to the circumstances that led you here. There is always room for growth.
+You can say that it's a hobby of mine to have this mental exercise as a way to understand a person's intention or thought process. But at the end of the day, I know that what I have is my own interpretation and not the truth. I can be heavily forgiving but also a strict judge of character because I believe that people change. I just know that at this moment, you are one of the possible personalities that I have formed in my mind based on our interactions. You are only this person at this moment in time due to the circumstances that led you here. There is always room for growth.
 
 You can only say that the person will not change if you have known them long enough and have made attempts to guide them towards their best self. You have the person's historical information, their traits, and throughout your relationship, patterns will emerge. Then and there, is the only time when that statement is correct.
 
