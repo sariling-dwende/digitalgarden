@@ -23,10 +23,10 @@ Each dot is a representation of a single note and depending on how many simultan
 ## Points of Origin
 As of this moment, I only have 4 points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
 
-* [[_hidden/_creative\|_creative]]: prose, poetry, and other themes of writing
-* [[_hidden/_events\|_events]]: notes that often relate to describing real-world events in my life
-* [[_hidden/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_hidden/_events\|life events]] as what was just mentioned above
-* [[_hidden/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_hidden/_events\|life events]] or [[_hidden/_musings\|musings]] that occur to me on a daily basis
+* [[_creative/_creative\|_creative]]: prose, poetry, and other themes of writing
+* [[_events/_events\|_events]]: notes that often relate to describing real-world events in my life
+* [[_musings/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_events/_events\|life events]] as what was just mentioned above
+* [[_thoughts/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_events/_events\|life events]] or [[_musings/_musings\|musings]] that occur to me on a daily basis
 
 ### Recently Published
 
@@ -39,8 +39,8 @@ As of this moment, I only have 4 points of origin from where we can start. As th
 | --------------------------------------------------------------------------------------------------- | ----------------- |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]                                           | December 25, 2024 |
 | [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                       | December 25, 2024 |
-| [[_events/The point of it all\|The point of it all]]                                             | December 22, 2024 |
 | [[_events/The breakdown\|The breakdown]]                                                         | December 22, 2024 |
+| [[_events/The point of it all\|The point of it all]]                                             | December 22, 2024 |
 | [[_creative/Declarations_Of linguistic cartographies\|Declarations_Of linguistic cartographies]] | November 26, 2024 |
 
 { .block-language-dataview}

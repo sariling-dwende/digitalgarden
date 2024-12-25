@@ -5,6 +5,7 @@
 Last night, Fatima and I watched [Juror \#2](https://www.imdb.com/title/tt27403986/) as our Christmas Eve movie. It was something that has been brewing in my watchlist the moment I saw its poster online but I didn't watch any trailer about it.
 
 That was probably one of the best decisions I've made this year.
+
 ![Pasted image 20241225122411.png](/img/user/_attachments/Pasted%20image%2020241225122411.png)
 
 I think this movie is best watched by going blind. As a courtroom drama, this one had one of the most convoluted way of trying to represent the practical idea of justice and how it always inevitable conflict with human nature.
