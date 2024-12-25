@@ -11,7 +11,13 @@
       gtag('config', 'G-0V2R281MZ4');
     </script>
     
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Optional: associate your Twitter handle -->
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ content }}">
+    <meta name="twitter:image" content="{{ imageUrl }}">
     
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
