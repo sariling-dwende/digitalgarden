@@ -2,6 +2,7 @@ body p, ul, ol, table {
   font-size: 1.1em !important;
   color: #c3b6a2 !important;
   font-family: Spectral !important;
+  font-style: normal !important;
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
@@ -41,12 +42,12 @@ a:link {
 }
 
 header {
-  margin-left: -50px !important;
+  margin-left: -100px !important;
 }
 
 .content {
   max-width: 900px !important; 
-  margin-left: 200px !important;
+  margin: auto !important;
   font-size: 20px;
   line-height: 1.5;
   margin-top: 90px;
