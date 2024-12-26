@@ -42,10 +42,12 @@ a:link {
 }
 
 header {
+  display: flex;
   margin-left: -100px !important;
 }
 
 .content {
+  display: flex;
   max-width: 900px !important; 
   margin: auto;
   font-size: 20px;
