@@ -1,7 +1,7 @@
 body p, ul, ol, table {
   font-size: 1.1em !important;
   color: #c3b6a2 !important;
-  font-family: Spectral !important;
+  font-family: "Spectral" !important;
   font-style: normal !important;
     /***
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
@@ -47,7 +47,7 @@ header {
 
 .content {
   max-width: 900px !important; 
-  margin: auto !important;
+  margin: auto;
   font-size: 20px;
   line-height: 1.5;
   margin-top: 90px;
