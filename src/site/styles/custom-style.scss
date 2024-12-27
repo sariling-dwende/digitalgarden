@@ -78,3 +78,11 @@ header {
   display: none;
   background-color: transparent var(--background-secondary) !important;
 }
+
+.sidebar {
+  opacity: .5 !important;
+}
+
+.sidebar hover{
+  opacity: 1 !important;
+}
