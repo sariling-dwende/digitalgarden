@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em !important;
-  color:#20201f !important;
+  color:#eb5050 !important;
 }
 
 .footnotes {
@@ -75,5 +75,5 @@ header {
   transform: translate(-50%, -50%);
   z-index: 9999;
   display: none;
-  background-color: transparent !important;
+  background-color: transparent var(--background-secondary) !important;
 }
