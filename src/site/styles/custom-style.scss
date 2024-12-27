@@ -63,3 +63,16 @@ header {
       margin-top: 75px;
   }
 }
+
+#full-graph {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: calc(100vmin - 100px);
+  width: calc(100vmin - 100px);
+  min-height: 350px;
+  min-width: 350px;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none;
+  background-color: transparent !important;
