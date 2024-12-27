@@ -11,7 +11,7 @@ Going through [[_thoughts/What I Learned in Therapy\|therapy]] marked a paradigm
 
 How we become, is entirely dependent on how we see ourselves and how we perceive the influence of other people to us.
 
-[[_thoughts/To see the Self\|To see the Self]]
+[[_thoughts/To See the Self\|To See the Self]]
 
 [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 

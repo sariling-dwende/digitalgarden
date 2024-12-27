@@ -17,6 +17,8 @@ On the atomic scale, everything becomes a dispensable cog. Aimlessly floating in
 # The aftermath
 
 I am still processing this feeling of resignation. I fear I might have become too complacent with where I am in life. I stopped going to therapy due to financial reasons and I have been living away from my family for two years now. I have made the conscious decision to drop my literary dreams for my own sanity. For almost five years, I pulled every atom in my body against my creative desires. I abandoned theory, art, and my creative circle to feed myself the mundane acts of just doing enough to live day after day.
+{ #6d9dce}
+
 
 Art became a distant place seen from the side mirror. A place where I look back only to see where I am going. A place whose soil is where I would plant my feet and prosper. Back then, it was clear to me that I belong in the crowd of the contemporary movement — the consciousness of my own generation basking in culture and life of the streets when the working class is in their restless sleep.
 
