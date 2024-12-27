@@ -49,7 +49,7 @@ As time went further on, still not writing, a lot of things made more sense. Wor
 This feeling of near-isolation made me look at myself different. Away from the familiar creative people where talking about the most abstract ideas can just click with anyone and spur a conversation. This was not the case when I started working and left me with an unfamiliar feeling of self-reflection. *What have I been doing all this time?*
 
 ## What's writing got to do with all this?
-If the old me attempted to write these thoughts, it would probably be laden with academic language.
+If the old me attempted to write these thoughts, it would probably be laden with metaphors.
 
 > *The light from outside the window, peeking from the most minimal gaps of the closed curtain attempts to illuminate this dark room I'm in. No other soul in sight. Or maybe it is just my assumption that I am alone. If I try to speak, what comes out of my mouth is a smoke of black. No sound. Only wisps of condensed air illuminated by a source of light too far for me to reach.*
 
