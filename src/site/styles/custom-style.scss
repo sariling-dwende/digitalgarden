@@ -16,15 +16,17 @@ body p, ul, ol, table {
     //  }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
   color:#c8bcac !important;
   font-family: Satoshi !important;
   font-weight: 300 !important;
 }
 
 h1 {
+  font-family: Satoshi !important;
+  font-weight: 500 !important;
   font-size: 3em !important;
-  color:#eb5072 !important;
+  color:#eb6250 !important;
 }
 
 .footnotes {
