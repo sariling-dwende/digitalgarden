@@ -39,8 +39,8 @@ As of this moment, I only have 4 points of origin from where we can start. As th
 | --------------------------------------------------------------------------------------------------- | ----------------- |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]                                           | December 25, 2024 |
 | [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                       | December 25, 2024 |
-| [[_events/The breakdown\|The breakdown]]                                                         | December 22, 2024 |
 | [[_events/The point of it all\|The point of it all]]                                             | December 22, 2024 |
+| [[_events/The breakdown\|The breakdown]]                                                         | December 22, 2024 |
 | [[_creative/Declarations_Of linguistic cartographies\|Declarations_Of linguistic cartographies]] | November 26, 2024 |
 
 { .block-language-dataview}
