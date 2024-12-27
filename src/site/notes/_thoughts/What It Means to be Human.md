@@ -15,4 +15,4 @@ How we become, is entirely dependent on how we see ourselves and how we perceive
 
 [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 
-[[_z-unpublished/D - Self-knowledge\|D - Self-knowledge]]
+[[_z-unpublished/Self-knowledge\|Self-knowledge]]

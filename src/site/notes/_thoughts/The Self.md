@@ -2,5 +2,5 @@
 {"dg-publish":true,"permalink":"/thoughts/the-self/","noteIcon":""}
 ---
 
-[[_z-unpublished/D - Self-knowledge\|D - Self-knowledge]]
+[[_z-unpublished/Self-knowledge\|Self-knowledge]]
 [[the Shadow\|the Shadow]]
