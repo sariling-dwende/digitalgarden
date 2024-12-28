@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/creative/creative/","noteIcon":""}
 ---
 
+### Pieces more on the creative side, which will be in a form that I have no name for, or refused to name.
+
 
 - [[_creative/Before the World Caves In\|Before the World Caves In]]
 - [[_creative/Declarations_Of faith\|Declarations_Of faith]]
