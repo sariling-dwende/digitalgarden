@@ -15,6 +15,8 @@ Struggling on this path of self-discovery, I find myself constantly reminded of 
 
 1. My time and energy, as my most valuable resources, must be prioritized for my partner, my dog, and my immediate family. The rest are secondary.
 2. Emotion is a guide, not a judge. It must not be allowed to make a decision.
+{ #ed3cf9}
+
 3. Reason is an arbiter of emotions. Let it weigh every consequence for each possibility and decide the best course of action with all things considered.
 4. No choice comes free. Every choice is a tradeoff, which must be evaluated by emotions and reason. When faced with a choice, a decision is always framed as the best struggle and a kind of pain that is worth choosing.
 5. Every decision must have an emotional quality to it but not as an influence. Let values and principles come first, then attend to every choice with emotion, and let reason align those emotions with the values and principles. Discard any emotion that does not align with the values and principles, then let reason make the decision.
