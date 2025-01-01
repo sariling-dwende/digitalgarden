@@ -21,7 +21,7 @@ On the upper-left (if you are viewing this on a desktop) or the bottom of the pa
 Each dot is a representation of a single note and depending on how many simultaneous connections it has with other notes, it grows in size. Hovering on a dot will tell you the title of a note, which may already tell you what it's about or maybe not.
 
 ## Points of Origin
-As of this moment, I only have 4 points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
+As of this moment, I have five points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
 
 * [[_creative/_creative\|_creative]]: prose, poetry, and other themes of writing
 * [[_events/_events\|_events]]: notes that often relate to describing larger events in my life
