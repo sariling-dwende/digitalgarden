@@ -18,9 +18,9 @@ img {
 }
 
 .content {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     margin-top: 90px;
     position: relative;
@@ -70,7 +70,6 @@ ul.task-list {
     display: flex;
     z-index: 3;
     max-width: 350px;
-    background-color: transparent;
 
     .graph {
         width: 320px;
@@ -96,7 +95,7 @@ ul.task-list {
         transform: translate(-50%, -50%);
         z-index: 9999;
         display: block;
-        background-color: transparent;
+        background-color: var(--background-secondary);
         border: 1px solid var(--text-accent);
         border-radius: 5px;
         padding-top: 5px;
@@ -130,7 +129,6 @@ ul.task-list {
     flex-direction: column;
     justify-content: flex-start;
     height: 87%;
-    background-color: transparent;
 }
 
 .toc {
