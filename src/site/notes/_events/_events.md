@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/events/events/","noteIcon":""}
 ---
 
+### Happenings in life and other aspects of my surroundings that have spurred a thought or an idea.
+
 
 - [[_events/A Little Breathing Room\|A Little Breathing Room]]
 - [[_events/A pocket of void in the universe\|A pocket of void in the universe]]

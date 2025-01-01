@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/musings/musings/","noteIcon":""}
 ---
 
+### Things I have been wondering about. 
+
 
 - [[_musings/A Journey into the Self\|A Journey into the Self]]
 - [[_musings/A Return to Form\|A Return to Form]]

@@ -16,7 +16,6 @@
 
     <!-- Optional: associate your Twitter handle -->
     <meta name="twitter:title" content="{{ page.fileSlug }}">
-    <meta name="twitter:site" content="@sarilingdwende">
     <meta name="twitter:description" content="{{ content }}">
     <meta name="twitter:image" content="{{ imageUrl }}">
     
@@ -29,8 +28,6 @@
       {% include imp %}
     {% endfor %}
   </head>
-
-
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgShowFileTree !== true %}
@@ -67,7 +64,6 @@
         {% include imp %}
       {% endfor %}
       </header>
-      
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}

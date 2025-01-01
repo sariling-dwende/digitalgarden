@@ -21,10 +21,11 @@ On the upper-left (if you are viewing this on a desktop) or the bottom of the pa
 Each dot is a representation of a single note and depending on how many simultaneous connections it has with other notes, it grows in size. Hovering on a dot will tell you the title of a note, which may already tell you what it's about or maybe not.
 
 ## Points of Origin
-As of this moment, I only have 4 points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
+As of this moment, I have five points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
 
 * [[_creative/_creative\|_creative]]: prose, poetry, and other themes of writing
-* [[_events/_events\|_events]]: notes that often relate to describing real-world events in my life
+* [[_events/_events\|_events]]: notes that often relate to describing larger events in my life
+* [[_logs/_logs\|_logs]]: daily notes focusing on small moments in a day
 * [[_musings/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_events/_events\|life events]] as what was just mentioned above
 * [[_thoughts/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_events/_events\|life events]] or [[_musings/_musings\|musings]] that occur to me on a daily basis
 
@@ -37,11 +38,11 @@ As of this moment, I only have 4 points of origin from where we can start. As th
 
 | Note                                                                  | Published         |
 | --------------------------------------------------------------------- | ----------------- |
+| [[_logs/2025-01-01\|2025-01-01]]                                   | January 01, 2025  |
 | [[_thoughts/What I Learned in Therapy\|What I Learned in Therapy]] | December 27, 2024 |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]             | December 25, 2024 |
 | [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]         | December 25, 2024 |
 | [[_events/The point of it all\|The point of it all]]               | December 22, 2024 |
-| [[_events/The breakdown\|The breakdown]]                           | December 22, 2024 |
 
 { .block-language-dataview}
 
