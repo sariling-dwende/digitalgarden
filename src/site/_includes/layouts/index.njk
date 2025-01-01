@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
-  <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V2R281MZ4"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-0V2R281MZ4');
-    </script>
-    
-        <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-
-    <!-- Optional: associate your Twitter handle -->
-    <meta name="twitter:title" content="{{ page.fileSlug }}">
-    <meta name="twitter:description" content="{{ content }}">
-    <meta name="twitter:image" content="{{ imageUrl }}">
-    
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
@@ -28,8 +10,6 @@
       {% include imp %}
     {% endfor %}
   </head>
-
-
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgShowFileTree !== true %}
@@ -66,7 +46,6 @@
         {% include imp %}
       {% endfor %}
       </header>
-      
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}
