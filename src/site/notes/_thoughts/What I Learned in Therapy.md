@@ -24,6 +24,8 @@ A week passed and I did not write a single word. I came back next week for my ne
 That was stupid. Stupid of me enough to craft that excuse to hide the simple fact that *I do not know what gratitude is.* I was blind to this experience. I am only able to articulate this lack at this point because I was incapable of seeing this lack to my therapist.
 
 But I did try to write. At least in the most minimal effort. I would try to sit down on my laptop and try to express what I am currently feeling. Eventually, I was able to put down words, typing what seems to be the closest representation of my emotions into words. Once I was done, everything that I wrote ended up becoming metaphors. Figurative phrases that I too, must decipher in order to understand. At that moment, it felt that it was the best thing I could do to state what I feel. What I just wrote are the amalgamation of my feelings condensed into figurative language. I believed that that was what defined me as a writer. Yet, something was missing. Throughout years of writing, it never occurred to my why I write the way I write. It never occurred to me to stop and think what I was trying to say. At least to sit down, do nothing, and actually *try to think about what I was trying to communicate.* I have never dug that deep into my own creative process.
+{ #63b019}
+
 ## The catalyst for understanding myself
 After a month, the pandemic hit. Needless to say that I was not able to return to therapy. But that writing prompt had always got me into thinking about the reasons why I am doing the things that I am good at.
 

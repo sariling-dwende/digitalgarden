@@ -8,6 +8,7 @@
 - [[_thoughts/Algorithmic-driven Thinking\|Algorithmic-driven Thinking]]
 - [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]
 - [[_thoughts/Divinity\|Divinity]]
+- [[_thoughts/Existential Implications of Advancements in Language Learning Models\|Existential Implications of Advancements in Language Learning Models]]
 - [[_thoughts/Great Art as a Referential Object Towards Human Nature\|Great Art as a Referential Object Towards Human Nature]]
 - [[_thoughts/Happiness\|Happiness]]
 - [[_thoughts/Hell is ourselves\|Hell is ourselves]]
