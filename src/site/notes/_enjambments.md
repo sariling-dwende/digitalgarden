@@ -30,11 +30,11 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 | Note                                                                  | Published         |
 | --------------------------------------------------------------------- | ----------------- |
+| [[_logs/2025-01-02\|2025-01-02]]                                   | January 02, 2025  |
 | [[_logs/2025-01-01\|2025-01-01]]                                   | January 01, 2025  |
 | [[_thoughts/What I Learned in Therapy\|What I Learned in Therapy]] | December 27, 2024 |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]             | December 25, 2024 |
 | [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]         | December 25, 2024 |
-| [[_events/The point of it all\|The point of it all]]               | December 22, 2024 |
 
 { .block-language-dataview}
 
