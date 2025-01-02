@@ -12,14 +12,6 @@ Origin: [[A Preface to the Apocrypha\|A Preface to the Apocrypha]]
 I want to craft an image of myself that depends on my thoughts. After experiencing 
 [[_events/The point of it all\|creative setbacks due to dishonest writing]], I have begun to understand more of myself and my relationship with language and writing since then. This space will stand as an omnidirectional representation of my own self.
 
-## Navigating the labyrinth
-This space contains a web of ideas where reading and writing is meant to be exploratory. There is no specific topic designed where each idea is labelled by an umbrella term, concept, or label. Every idea becomes relational, contextual, and hypertextual. There is no underlying structure to begin with. Since this is a perpetual work in progress, the structure will continuously adapt, based on every idea that has ever been published here. Each page is an idea that is often connected to other ideas that follows the [Zettelkasten](https://zettelkasten.de/introduction/) method of note-taking. Each idea is an atom of another idea or strings of ideas.
-
-## The web of ideas
-On the upper-left (if you are viewing this on a desktop) or the bottom of the page (if you are viewing this on mobile), you will see how each note is connected to others. Depending on how each of them are related, be it in similarity, origin, or tangent of a thought, a line will always connect one note from another.
-
-Each dot is a representation of a single note and depending on how many simultaneous connections it has with other notes, it grows in size. Hovering on a dot will tell you the title of a note, which may already tell you what it's about or maybe not.
-
 ## Points of Origin
 As of this moment, I have five points of origin from where we can start. As the number of notes in this space grow, these will potentially expand, condense, or remain the same.
 
@@ -49,6 +41,14 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 </div></div>
 
+
+## Navigating the labyrinth
+This space contains a web of ideas where reading and writing is meant to be exploratory. There is no specific topic designed where each idea is labelled by an umbrella term, concept, or label. Every idea becomes relational, contextual, and hypertextual. There is no underlying structure to begin with. Since this is a perpetual work in progress, the structure will continuously adapt, based on every idea that has ever been published here. Each page is an idea that is often connected to other ideas that follows the [Zettelkasten](https://zettelkasten.de/introduction/) method of note-taking. Each idea is an atom of another idea or strings of ideas.
+
+## The web of ideas
+On the upper-left (if you are viewing this on a desktop) or the bottom of the page (if you are viewing this on mobile), you will see how each note is connected to others. Depending on how each of them are related, be it in similarity, origin, or tangent of a thought, a line will always connect one note from another.
+
+Each dot is a representation of a single note and depending on how many simultaneous connections it has with other notes, it grows in size. Hovering on a dot will tell you the title of a note, which may already tell you what it's about or maybe not.
 
 #### Extending this site towards other things I can write about...
 If you have a topic in mind and are curious what I think about it, you can leave a request on my Ko-fi page below:
