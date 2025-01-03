@@ -30,11 +30,11 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 | Note                                                                                                                                                        | Published         |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [[_logs/2025-01-03\|2025-01-03]]                                                                                                                         | January 03, 2025  |
 | [[_thoughts/Existential Implications of Advancements in Language Learning Models\|Existential Implications of Advancements in Language Learning Models]] | January 02, 2025  |
 | [[_logs/2025-01-02\|2025-01-02]]                                                                                                                         | January 02, 2025  |
 | [[_logs/2025-01-01\|2025-01-01]]                                                                                                                         | January 01, 2025  |
 | [[_thoughts/What I Learned in Therapy\|What I Learned in Therapy]]                                                                                       | December 27, 2024 |
-| [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]                                                                                                   | December 25, 2024 |
 
 { .block-language-dataview}
 
