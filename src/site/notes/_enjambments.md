@@ -17,9 +17,9 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 * [[_creative/_creative\|_creative]]: prose, poetry, and other themes of writing
 * [[_events/_events\|_events]]: notes that often relate to describing larger events in my life
-* [[_logs/_logs\|_logs]]: daily notes focusing on small moments in a day
+* [[_logs/_logs\|_logs]]: daily notes focusing on small moments in a day or unstructured ideas that I'm thinking about recently
 * [[_musings/_musings\|_musings]]: notes that are usually longer that may have been triggered by [[_events/_events\|life events]] as what was just mentioned above
-* [[_thoughts/_thoughts\|_thoughts]]: notes that are short, often records of tiny bits of [[_events/_events\|life events]] or [[_musings/_musings\|musings]] that occur to me on a daily basis
+* [[_thoughts/_thoughts\|_thoughts]]: notes that could be short, often records of tiny bits of [[_events/_events\|life events]] or [[_musings/_musings\|musings]] that occur to me on a daily basis
 
 ### Recently Published
 
