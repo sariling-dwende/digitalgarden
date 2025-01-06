@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/thoughts/the-cosmic-failure-of-a-creator/","noteIcon":"","created":"2025-01-06"}
 ---
 
-Lately, I am feeling less and less hope about a certain progress that humanity should have done centuries ago. That certain progress is a collective understanding of who we are as humans. Recent news about the developments in AI is saying that it is just a matter of time before our limited human understanding is surpassed by the very thing we are still grasping to understand.
+Lately, I am feeling more and more hopeless about a certain progress that humanity should have done centuries ago. That certain progress is a collective understanding of who we are as humans. Recent news about the developments in AI is saying that it is just a matter of time before our limited human understanding is surpassed by the very thing we are still grasping to understand.
 
 I have been mulling over the possible implications of AI development for a [[_thoughts/Existential Implications of Advancements in Language Learning Models\|couple]] of [[_logs/2025-01-04\|days]] now. My feed has been increasingly geared towards [news about AI development](https://youtu.be/ixgunKpy61s) and news about megalomaniacs who are seemingly "pushing the boundaries" of technology for the human civilization.
 
