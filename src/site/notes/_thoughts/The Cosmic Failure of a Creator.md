@@ -33,6 +33,8 @@ Match this lack of self-understanding with the corporate race towards developing
 
 While there is a lot of excitement inside the STEM field, there is a lot of anxiety in the Humanities. I would say that I am part of the latter community because I feel that things are getting exponentially confusing as the technology is also exponentially progressing. What is clear to me is that there are very few ethical consideration that is being brushed away in pursuit of money. Greed is the code that is running the backend of this tech theatrics. All these keynotes, video teasers, and interviews are all marketing, all in the prettified front-end.
 
+We are witnessing our own mythology based from the story of the fire-snatching Prometheus, the creation of the tower of Babel, Icarus' flight, and Oppenheimer's discovery. Our own failure to understand ourselves, and externally projecting our unprocessed desires will always result to our own demise. 
+
 What I am feeling is a deep sense of failure as part of the Humanities. But this is not a sense of responsibility that I am bearing because I feel like I could have made a change, or an impact to slow down this process of development. The type of failure I am feeling now is an empathy towards humanity as my own kind. We have failed ourselves and it might even be too late to say that we can still stop this. The gears are already turning and the masses are already subscribed to this fiasco.
 
 To echo _Heimerdinger_ from the Arcane series, "in pursuit of greatness, we failed to do good."
