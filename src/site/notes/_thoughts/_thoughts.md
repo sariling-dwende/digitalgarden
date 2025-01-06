@@ -16,6 +16,7 @@
 - [[_thoughts/On Experiencing Art\|On Experiencing Art]]
 - [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]
 - [[_thoughts/Seeing Myself\|Seeing Myself]]
+- [[_thoughts/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]]
 - [[_thoughts/The Creation of God\|The Creation of God]]
 - [[_thoughts/The Failure of Hedonistic Search for Happiness\|The Failure of Hedonistic Search for Happiness]]
 - [[_thoughts/The Human's Animal Impulse\|The Human's Animal Impulse]]

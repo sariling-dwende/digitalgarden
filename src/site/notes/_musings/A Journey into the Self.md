@@ -10,6 +10,8 @@ With the right amount of god complex, the desire to become human must be present
 
 
 Balancing what I want to be against what I am capable of requires a certain set of parameters in making a decision. “Know thyself” is probably the most well-known adage from the Delphic maxims and it is so fundamental it remains to be timeless and profound yet forgettable at the same time. It is an expression of truth so known by our subconscious it starts to lose its meaning the moment it crosses our minds. A two-word statement so slippery and quick in its utterance it becomes difficult for the mind to latch. So then only those who pay conscious attention to it, to examine those two words carefully and stare at its mundane glory, can fully appreciate the simplicity of life and the difficulties of living well.
+{ #97fb9b}
+
 
 Struggling on this path of self-discovery, I find myself constantly reminded of my own limitations. These limitations are a mixture of physical and mental limitations, as well as self-imposed limitations, which include principles I have committed myself to, such as:
 
