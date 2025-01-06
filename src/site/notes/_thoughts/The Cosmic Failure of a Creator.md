@@ -6,7 +6,7 @@ Lately, I am feeling more and more hopeless about a certain progress that humani
 
 I have been mulling over the possible implications of AI development for a [[_thoughts/Existential Implications of Advancements in Language Learning Models\|couple]] of [[_logs/2025-01-04\|days]] now. My feed has been increasingly geared towards [news about AI development](https://youtu.be/ixgunKpy61s) and news about megalomaniacs who are seemingly "pushing the boundaries" of technology for the human civilization.
 
-But the more we look at it, the more capitalism reveals itself (still the reigning culprit of our culture) as the catalyst for a chain of problems it has been causing.
+But the more we look at it, the more capitalism reveals itself (still the reigning culprit of cultural decline) as the catalyst for a chain of problems it has been causing.
 
 The only plausible reason for such technological advancement, which is in this case we will refer to as AI, should be under these prerequisites:
 1. The existential necessity to delegate human tasks to machines for our benefit
