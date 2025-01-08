@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <description>{{ site.description }}</description>
+    <language>en-us</language>
+    <lastBuildDate>{{ collections.notes | last | dateToRfc822 }}</lastBuildDate>
+
+    {% for note in collections.notes %}
+    <item>
+      <title>{{ note.data.title }}</title>
+      <link>{{ site.url }}{{ note.url }}</link>
+      <description>{{ note.data.description }}</description>
+      <pubDate>{{ note.date | dateToRfc822 }}</pubDate>
+      <guid>{{ site.url }}{{ note.url }}</guid>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
