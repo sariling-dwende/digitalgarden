@@ -8,6 +8,10 @@ const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier-terser");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+module.exports = function (eleventyConfig) {
+  // Add the RSS plugin
+  eleventyConfig.addPlugin(pluginRss);
+
 const { headerToId, namedHeadingsFilter } = require("./src/helpers/utils");
 const {
   userMarkdownSetup,
