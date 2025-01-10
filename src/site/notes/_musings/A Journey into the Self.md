@@ -20,6 +20,8 @@ Struggling on this path of self-discovery, I find myself constantly reminded of 
 { #ed3cf9}
 
 3. Reason is an arbiter of emotions. Let it weigh every consequence for each possibility and decide the best course of action with all things considered.
+{ #6b0262}
+
 4. No choice comes free. Every choice is a tradeoff, which must be evaluated by emotions and reason. When faced with a choice, a decision is always framed as the best struggle and a kind of pain that is worth choosing.
 5. Every decision must have an emotional quality to it but not as an influence. Let values and principles come first, then attend to every choice with emotion, and let reason align those emotions with the values and principles. Discard any emotion that does not align with the values and principles, then let reason make the decision.
 6. Make the most out of regretful decisions. To regret means I have gambled in making a decision. To gamble in making a decision means that I must have been unable to make a choice aligned with my values and principles. To be unable to make a choice means I have let my emotions make a decision instead of reason.
