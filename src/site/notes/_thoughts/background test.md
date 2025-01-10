@@ -5,4 +5,6 @@
 test paragraph 
 
 updated - changed background path to "goya.jpg"
-added - "/site/"
+removed - "/site/"
+added ".." before "/img"
+
