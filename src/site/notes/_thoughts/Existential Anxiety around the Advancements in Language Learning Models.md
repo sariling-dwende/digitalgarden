@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/thoughts/existential-implications-of-advancements-in-language-learning-models/","noteIcon":"","created":"2025-01-02"}
+{"dg-publish":true,"permalink":"/thoughts/existential-anxiety-around-the-advancements-in-language-learning-models/","noteIcon":"","created":"2025-01-02"}
 ---
 
 I just watched this [YouTube video](https://www.youtube.com/watch?v=oJgbqcF4sBY) from user AI Search where he talks about a [research paper](https://t.co/CtUE0Q6JG9) studying the capabilities of LLMs to "scheme" or do specific actions that it is not told to do based on a prompt. According to the study, scheming may happen if:

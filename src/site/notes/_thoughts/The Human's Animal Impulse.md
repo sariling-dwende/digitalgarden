@@ -18,6 +18,8 @@ As this piece is done without prior research, I would like to lightly explore us
 
 ---
 "Doing the right thing" will almost always be against "doing what feels good." Waking up early to not be late at school or work. Doing the dishes right after eating a good meal. Controlling your rage and keeping your composure during a conflict. Essentially, doing the right thing will always amount to a certain level of self-discipline. 
+{ #1ef417}
+
 
 A certain discipline of thought and thinking can be demonstrated with accuracy of judgement and quick wit. A certain discipline in emotions can be demonstrated by effectively handling conflicts. A certain discipline in one's health can be demonstrated by eating well and doing physical exercises regularly. This "certain level" is met by consistency, which is what the untrained brain is allergic to.
 
