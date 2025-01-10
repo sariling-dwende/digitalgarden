@@ -29,15 +29,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% endfor %}
     {% for imp in dynamics.notes.head %}
       {% include imp %}
-    {% endfor %}
-    <style>
-      body {
-        background-image: url('{{ page.background }}');
-        background-size: cover;
-        background-position: center;
-        }
-    </style>    
+    {% endfor %} 
   </head>
+  <body style="background-image: url('{{ background | safe }}'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}">
     {%include "components/notegrowthhistory.njk"%}
     
@@ -50,9 +44,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <div class="content">
-      {{ page.content | safe }}
-    </div>
     <main class="content cm-s-obsidian {{contentClasses}}">
       <header>
         {% if settings.dgShowInlineTitle === true %}
