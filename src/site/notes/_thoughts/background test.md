@@ -5,4 +5,4 @@
 test paragraph 
 
 updated - changed background path to "goya.jpg"
-added - '' to the image path; site/ to path
+added - '' to the image path; ~~site/ to path~~
