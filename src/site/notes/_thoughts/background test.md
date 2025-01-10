@@ -4,4 +4,5 @@
 
 test paragraph 
 
-updated - removed the ..
+updated - changed background path to "goya.jpg"
+added - '' to the image path; ~~site/ to path~~
