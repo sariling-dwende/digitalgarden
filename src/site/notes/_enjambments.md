@@ -28,13 +28,13 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 
 
-| Note                                                                              | Published        |
-| --------------------------------------------------------------------------------- | ---------------- |
-| [[_logs/2025-01-10\|2025-01-10]]                                               | January 10, 2025 |
-| [[_logs/2025-01-09\|2025-01-09]]                                               | January 09, 2025 |
-| [[_logs/2025-01-08\|2025-01-08]]                                               | January 08, 2025 |
-| [[_logs/2025-01-07\|2025-01-07]]                                               | January 07, 2025 |
-| [[_thoughts/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]] | January 06, 2025 |
+| Note                                | Published        |
+| ----------------------------------- | ---------------- |
+| [[_logs/2025-01-11\|2025-01-11]] | January 11, 2025 |
+| [[_logs/2025-01-10\|2025-01-10]] | January 10, 2025 |
+| [[_logs/2025-01-09\|2025-01-09]] | January 09, 2025 |
+| [[_logs/2025-01-08\|2025-01-08]] | January 08, 2025 |
+| [[_logs/2025-01-07\|2025-01-07]] | January 07, 2025 |
 
 { .block-language-dataview}
 
