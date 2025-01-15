@@ -561,6 +561,10 @@ module.exports = function (eleventyConfig) {
 
   userEleventySetup(eleventyConfig);
 
+  eleventyConfig.addFilter("timestamp", function() {
+    return Date.now();
+  });
+
   return {
     dir: {
       input: "src/site",
