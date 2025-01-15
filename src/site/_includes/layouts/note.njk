@@ -132,5 +132,9 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    <!-- Test button - you can remove this later -->
+    <button onclick="document.querySelector('.progress-bar').style.width = '50%'" style="position: fixed; top: 20px; right: 20px; z-index: 99999;">
+      Test Progress
+    </button>
   </body>
 </html>
