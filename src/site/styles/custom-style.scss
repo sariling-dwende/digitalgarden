@@ -144,3 +144,67 @@ body p a,
     pointer-events: auto;
   }
 }
+
+/* Table of Contents styling */
+.toc {
+  a {
+    display: block;
+    padding: 4px 8px;
+    margin: 2px 0;
+    border-left: 2px solid transparent;
+    transition: all 0.2s ease;
+    color: #9c8f7f !important;
+    text-decoration: none !important;
+    
+    &.active {
+      border-left-color: #7d7265;
+      background: rgba(0, 0, 0, 0.03);
+      color: #7d7265 !important;
+      font-weight: 500;
+    }
+    
+    &:hover {
+      background: rgba(0, 0, 0, 0.02);
+    }
+  }
+}
+
+/* Footnotes styling */
+.footnotes {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.footnote-ref {
+  position: relative;
+  cursor: help;
+  
+  &::after {
+    content: attr(data-footnote);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+    padding: 8px 12px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: max-content;
+    max-width: 300px;
+    font-size: 0.9em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 100;
+    pointer-events: none;
+  }
+  
+  &:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-4px);
+  }
+}

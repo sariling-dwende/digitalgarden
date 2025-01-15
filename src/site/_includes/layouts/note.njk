@@ -133,5 +133,17 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    <script>
+      // Add footnote content to data attributes for hover preview
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.footnote-ref').forEach(ref => {
+          const id = ref.getAttribute('href').replace('#', '');
+          const footnote = document.getElementById(id);
+          if (footnote) {
+            ref.setAttribute('data-footnote', footnote.textContent.trim());
+          }
+        });
+      });
+    </script>
   </body>
 </html>

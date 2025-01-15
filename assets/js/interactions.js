@@ -53,6 +53,8 @@ const observeHeaders = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   initImageZoom();
+  initTableOfContents();
+  initSmoothScroll();
 });
 
 function initImageZoom() {
@@ -95,5 +97,48 @@ function initImageZoom() {
       });
       overlay.classList.remove('active');
     }
+  });
+}
+
+function initTableOfContents() {
+  const headers = document.querySelectorAll('.content h2, .content h3');
+  const tocLinks = document.querySelectorAll('.toc a');
+  
+  // Create intersection observer
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Find and highlight corresponding TOC link
+        tocLinks.forEach(link => {
+          if (link.getAttribute('href') === '#' + entry.target.id) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
+    });
+  }, { 
+    threshold: 0.2,
+    rootMargin: '-20% 0px -35% 0px'
+  });
+  
+  // Observe all headers
+  headers.forEach(header => observer.observe(header));
+}
+
+function initSmoothScroll() {
+  // Add smooth scroll to all anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
   });
 }
