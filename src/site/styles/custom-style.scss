@@ -147,6 +147,22 @@ body p a,
 
 /* Table of Contents styling */
 .toc {
+  padding-right: 5px;
+  background-color: var(--background-primary);
+  padding: 10px;
+  border-radius: 10px;
+
+  ol {
+    list-style: none;
+    padding-left: 10px;
+    border-left: 2px solid var(--background-secondary);
+  }
+
+  & > ol {
+    padding-left: 0;
+    border-left: none;
+  }
+
   a {
     display: block;
     padding: 4px 8px;
@@ -156,7 +172,6 @@ body p a,
     color: var(--text-muted) !important;
     text-decoration: none !important;
     
-    /* Remove the "#" from TOC links */
     &::before {
       display: none !important;
     }
@@ -175,13 +190,21 @@ body p a,
   }
 }
 
-/* Override the default TOC container styles */
 .toc-container {
-  max-height: none !important; // Remove height restriction
-  border-left: none !important; // Remove default border
+  font-size: 1rem;
+  max-height: none;
+  overflow-y: auto;
+  margin-bottom: 10px;
   
-  ul li::before {
-    display: none !important; // Remove the "#" from list items
+  ul {
+    list-style-type: none;
+    padding-inline-start: 15px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li::before {
+    display: none !important;
   }
 }
 

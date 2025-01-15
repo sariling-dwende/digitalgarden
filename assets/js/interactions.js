@@ -52,9 +52,8 @@ const observeHeaders = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Initializing features...');
+  console.log('Initializing TOC...');
   initTableOfContents();
-  initSmoothScroll();
 });
 
 function initImageZoom() {
@@ -101,69 +100,50 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
-  // Get all headers in the content area
   const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'));
-  const tocLinks = Array.from(document.querySelectorAll('.toc-container a'));
+  const tocLinks = Array.from(document.querySelectorAll('.toc a'));
   
   console.log('Headers found:', headers.length);
   console.log('TOC links found:', tocLinks.length);
 
   if (headers.length === 0 || tocLinks.length === 0) return;
 
-  // Create intersection observer
   const observer = new IntersectionObserver(
     (entries) => {
-      // Get all entries that are intersecting
-      const visibleEntries = entries.filter(entry => entry.isIntersecting);
-      
-      if (visibleEntries.length > 0) {
-        // Get the first visible header
-        const visibleHeader = visibleEntries[0].target;
-        
-        // Update TOC links
-        tocLinks.forEach(link => {
-          // Clean up the href and header id for comparison
-          const headerId = visibleHeader.id;
-          const linkHref = decodeURIComponent(link.getAttribute('href').replace('#', ''));
-          
-          if (headerId === linkHref) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
-      }
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const headerId = entry.target.id;
+          tocLinks.forEach(link => {
+            const linkHref = link.getAttribute('href').replace('#', '');
+            if (headerId === linkHref) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+      });
     },
     {
-      rootMargin: '-5% 0px -85% 0px',
-      threshold: 0
+      rootMargin: '-10% 0px -80% 0px',
+      threshold: [0.1, 1.0]
     }
   );
 
-  // Observe all headers
-  headers.forEach(header => {
-    console.log('Observing header:', header.id);
-    observer.observe(header);
-  });
-}
+  headers.forEach(header => observer.observe(header));
 
-function initSmoothScroll() {
-  document.querySelectorAll('.toc-container a').forEach(link => {
+  // Add smooth scrolling
+  tocLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      
-      const targetId = decodeURIComponent(link.getAttribute('href').replace('#', ''));
+      const targetId = link.getAttribute('href').replace('#', '');
       const targetElement = document.getElementById(targetId);
       
       if (targetElement) {
-        // Smooth scroll to target
         targetElement.scrollIntoView({
           behavior: 'smooth',
-          block: 'start',
-          inline: 'nearest'
+          block: 'start'
         });
-        
-        // Update URL without jumping
         history.pushState(null, null, link.getAttribute('href'));
       }
     });
