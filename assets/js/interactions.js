@@ -197,6 +197,7 @@ window.addEventListener('scroll', () => {
 
 // Array of background images
 const backgroundImages = [
+  'https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5d88d1c-ec94-4d60-bdfc-6736294c56ec_6144x8160.jpeg',
   '../images/image (1).jpg',
   '../images/image (2).jpeg',
   '../images/image (3).jpeg',
