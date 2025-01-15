@@ -4,30 +4,19 @@ window.addEventListener('load', () => {
 });
 
 function initProgressBar() {
-  // Get the progress bar element
-  const progressBar = document.querySelector('.progress-bar');
+  const progressBar = document.getElementById('progress-bar');
   
   if (!progressBar) {
     console.error('Progress bar not found');
     return;
   }
 
-  // Force initial visibility
-  progressBar.style.display = 'block';
-  progressBar.style.opacity = '1';
-
-  // Update progress on scroll
   function updateProgress() {
-    // Calculate scroll percentage
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     const scrollPercent = (scrollTop / scrollHeight) * 100;
 
-    // Update progress bar width
     progressBar.style.width = `${scrollPercent}%`;
-    
-    // Log for debugging
-    console.log('Scroll percentage:', scrollPercent);
   }
 
   // Add scroll event listener
@@ -36,3 +25,6 @@ function initProgressBar() {
   // Initial update
   updateProgress();
 }
+
+// Add this line to test if the script is running
+console.log('Progress bar script loaded');
