@@ -197,13 +197,13 @@ window.addEventListener('scroll', () => {
 
 // Array of background images
 const backgroundImages = [
-  '/assets/images/image (1).jpg',
-  '/assets/images/image (2).jpeg',
-  '/assets/images/image (3).jpeg',
-  '/assets/images/image (4).jpeg',
-  '/assets/images/image (5).jpeg',
-  '/assets/images/image (6).jpeg',
-  '/assets/images/image (7).jpeg',
+  '../images/image (1).jpg',
+  '../images/image (2).jpeg',
+  '../images/image (3).jpeg',
+  '../images/image (4).jpeg',
+  '../images/image (5).jpeg',
+  '../images/image (6).jpeg',
+  '../images/image (7).jpeg',
   '/assets/images/image (8).jpeg',
   '/assets/images/image (9).jpeg',
   '/assets/images/image (10).jpeg',
