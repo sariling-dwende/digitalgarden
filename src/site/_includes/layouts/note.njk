@@ -36,7 +36,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% for imp in dynamics.notes.head %}
       {% include imp %}
     {% endfor %} 
-    <link rel="stylesheet" href="/styles/custom-style.css?v={{ "" | date }}" />
+    <link rel="stylesheet" href="/styles/custom-style.css?v={{ "now" | cacheBust }}" />
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}" style="background-image: url('{{ background | safe }}'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <!-- Updated progress bar with ID -->

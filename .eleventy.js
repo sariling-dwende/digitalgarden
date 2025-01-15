@@ -565,6 +565,10 @@ module.exports = function (eleventyConfig) {
     return Date.now();
   });
 
+  eleventyConfig.addFilter("cacheBust", () => {
+    return new Date().getTime();
+  });
+
   return {
     dir: {
       input: "src/site",
