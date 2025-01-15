@@ -38,4 +38,4 @@
 
 ---
 
-###### _Note: [First published on Tickle Lit Issue 2: Melancholy](https://www.canva.com/design/DAFLcngFZVk/view)_
+_Note: [First published on Tickle Lit Issue 2: Melancholy](https://www.canva.com/design/DAFLcngFZVk/view)_
