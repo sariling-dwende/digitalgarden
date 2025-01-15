@@ -31,19 +31,19 @@ body {
   left: 0 !important;
   padding: 0 !important;
   margin: 0 auto !important;
-  display: flex !important;
-  justify-content: space-between !important; // Space between social icons and nav links
-  align-items: center !important;
-  max-width: 1200px !important; // Increased max-width for better spacing
   background: transparent;
   height: $navbar-height;
   z-index: 1000; // Ensure navbar stays on top
+  display: flex !important;
+  justify-content: center !important; // Center the navbar content
+  align-items: center !important;
 
   .navbar-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; // Distribute space between elements
     width: 100%;
+    max-width: 1200px; // Increased max-width for better spacing
     padding: 0 20px; // Added padding for spacing
   }
 
@@ -106,12 +106,17 @@ body {
         &::after {
           content: '';
           position: absolute;
-          width: 0%;
-          height: 2px;
-          bottom: -2px;
           left: 0;
-          background-color: $color-accent-hover;
+          bottom: -2px;
+          height: 2px;
+          width: 0%;
+          background: $color-accent-hover;
           transition: width $transition-duration $transition-ease;
+        }
+
+        /* Animated Underline on Hover */
+        &.hover-animate::after {
+          width: 100%;
         }
       }
     }
@@ -121,7 +126,31 @@ body {
   .search-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+
+    input[type="text"] {
+      padding: 5px 10px;
+      border: 1px solid $color-accent;
+      border-radius: 4px;
+      transition: border-color $transition-duration $transition-ease;
+      width: 200px;
+
+      &:focus {
+        outline: none;
+        border-color: $color-accent-hover;
+      }
+    }
+
+    /* Optional: Search Icon */
+    .search-icon {
+      margin-left: 10px;
+      cursor: pointer;
+      color: $color-accent;
+      transition: color $transition-duration $transition-ease;
+
+      &:hover {
+        color: $color-accent-hover;
+      }
+    }
   }
 }
 
@@ -361,6 +390,22 @@ body {
 
 .content {
   z-index: 500;
+  /* Adjusted margins */
+  @media (min-width: 1200px) {
+    margin-left: 430px; // Reduced from 530px to 430px
+    margin-right: 270px; // Remains unchanged
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 320px; // Reduced from 420px to 320px
+    margin-right: 220px; // Remains unchanged
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+  }
 }
 
 // ---------------------------
