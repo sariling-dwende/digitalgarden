@@ -103,8 +103,9 @@ a:link {
 .content a {
   position: relative;
   text-decoration: none;
-  color: var(--link-color, #5c7cfa);
+  color: rgb(140, 127, 255);
   transition: color 0.2s ease;
+  font-weight: 500;
   
   &::after {
     content: '';
@@ -118,8 +119,12 @@ a:link {
     transition: transform 0.3s ease;
   }
   
-  &:hover::after {
-    transform: scaleX(1);
+  &:hover {
+    color: rgb(116, 101, 247);
+    
+    &::after {
+      transform: scaleX(1);
+    }
   }
 }
 
