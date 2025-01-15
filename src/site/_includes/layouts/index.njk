@@ -19,13 +19,6 @@
     <meta name="twitter:description" content="{{ content }}">
     <meta name="twitter:image" content="{{ imageUrl }}">
     
-        <!-- AOS for scroll animations -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    
-    <!-- GSAP for smooth animations -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    
-    <!-- Barba.js for page transitions -->
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
@@ -35,12 +28,6 @@
       {% include imp %}
     {% endfor %}
   </head>
-    <button id="dark-mode-toggle" aria-label="Toggle dark mode">
-  🌓
-  </button>
-  <div class="progress-container">
-    <div class="progress-bar"></div>
-  </div>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}" style="background-image: url('{{ background | safe }}'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     {%include "components/notegrowthhistory.njk"%}
     {% if settings.dgShowFileTree !== true %}
@@ -51,7 +38,7 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}" main data-aos="fade-up">
+    <main class="content cm-s-obsidian {{contentClasses}}">
       <header>
       {% if settings.dgShowInlineTitle === true %}
         <h1>{{ noteTitle  }}</h1>
@@ -70,12 +57,6 @@
           </div>
         {% endif %}
       </div>
-      <div class="card" data-aos="fade-up">
-          <h2>{{ title }}</h2>
-          <div class="content">
-            {{ content | safe }}
-          </div>
-        </div>
       {% for imp in dynamics.common.header %}
         {% include imp %}
       {% endfor %}
