@@ -156,6 +156,10 @@ body p a,
     color: #9c8f7f !important;
     text-decoration: none !important;
     
+    &::before {
+      display: none !important;
+    }
+    
     &.active {
       border-left-color: #7d7265;
       background: rgba(0, 0, 0, 0.03);

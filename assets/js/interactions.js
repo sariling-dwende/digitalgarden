@@ -52,7 +52,7 @@ const observeHeaders = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  initImageZoom();
+  console.log('Initializing features...');
   initTableOfContents();
   initSmoothScroll();
 });
@@ -101,44 +101,74 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
-  const headers = document.querySelectorAll('.content h2, .content h3');
-  const tocLinks = document.querySelectorAll('.toc a');
+  // Get all headers in the content
+  const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'));
+  const tocLinks = Array.from(document.querySelectorAll('.toc a'));
   
+  console.log('Headers found:', headers.length);
+  console.log('TOC links found:', tocLinks.length);
+
+  if (headers.length === 0 || tocLinks.length === 0) return;
+
   // Create intersection observer
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        // Find and highlight corresponding TOC link
+  const observer = new IntersectionObserver(
+    (entries) => {
+      // Get all entries that are intersecting
+      const visibleEntries = entries.filter(entry => entry.isIntersecting);
+      
+      if (visibleEntries.length > 0) {
+        // Get the first visible header
+        const visibleHeader = visibleEntries[0].target;
+        
+        // Update TOC links
         tocLinks.forEach(link => {
-          if (link.getAttribute('href') === '#' + entry.target.id) {
+          // Remove "#" when comparing
+          const headerId = visibleHeader.id;
+          const linkHref = link.getAttribute('href').replace('#', '');
+          
+          if (headerId === linkHref) {
             link.classList.add('active');
           } else {
             link.classList.remove('active');
           }
         });
       }
-    });
-  }, { 
-    threshold: 0.2,
-    rootMargin: '-20% 0px -35% 0px'
-  });
-  
+    },
+    {
+      rootMargin: '-10% 0px -80% 0px',
+      threshold: 0.1
+    }
+  );
+
   // Observe all headers
   headers.forEach(header => observer.observe(header));
 }
 
 function initSmoothScroll() {
-  // Add smooth scroll to all anchor links
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+  document.querySelectorAll('.toc a').forEach(link => {
+    link.addEventListener('click', (e) => {
       e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) {
-        target.scrollIntoView({
+      
+      const targetId = link.getAttribute('href').replace('#', '');
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        // Smooth scroll to target
+        targetElement.scrollIntoView({
           behavior: 'smooth',
-          block: 'start'
+          block: 'start',
+          inline: 'nearest'
         });
+        
+        // Update URL without jumping
+        history.pushState(null, null, link.getAttribute('href'));
       }
     });
   });
 }
+
+// Add debug logging
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY;
+  console.log('Scroll position:', scrollPosition);
+});
