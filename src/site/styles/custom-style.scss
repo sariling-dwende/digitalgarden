@@ -55,6 +55,19 @@ body p, ul, ol, table {
   position: relative;
   padding: 0 20px;
 
+  // Add spacing for all headings in content
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em !important; // Adds two lines of space before each heading
+    margin-bottom: 0.5em !important; // Add some bottom spacing too
+  }
+
+  // Content h1 specific styling
+  h1 {
+    font-family: Spectral !important;
+    font-weight: 400 !important;
+    font-size: 3em !important;
+  }
+
   @media (min-width: 1200px) {
     margin-left: calc(300px - 50px);
   }
@@ -311,6 +324,12 @@ body {
   margin-top: 90px;
   position: relative;
   padding: 0 20px;
+
+  // Add spacing for all headings in content
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 2em !important; // Adds two lines of space before each heading
+    margin-bottom: 0.5em !important; // Add some bottom spacing too
+  }
 
   // Content h1 specific styling
   h1 {
