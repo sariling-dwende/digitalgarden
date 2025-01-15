@@ -2,6 +2,18 @@
 body {
   --file-margins: 0px !important;
   font-family: Spectral !important;
+
+  // Global link styling
+  a {
+    text-decoration: none !important;
+    color: var(--text-accent) !important;
+    transition: color 0.3s ease !important;
+
+    &:hover {
+      color: darken(var(--text-accent), 15%) !important;
+      text-decoration: underline !important;
+    }
+  }
 }
 
 // Target navbar specifically
@@ -18,8 +30,7 @@ body {
   // Navbar title styling
   .navbar-inner {
     font-family: Satoshi !important;
-    font-size: 1.5em !important;
-    font-weight: 200 !important;
+    font-size: 1em !important;
   }
 
   @media (max-width: 1000px) {
