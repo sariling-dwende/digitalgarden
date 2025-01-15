@@ -88,6 +88,12 @@ body::before {
       content: "" !important; // Remove the # symbol
     }
   }
+  opacity: 0.5; // Default opacity
+  transition: opacity 0.3s ease; // Smooth transition for opacity
+
+  &:hover {
+    opacity: 1; // Full opacity on hover
+  }
 }
 
 // Site header specific styling
@@ -131,6 +137,12 @@ body::before {
   position: relative;
   padding: 0 20px;
 
+  // Adjust margins to prevent overlap
+  @media (max-width: 1000px) {
+    margin-top: 75px; // Adjust top margin for smaller screens
+    padding: 0 10px; // Adjust padding for smaller screens
+  }
+
   // Add spacing for all headings in content
   h1, h2, h3, h4, h5, h6 {
     margin-top: 2em !important;
@@ -139,17 +151,12 @@ body::before {
 
   // Content h1 specific styling
   h1 {
-    font-weight: 200 !important;
+    font-weight: 400 !important;
     font-size: 3em !important;
   }
 
   @media (min-width: 1200px) {
     margin-left: calc(300px - 50px);
-  }
-
-  @media (max-width: 1000px) {
-    margin-top: 75px;
-    margin-left: auto;
   }
 }
 
@@ -161,4 +168,14 @@ body::before {
 .content h6 {
   color:#c8bcac !important;
   font-weight: 300 !important;
+}
+
+// Graph container styling
+.graph-container {
+  opacity: 0.5; // Default opacity
+  transition: opacity 0.3s ease; // Smooth transition for opacity
+
+  &:hover {
+    opacity: 1; // Full opacity on hover
+  }
 }
