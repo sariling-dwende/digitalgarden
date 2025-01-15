@@ -99,13 +99,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           {% include imp %}
         {% endfor %}
       </header>
-      
-      <!-- Insert TOC and Graph Containers Here -->
-      <div class="graph-container">
-        <div id="graph">
-          <!-- Your graph rendering code or library goes here -->
-        </div>
-      </div>
 
       <div data-aos="fade-up" data-aos-delay="200">
         {{ content | hideDataview | taggify | link | safe}}
