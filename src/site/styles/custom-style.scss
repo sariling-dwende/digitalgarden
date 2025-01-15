@@ -256,14 +256,15 @@ body {
 // Target navbar specifically
 .navbar {
   width: 100% !important;
-  position: absolute !important;
-  left: -200px !important;
+  position: relative !important;
+  left: 0 !important;
   padding-left: 0 !important;
-  margin-left: 0 !important;
-  transform: none !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  max-width: 900px !important; // Match content width
 
   @media (max-width: 1000px) {
-    left: 0 !important;
     position: fixed !important;
   }
 }
@@ -273,7 +274,7 @@ body {
   width: calc(100% + 200px) !important;
   max-width: none !important;
   padding: 0 !important;
-  margin: 0 !important;
+  margin: -100px !important;
   position: absolute !important;
   left: -200px !important;
   background-color: var(--background-secondary);
