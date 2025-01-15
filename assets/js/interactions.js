@@ -50,3 +50,50 @@ const observeHeaders = () => {
   
   headers.forEach(header => observer.observe(header));
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  initImageZoom();
+});
+
+function initImageZoom() {
+  // Create overlay element
+  const overlay = document.createElement('div');
+  overlay.className = 'zoom-overlay';
+  document.body.appendChild(overlay);
+
+  // Handle image clicks
+  document.querySelectorAll('.content img').forEach(img => {
+    img.addEventListener('click', () => {
+      const isZoomed = img.classList.contains('zoomed');
+      
+      // Reset all images
+      document.querySelectorAll('.content img').forEach(otherImg => {
+        otherImg.classList.remove('zoomed');
+      });
+      
+      // Toggle zoom on clicked image
+      if (!isZoomed) {
+        img.classList.add('zoomed');
+        overlay.classList.add('active');
+      }
+    });
+  });
+
+  // Close zoom when clicking overlay
+  overlay.addEventListener('click', () => {
+    document.querySelectorAll('.content img.zoomed').forEach(img => {
+      img.classList.remove('zoomed');
+    });
+    overlay.classList.remove('active');
+  });
+
+  // Close zoom with Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.content img.zoomed').forEach(img => {
+        img.classList.remove('zoomed');
+      });
+      overlay.classList.remove('active');
+    }
+  });
+}
