@@ -100,22 +100,30 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
+  // Get all headers and TOC links
   const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'));
-  const tocLinks = Array.from(document.querySelectorAll('.toc a'));
+  const tocLinks = Array.from(document.querySelectorAll('.toc-container a'));
   
   console.log('Headers found:', headers.length);
+  headers.forEach(h => console.log('Header:', h.id, h.textContent));
+  
   console.log('TOC links found:', tocLinks.length);
+  tocLinks.forEach(link => console.log('Link:', link.getAttribute('href'), link.textContent));
 
   if (headers.length === 0 || tocLinks.length === 0) return;
 
+  // Create intersection observer
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach(entry => {
+        console.log('Intersection:', entry.target.id, entry.isIntersecting);
         if (entry.isIntersecting) {
           const headerId = entry.target.id;
           tocLinks.forEach(link => {
-            const linkHref = link.getAttribute('href').replace('#', '');
+            const linkHref = decodeURIComponent(link.getAttribute('href').replace('#', ''));
+            console.log('Comparing:', headerId, 'with', linkHref);
             if (headerId === linkHref) {
+              console.log('Match found! Activating:', linkHref);
               link.classList.add('active');
             } else {
               link.classList.remove('active');
@@ -125,33 +133,51 @@ function initTableOfContents() {
       });
     },
     {
-      rootMargin: '-10% 0px -80% 0px',
-      threshold: [0.1, 1.0]
+      rootMargin: '-20px 0px -60% 0px',
+      threshold: [0, 0.5, 1.0]
     }
   );
 
-  headers.forEach(header => observer.observe(header));
+  // Observe all headers
+  headers.forEach(header => {
+    if (header.id) {
+      observer.observe(header);
+      console.log('Observing header:', header.id);
+    } else {
+      console.warn('Header without ID:', header.textContent);
+    }
+  });
 
   // Add smooth scrolling
   tocLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      const targetId = link.getAttribute('href').replace('#', '');
+      const targetId = decodeURIComponent(link.getAttribute('href').replace('#', ''));
       const targetElement = document.getElementById(targetId);
+      
+      console.log('Clicking link to:', targetId);
+      console.log('Target element found:', !!targetElement);
       
       if (targetElement) {
         targetElement.scrollIntoView({
           behavior: 'smooth',
           block: 'start'
         });
+        
+        // Manually add active class
+        tocLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+        
+        // Update URL without jumping
         history.pushState(null, null, link.getAttribute('href'));
       }
     });
   });
 }
 
-// Add debug logging
+// Add scroll position logging
 window.addEventListener('scroll', () => {
-  const scrollPosition = window.scrollY;
-  console.log('Scroll position:', scrollPosition);
+  requestAnimationFrame(() => {
+    console.log('Scroll position:', window.scrollY);
+  });
 });
