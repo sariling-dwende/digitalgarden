@@ -403,7 +403,7 @@ const backgroundImages = [
   '../images/image (204).jpeg',
   '../images/image (205).jpeg',
   '../images/image (206).jpeg',
-  '../images/image (1).jpeg',
+  '../images/image (1).jpg',
   // Add more images as needed
 ];
 
