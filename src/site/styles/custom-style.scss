@@ -96,10 +96,12 @@ h1 {
 }
 
 /* Link hover animation */
-.content a {
+body p a, 
+.content a,
+.markdown-preview-view a {
   position: relative;
-  text-decoration: none;
-  color: rgb(140, 127, 255);
+  text-decoration: none !important; /* Force remove underline */
+  color: rgb(140, 127, 255) !important;
   transition: color 0.2s ease;
   font-weight: 500;
   
@@ -116,7 +118,7 @@ h1 {
   }
   
   &:hover {
-    color: rgb(116, 101, 247);
+    color: rgb(116, 101, 247) !important;
     
     &::after {
       transform: scaleX(1);
