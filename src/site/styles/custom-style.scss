@@ -251,9 +251,9 @@ body .toc-container {
 .site-header {
   width: 100% !important;
   max-width: 1200px !important;
-  margin: 0 auto;
   padding: 0 20px;
-  margin-left: 150px;
+  position: relative;
+  left: -100px;
   
   .header-content-wrapper {
     width: 100% !important;
@@ -266,7 +266,8 @@ body .toc-container {
   @media (max-width: 1000px) {
     width: 100% !important;
     max-width: 100% !important;
-    margin-left: auto;
+    left: 0;
+    margin: 0 auto;
     
     .header-content-wrapper {
       max-width: 100% !important;
