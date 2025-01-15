@@ -1,6 +1,7 @@
 // Override core layout styles
 body {
   --file-margins: 0px !important;
+  font-family: Spectral !important;
 }
 
 // Target navbar specifically
@@ -31,7 +32,6 @@ body {
   
   // Site header h1 specific styling
   h1 {
-    font-family: Spectral !important;
     font-weight: 400 !important;
     font-size: 4em !important;
   }
@@ -70,7 +70,6 @@ body {
 
   // Content h1 specific styling
   h1 {
-    font-family: Spectral !important;
     font-weight: 400 !important;
     font-size: 3em !important;
   }
