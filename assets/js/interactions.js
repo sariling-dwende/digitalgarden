@@ -101,9 +101,9 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
-  // Get all headers in the content
+  // Get all headers in the content area
   const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'));
-  const tocLinks = Array.from(document.querySelectorAll('.toc a'));
+  const tocLinks = Array.from(document.querySelectorAll('.toc-container a'));
   
   console.log('Headers found:', headers.length);
   console.log('TOC links found:', tocLinks.length);
@@ -122,9 +122,9 @@ function initTableOfContents() {
         
         // Update TOC links
         tocLinks.forEach(link => {
-          // Remove "#" when comparing
+          // Clean up the href and header id for comparison
           const headerId = visibleHeader.id;
-          const linkHref = link.getAttribute('href').replace('#', '');
+          const linkHref = decodeURIComponent(link.getAttribute('href').replace('#', ''));
           
           if (headerId === linkHref) {
             link.classList.add('active');
@@ -135,21 +135,24 @@ function initTableOfContents() {
       }
     },
     {
-      rootMargin: '-10% 0px -80% 0px',
-      threshold: 0.1
+      rootMargin: '-5% 0px -85% 0px',
+      threshold: 0
     }
   );
 
   // Observe all headers
-  headers.forEach(header => observer.observe(header));
+  headers.forEach(header => {
+    console.log('Observing header:', header.id);
+    observer.observe(header);
+  });
 }
 
 function initSmoothScroll() {
-  document.querySelectorAll('.toc a').forEach(link => {
+  document.querySelectorAll('.toc-container a').forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
       
-      const targetId = link.getAttribute('href').replace('#', '');
+      const targetId = decodeURIComponent(link.getAttribute('href').replace('#', ''));
       const targetElement = document.getElementById(targetId);
       
       if (targetElement) {

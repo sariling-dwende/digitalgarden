@@ -153,23 +153,35 @@ body p a,
     margin: 2px 0;
     border-left: 2px solid transparent;
     transition: all 0.2s ease;
-    color: #9c8f7f !important;
+    color: var(--text-muted) !important;
     text-decoration: none !important;
     
+    /* Remove the "#" from TOC links */
     &::before {
       display: none !important;
     }
     
     &.active {
-      border-left-color: #7d7265;
-      background: rgba(0, 0, 0, 0.03);
-      color: #7d7265 !important;
+      border-left-color: var(--text-accent);
+      background: var(--background-primary);
+      color: var(--text-accent) !important;
       font-weight: 500;
     }
     
     &:hover {
-      background: rgba(0, 0, 0, 0.02);
+      color: var(--text-accent) !important;
+      background: var(--background-primary);
     }
+  }
+}
+
+/* Override the default TOC container styles */
+.toc-container {
+  max-height: none !important; // Remove height restriction
+  border-left: none !important; // Remove default border
+  
+  ul li::before {
+    display: none !important; // Remove the "#" from list items
   }
 }
 
