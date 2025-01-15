@@ -85,7 +85,7 @@ header {
 
 .progress-bar {
   height: 100%;
-  background: var(--text-accent); // Using your theme's accent color
+  background: var(--text-accent, #5c7cfa); // Using your theme's accent color or fallback
   width: 0%;
   transition: width 0.1s ease;
 }

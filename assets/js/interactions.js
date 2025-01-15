@@ -1,8 +1,14 @@
 // Just initialize progress bar functionality
 document.addEventListener('DOMContentLoaded', () => {
-  // Remove AOS initialization for now
-  // AOS.init();
+  // Initialize AOS with conservative settings
+  AOS.init({
+    duration: 800,
+    once: true,
+    offset: 100,
+    disable: window.innerWidth < 768 // Disable on mobile
+  });
   
+  // Initialize progress bar
   initProgressBar();
 });
 
