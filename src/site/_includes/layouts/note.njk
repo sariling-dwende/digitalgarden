@@ -92,36 +92,22 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
           </div>
           {%- endif -%}
         </div>
-        {% for imp in dynamics.common.header %}
-          {% include imp %}
-        {% endfor %}
-        {% for imp in dynamics.notes.header %}
-          {% include imp %}
-        {% endfor %}
+      {% for imp in dynamics.common.header %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.header %}
+        {% include imp %}
+      {% endfor %}
       </header>
-      
-      <!-- Insert TOC and Graph Containers Here -->
-      <div class="toc-container">
-        <nav class="toc">
-          <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
-            <!-- Add more sections as needed -->
-          </ul>
-        </nav>
-      </div>
-
-      <div class="graph-container">
-        <div id="graph">
-          <!-- Your graph rendering code or library goes here -->
-        </div>
-      </div>
-
+      {% for imp in dynamics.common.beforeContent %}
+        {% include imp %}
+      {% endfor %}
+      {% for imp in dynamics.notes.beforeContent %}
+        {% include imp %}
+      {% endfor %}
       <div data-aos="fade-up" data-aos-delay="200">
         {{ content | hideDataview | taggify | link | safe}}
       </div>
-      
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
