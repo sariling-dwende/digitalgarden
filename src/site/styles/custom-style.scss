@@ -72,3 +72,20 @@ header {
 .sidebar:hover {
   opacity: 1 !important;
 }
+
+.progress-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--text-accent); // Using your theme's accent color
+  width: 0%;
+  transition: width 0.1s ease;
+}
