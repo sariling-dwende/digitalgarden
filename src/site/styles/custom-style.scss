@@ -2,6 +2,14 @@
 body {
   --file-margins: 0px !important;
   font-family: Spectral !important;
+  
+  // Background image properties
+  background-image: url('path/to/your/image1.jpg'); // Placeholder, will be overridden by JS
+  background-repeat: repeat; // Tiled background
+  background-attachment: fixed; // Fixed background
+  background-size: cover; // Cover the entire area
+  opacity: 0.1; // Set opacity for the background
+  position: relative; // Ensure positioning for pseudo-element
 
   // Global link styling
   a {
@@ -31,6 +39,22 @@ body {
       transition: transform 0.3s ease !important;
     }
   }
+}
+
+// Pseudo-element for background overlay
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('path/to/your/image1.jpg'); // Placeholder, will be overridden by JS
+  background-repeat: repeat; // Tiled background
+  background-attachment: fixed; // Fixed background
+  background-size: cover; // Cover the entire area
+  opacity: 0.1; // Set opacity for the background
+  z-index: -1; // Ensure it stays behind content
 }
 
 // Target navbar specifically
