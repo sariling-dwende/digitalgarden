@@ -56,6 +56,15 @@ body {
   }
 }
 
+// Remove # from TOC items
+.toc-container {
+  li {
+    &::before {
+      content: "" !important; // Remove the # symbol
+    }
+  }
+}
+
 // Site header specific styling
 .site-header {
   width: calc(100% + 200px) !important;
