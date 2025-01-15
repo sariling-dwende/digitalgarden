@@ -28,3 +28,25 @@ function initProgressBar() {
 
 // Add this line to test if the script is running
 console.log('Progress bar script loaded');
+
+// Highlight current section in table of contents
+const observeHeaders = () => {
+  const headers = document.querySelectorAll('h2, h3');
+  const tocLinks = document.querySelectorAll('.toc a');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        tocLinks.forEach(link => {
+          if (link.getAttribute('href') === '#' + entry.target.id) {
+            link.classList.add('active');
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
+    });
+  }, { threshold: 0.5 });
+  
+  headers.forEach(header => observer.observe(header));
+};
