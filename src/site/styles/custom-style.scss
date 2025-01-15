@@ -1,181 +1,311 @@
-// Override core layout styles
+// ---------------------------
+// Variables
+// ---------------------------
+$color-accent: rgb(189, 213, 230);
+$color-accent-hover: rgb(67, 156, 215);
+$icon-size: 20px;
+$social-icon-spacing: 15px;
+$transition-duration: 0.3s;
+$transition-ease: ease;
+
+// ---------------------------
+// Base Styles
+// ---------------------------
 body {
   --file-margins: 0px !important;
-  font-family: Spectral !important;
-  
-  // Remove background image properties
-  // background-image: url('assets/images/image1.jpg'); // Placeholder
-  background-repeat: repeat; // Tiled background
-  background-attachment: fixed; // Fixed background
-  background-size: cover; // Cover the entire area
-  opacity: 1; // Set opacity for the body content
-  position: relative; // Ensure positioning for pseudo-element
-
-  // Global link styling
-  a {
-    text-decoration: none !important;
-    color: rgb(189, 213, 230) !important;
-    position: relative !important;
-    transition: color 0.3s ease !important;
-
-    &:hover {
-      color: rgb(67, 156, 215) !important;
-      
-      &::after {
-        transform: scaleX(1) !important;
-      }
-    }
-
-    &::after {
-      content: '' !important;
-      position: absolute !important;
-      width: 100% !important;
-      height: 1px !important;
-      bottom: 0 !important;
-      left: 0 !important;
-      background-color: rgb(67, 156, 215) !important;
-      transform: scaleX(0) !important;
-      transform-origin: bottom right !important;
-      transition: transform 0.3s ease !important;
-    }
-  }
+  font-family: Spectral, serif !important;
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
-// Remove pseudo-element for background overlay
-body::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  // Remove background image properties
-  // background-image: url('assets/images/image1.jpg'); // Placeholder
-  background-repeat: repeat; // Tiled background
-  background-attachment: fixed; // Fixed background
-  background-size: cover; // Cover the entire area
-  opacity: 0.1; // Set opacity for the background
-  z-index: -1; // Ensure it stays behind content
-}
-
-// Target navbar specifically
+// ---------------------------
+// Navbar Styling
+// ---------------------------
 .navbar {
   width: 100% !important;
-  position: relative !important;
+  position: fixed !important;
+  top: 0 !important;
   left: 0 !important;
-  padding-left: 0 !important;
+  padding: 0 !important;
   margin: 0 auto !important;
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-between !important; // Space between social icons and nav links
+  align-items: center !important;
   max-width: 900px !important;
+  background: transparent;
+  z-index: 1000; // Ensure navbar stays on top
 
-  // Navbar title styling
   .navbar-inner {
-    font-family: Satoshi !important;
-    font-size: 1em !important;
-    font-weight: 100 !important;
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 
-  @media (max-width: 1000px) {
-    position: fixed !important;
-  }
-}
+  /* Social Icons Container */
+  .social-icons {
+    display: flex;
+    align-items: center;
 
-// Remove # from TOC items
-.toc-container {
-  li {
-    &::before {
-      content: "" !important; // Remove the # symbol
+    a {
+      color: $color-accent;
+      margin-right: $social-icon-spacing;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color $transition-duration $transition-ease, transform $transition-duration $transition-ease;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      i {
+        width: $icon-size;
+        height: $icon-size;
+        stroke-width: 2;
+        transition: stroke $transition-duration $transition-ease, transform $transition-duration $transition-ease;
+      }
+
+      &:hover {
+        color: $color-accent-hover;
+
+        i {
+          stroke: $color-accent-hover;
+          transform: scale(1.2); // Slightly enlarge icon on hover
+        }
+      }
     }
   }
-  opacity: 0.5; // Default opacity
-  transition: opacity 0.3s ease; // Smooth transition for opacity
+
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin-left: 20px;
+
+      a {
+        text-decoration: none;
+        color: $color-accent;
+        font-size: 1em;
+        transition: color $transition-duration $transition-ease;
+
+        &:hover {
+          color: $color-accent-hover;
+        }
+      }
+    }
+  }
+}
+
+// ---------------------------
+// Responsive Adjustments
+// ---------------------------
+@media (max-width: 1000px) {
+  .navbar {
+    .nav-links {
+      flex-direction: column;
+      align-items: flex-start;
+
+      li {
+        margin-left: 0;
+        margin-bottom: 10px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/* ---------------------------
+   Additional Styles for TOC and Graph
+--------------------------- */
+
+/* TOC Container Styling */
+.toc-container {
+  opacity: 0.5;
+  transition: opacity $transition-duration $transition-ease;
+  background: rgba(255, 255, 255, 0); // Ensure transparency
+  padding: 10px;
 
   &:hover {
-    opacity: 1; // Full opacity on hover
+    opacity: 1;
+  }
+
+  /* TOC List Styling */
+  .toc {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 0.5em;
+
+      a {
+        text-decoration: none;
+        color: $color-accent;
+        position: relative;
+        transition: color $transition-duration $transition-ease, opacity $transition-duration $transition-ease;
+
+        &:hover {
+          color: $color-accent-hover;
+          opacity: 1;
+
+          &::after {
+            transform: scaleX(1);
+          }
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 1px;
+          bottom: 0;
+          left: 0;
+          background-color: $color-accent-hover;
+          transform: scaleX(0);
+          transform-origin: bottom right;
+          transition: transform $transition-duration $transition-ease;
+        }
+      }
+    }
   }
 }
 
-// Site header specific styling
-.site-header {
-  width: calc(100% + 200px) !important;
-  max-width: none !important;
-  padding: 0 !important;
-  margin: -100px !important;
-  position: absolute !important;
-  left: -300px !important;
-  background-color: var(--background-secondary);
-  
-  // Site header h1 specific styling
-  h1 {
-    font-size: 6em !important;
-  }
-  
-  .header-content-wrapper {
-    width: 100% !important;
-    padding: 0 20px;
-    display: flex !important;
-    justify-content: flex-start !important;
-    align-items: center !important;
+/* Graph Container Styling */
+.graph-container {
+  opacity: 0.5;
+  transition: opacity $transition-duration $transition-ease;
+  background: rgba(255, 255, 255, 0); // Ensure transparency
+  padding: 10px;
+
+  &:hover {
+    opacity: 1;
   }
 
-  @media (max-width: 1000px) {
-    width: 100% !important;
-    left: 0 !important;
-    position: fixed !important;
-    margin: 0 auto !important;
+  #graph {
+    width: 100%;
+    height: 100%;
+    /* Add additional graph-specific styles here */
   }
 }
 
-// Content styling
+/* Content Styling */
 .content {
-  max-width: 800px !important; 
-  margin: auto;
+  max-width: 900px !important;
+  margin: 100px auto 0 auto; // Top margin accounts for fixed navbar
   font-size: 20px;
   line-height: 1.5;
-  margin-top: 90px;
-  position: relative;
   padding: 0 20px;
+  position: relative;
 
-  // Adjust margins to prevent overlap
-  @media (max-width: 1000px) {
-    margin-top: 75px; // Adjust top margin for smaller screens
-    padding: 0 10px; // Adjust padding for smaller screens
-  }
-
-  // Add spacing for all headings in content
+  // Headings Spacing
   h1, h2, h3, h4, h5, h6 {
     margin-top: 2em !important;
     margin-bottom: 0.5em !important;
   }
 
-  // Content h1 specific styling
+  // Specific Styling for h1
   h1 {
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     font-size: 3em !important;
   }
 
+  // Responsive Adjustments
   @media (min-width: 1200px) {
-    margin-left: calc(300px - 50px);
+    margin-left: 530px; // TOC (250px) + Graph (250px) + 30px spacing
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 420px; // TOC (200px) + Graph (200px) + 20px spacing
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 0;
+    padding: 0 10px;
   }
 }
 
-// Content headings color
-.content h2, 
-.content h3, 
-.content h4, 
-.content h5, 
-.content h6 {
-  color:#c8bcac !important;
-  font-weight: 300 !important;
+// ---------------------------
+// Responsive TOC and Graph Positioning
+// ---------------------------
+@media (min-width: 1200px) {
+  .toc-container, .graph-container {
+    position: fixed;
+    top: 60px; // Adjust based on navbar height
+    width: 250px;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+  }
+
+  .toc-container {
+    left: 0;
+  }
+
+  .graph-container {
+    left: 260px; // TOC width + 10px spacing
+  }
 }
 
-// Graph container styling
+@media (min-width: 768px) and (max-width: 1199px) {
+  .toc-container, .graph-container {
+    position: fixed;
+    top: 60px;
+    width: 200px;
+    height: calc(100% - 60px);
+    overflow-y: auto;
+  }
+
+  .toc-container {
+    left: 0;
+  }
+
+  .graph-container {
+    left: 210px; // TOC width + 10px spacing
+  }
+}
+
+@media (max-width: 767px) {
+  .toc-container, .graph-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+// ---------------------------
+// Optional: Scrollbar Styling for TOC and Graph
+// ---------------------------
+.toc-container::-webkit-scrollbar,
+.graph-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.toc-container::-webkit-scrollbar-thumb,
+.graph-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.toc-container::-webkit-scrollbar-thumb:hover,
+.graph-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+// ---------------------------
+// Z-Index Management
+// ---------------------------
+.toc-container,
 .graph-container {
-  opacity: 0.5; // Default opacity
-  transition: opacity 0.3s ease; // Smooth transition for opacity
+  z-index: 1000;
+}
 
-  &:hover {
-    opacity: 1; // Full opacity on hover
-  }
+.content {
+  z-index: 500;
 }

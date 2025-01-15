@@ -1,9 +1,26 @@
 {%if settings.dgHomeLink === true%}
     <nav class="navbar">
         <div class="navbar-inner">
-            <a href="/" style="text-decoration: none;">
-                <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
-            </a>
+            <!-- Social Icons Container -->
+            <div class="social-icons">
+                <a href="https://x.com/sarilingdwende" target="_blank" aria-label="Twitter">
+                    <i data-feather="twitter"></i>
+                </a>
+                <a href="https://instagram.com/sarilingdwende" target="_blank" aria-label="Instagram">
+                    <i data-feather="instagram"></i>
+                </a>
+                <a href="mailto:kael.espino1123@gmail.com" aria-label="Gmail">
+                    <i data-feather="mail"></i>
+                </a>
+            </div>
+            
+            <!-- Existing Navbar Links -->
+            <ul class="nav-links">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <!-- Add more links as needed -->
+            </ul>
         </div>
         {% if settings.dgEnableSearch === true%}
             {% include "components/searchButton.njk" %}
