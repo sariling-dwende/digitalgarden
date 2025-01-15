@@ -27,10 +27,18 @@ body p, ul, ol, table {
   font-weight: 300 !important;
 }
 
-.content h1 {
+// Header h1 styling
+.site-header h1 {
   font-family: Spectral, serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
   font-weight: 400 !important;
-  font-size: 3.2em !important;
+  font-size: 4em !important;
+}
+
+// Content h1 styling
+.content h1 {
+  font-family: Spectral, serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-weight: 300 !important;
+  font-size: 3em !important;
 }
 
 .footnotes {
@@ -245,8 +253,8 @@ body .toc-container {
   max-width: 1200px !important;
   margin: 0 auto;
   padding: 0 20px;
+  margin-left: 150px;
   
-  // Style the header content wrapper
   .header-content-wrapper {
     width: 100% !important;
     max-width: 1200px !important;
@@ -255,17 +263,10 @@ body .toc-container {
     align-items: center;
   }
 
-  // Style the navigation container
-  .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-  }
-
   @media (max-width: 1000px) {
     width: 100% !important;
     max-width: 100% !important;
+    margin-left: auto;
     
     .header-content-wrapper {
       max-width: 100% !important;
