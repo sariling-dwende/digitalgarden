@@ -78,14 +78,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 4px;
-  background: transparent;
-  z-index: 1000;
+  height: 6px;
+  background: #eee;
+  z-index: 9999;
 }
 
 .progress-bar {
   height: 100%;
-  background: var(--text-accent, #5c7cfa); // Using your theme's accent color or fallback
+  background: #5c7cfa;
   width: 0%;
   transition: width 0.1s ease;
 }
