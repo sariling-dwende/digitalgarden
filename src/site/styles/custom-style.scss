@@ -99,8 +99,11 @@ body {
         position: relative; // Needed for the animated underline
         transition: color $transition-duration $transition-ease;
 
-  &:hover {
-    opacity: 1; // Full opacity on hover
+        &:hover {
+          opacity: 1; // Full opacity on hover
+        }
+      }
+    }
   }
 }
 
