@@ -1,7 +1,7 @@
 {%if settings.dgHomeLink === true%}
     <nav class="navbar">
         <div class="navbar-inner">
-            <!-- Social Icons Container -->
+            <!-- Social Icons (Top-Left) -->
             <div class="social-icons">
                 <a href="https://x.com/sarilingdwende" target="_blank" aria-label="Twitter">
                     <i data-feather="twitter"></i>
@@ -13,10 +13,11 @@
                     <i data-feather="mail"></i>
                 </a>
             </div>
+            <!-- Search Bar (Top-Right) -->
+            {% if settings.dgEnableSearch === true %}
+                {% include "components/searchContainer.njk" %}
+            {% endif %}
         </div>
-        {% if settings.dgEnableSearch === true%}
-            {% include "components/searchButton.njk" %}
-        {%endif%}
     </nav>
     {%else%}
     <div class="empty-navbar" >

@@ -194,3 +194,30 @@ window.addEventListener('scroll', () => {
     console.log('Scroll position:', window.scrollY);
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Function to handle hover animations
+  const handleHoverAnimation = (element) => {
+    element.classList.add('hover-animate');
+  };
+
+  const handleHoverOut = (element) => {
+    element.classList.remove('hover-animate');
+  };
+
+  // Select all navigation links
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  navLinks.forEach(link => {
+    link.addEventListener('mouseenter', () => handleHoverAnimation(link));
+    link.addEventListener('mouseleave', () => handleHoverOut(link));
+  });
+
+  // Select all TOC links
+  const tocLinks = document.querySelectorAll('.toc a');
+
+  tocLinks.forEach(link => {
+    link.addEventListener('mouseenter', () => handleHoverAnimation(link));
+    link.addEventListener('mouseleave', () => handleHoverOut(link));
+  });
+});
