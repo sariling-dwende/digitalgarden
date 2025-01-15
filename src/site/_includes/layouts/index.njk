@@ -27,6 +27,16 @@
     {% for imp in dynamics.index.head %}
       {% include imp %}
     {% endfor %}
+    <style>
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      
+      .content {
+        animation: fadeIn 0.8s ease-out forwards;
+      }
+    </style>
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}" style="background-image: url('{{ background | safe }}'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     {%include "components/notegrowthhistory.njk"%}
