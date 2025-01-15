@@ -46,8 +46,13 @@ body p, ul, ol, table {
   margin-top: 90px;
   position: relative;
 
+  @media (min-width: 1200px) {
+    margin-left: -100px;
+  }
+
   @media (max-width: 1000px) {
-      margin-top: 75px;
+    margin-top: 75px;
+    margin-left: auto;
   }
 }
 
