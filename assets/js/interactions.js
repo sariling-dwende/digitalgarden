@@ -52,13 +52,12 @@ const observeHeaders = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Wrap in try-catch to prevent any errors from breaking the page
   try {
     console.group('TOC Initialization');
     initTableOfContents();
     console.groupEnd();
   } catch (error) {
-    console.error('Error initializing TOC:', error);
+    console.error('Error in TOC initialization:', error);
   }
 });
 
@@ -106,35 +105,26 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
-  // Specifically target the TOC container first
-  const tocContainer = document.querySelector('.toc-container');
-  if (!tocContainer) {
-    console.warn('TOC container not found');
+  // Target the outer .toc div that contains everything
+  const tocOuter = document.querySelector('div.toc');
+  if (!tocOuter) {
+    console.error('TOC outer container not found');
     return;
   }
 
-  // Get all headers and TOC links
+  // Get all headers in the content
   const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'))
-    .filter(header => header.id); // Only get headers with IDs
+    .filter(header => header.id);
+  console.log('Headers found:', headers.length);
 
-  const tocLinks = Array.from(tocContainer.querySelectorAll('a'))
-    .filter(link => link.getAttribute('href')?.startsWith('#')); // Only get internal links
+  // Get all links from the nested nav.toc
+  const tocLinks = Array.from(tocOuter.querySelectorAll('nav.toc a'));
+  console.log('TOC links found:', tocLinks.length);
 
-  console.log(`Found ${headers.length} headers and ${tocLinks.length} TOC links`);
-  
   if (headers.length === 0 || tocLinks.length === 0) {
     console.warn('No headers or TOC links found');
     return;
   }
-
-  // Debug info
-  headers.forEach(header => {
-    console.log(`Header: "${header.textContent}" (id: ${header.id})`);
-  });
-
-  tocLinks.forEach(link => {
-    console.log(`TOC link: "${link.textContent}" (href: ${link.getAttribute('href')})`);
-  });
 
   // Create intersection observer
   const observer = new IntersectionObserver(
@@ -145,15 +135,13 @@ function initTableOfContents() {
 
       if (visibleHeaders.length > 0) {
         const currentHeader = visibleHeaders[0];
-        console.log(`Current visible header: "${currentHeader.textContent}"`);
-
+        
         tocLinks.forEach(link => {
           const headerId = currentHeader.id;
           const linkTarget = link.getAttribute('href')?.replace('#', '');
           
           if (headerId === linkTarget) {
             link.classList.add('active');
-            console.log(`Activated link: "${link.textContent}"`);
           } else {
             link.classList.remove('active');
           }
@@ -167,9 +155,7 @@ function initTableOfContents() {
   );
 
   // Observe headers
-  headers.forEach(header => {
-    observer.observe(header);
-  });
+  headers.forEach(header => observer.observe(header));
 
   // Add smooth scrolling
   tocLinks.forEach(link => {
@@ -181,8 +167,6 @@ function initTableOfContents() {
       
       const targetId = href.replace('#', '');
       const targetElement = document.getElementById(targetId);
-      
-      console.log(`Clicking link to "${targetId}"`);
       
       if (targetElement) {
         // Remove active class from all links
@@ -199,8 +183,6 @@ function initTableOfContents() {
         
         // Update URL without jumping
         history.pushState(null, null, href);
-      } else {
-        console.warn(`Target element "${targetId}" not found`);
       }
     });
   });
