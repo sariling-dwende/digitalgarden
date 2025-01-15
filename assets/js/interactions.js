@@ -196,28 +196,31 @@ window.addEventListener('scroll', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Function to handle hover animations
-  const handleHoverAnimation = (element) => {
-    element.classList.add('hover-animate');
-  };
-
-  const handleHoverOut = (element) => {
-    element.classList.remove('hover-animate');
-  };
-
-  // Select all navigation links
+  // Remove or comment out any hover-animate related code as it's handled via CSS
+  // Example:
+  /*
   const navLinks = document.querySelectorAll('.nav-links a');
 
   navLinks.forEach(link => {
-    link.addEventListener('mouseenter', () => handleHoverAnimation(link));
-    link.addEventListener('mouseleave', () => handleHoverOut(link));
+    link.addEventListener('mouseenter', () => {
+      link.classList.add('hover-animate');
+    });
+
+    link.addEventListener('mouseleave', () => {
+      link.classList.remove('hover-animate');
+    });
   });
 
-  // Select all TOC links
   const tocLinks = document.querySelectorAll('.toc a');
 
   tocLinks.forEach(link => {
-    link.addEventListener('mouseenter', () => handleHoverAnimation(link));
-    link.addEventListener('mouseleave', () => handleHoverOut(link));
+    link.addEventListener('mouseenter', () => {
+      link.classList.add('hover-animate');
+    });
+
+    link.addEventListener('mouseleave', () => {
+      link.classList.remove('hover-animate');
+    });
   });
+  */
 });

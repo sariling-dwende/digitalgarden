@@ -92,17 +92,65 @@ body {
     li {
       margin-left: 20px;
 
+      &:first-child {
+        margin-left: 0;
+      }
+
       a {
-        text-decoration: none; // Remove default underline
+        text-decoration: none; /* Remove default underline */
         color: $color-accent;
         font-size: 1em;
-        position: relative; // Needed for the animated underline
+        position: relative; /* To position the ::after pseudo-element */
+        display: inline-block; /* Ensure the pseudo-element aligns correctly */
         transition: color $transition-duration $transition-ease;
 
         &:hover {
-          opacity: 1; // Full opacity on hover
+          color: $color-accent-hover;
+        }
+
+        /* Create the animated underline */
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          bottom: -2px; /* Adjust as needed to position the underline */
+          width: 0%;
+          height: 2px; /* Thickness of the underline */
+          background-color: $color-accent-hover;
+          transition: width $transition-duration $transition-ease;
+        }
+
+        /* Expand the underline on hover */
+        &:hover::after {
+          width: 100%;
         }
       }
+    }
+  }
+
+  /* Search Container (Top-Right) */
+  .search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    input[type="text"] {
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      font-size: 1em;
+    }
+
+    .search-icon {
+      position: absolute;
+      right: 10px;
+      pointer-events: none; /* Allow clicks to pass through to the input */
+      color: $color-accent;
+    }
+
+    input[type="text"]:focus + .search-icon {
+      color: $color-accent-hover;
     }
   }
 }
@@ -404,4 +452,37 @@ body {
 // ---------------------------
 .hover-animate::after {
   width: 100%;
+}
+
+// ---------------------------
+// Animated Underline for TOC Links
+// ---------------------------
+.toc a {
+  text-decoration: none; /* Remove default underline */
+  color: $color-accent;
+  font-size: 1em;
+  position: relative; /* To position the ::after pseudo-element */
+  display: inline-block;
+  transition: color $transition-duration $transition-ease;
+
+  &:hover {
+    color: $color-accent-hover;
+  }
+
+  /* Create the animated underline */
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust as needed to position the underline */
+    width: 0%;
+    height: 1px; /* Thickness of the underline */
+    background-color: $color-accent-hover;
+    transition: width $transition-duration $transition-ease;
+  }
+
+  /* Expand the underline on hover */
+  &:hover::after {
+    width: 100%;
+  }
 }
