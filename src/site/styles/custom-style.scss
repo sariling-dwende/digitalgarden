@@ -246,8 +246,29 @@ body .toc-container {
   margin: 0 auto;
   padding: 0 20px;
   
+  // Style the header content wrapper
+  .header-content-wrapper {
+    width: 100% !important;
+    max-width: 1200px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // Style the navigation container
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+
   @media (max-width: 1000px) {
     width: 100% !important;
     max-width: 100% !important;
+    
+    .header-content-wrapper {
+      max-width: 100% !important;
+    }
   }
 }
