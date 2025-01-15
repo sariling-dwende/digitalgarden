@@ -101,7 +101,7 @@ body p a,
 .markdown-preview-view a {
   position: relative;
   text-decoration: none !important; /* Force remove underline */
-  color: rgb(140, 127, 255) !important;
+  color: #9c8f7f !important; /* Warm gray */
   transition: color 0.2s ease;
   font-weight: 500;
   
@@ -118,7 +118,7 @@ body p a,
   }
   
   &:hover {
-    color: rgb(116, 101, 247) !important;
+    color: #7d7265 !important; /* Darker on hover */
     
     &::after {
       transform: scaleX(1);
