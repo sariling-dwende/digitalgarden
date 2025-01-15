@@ -52,8 +52,14 @@ const observeHeaders = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Initializing TOC...');
-  initTableOfContents();
+  // Wrap in try-catch to prevent any errors from breaking the page
+  try {
+    console.group('TOC Initialization');
+    initTableOfContents();
+    console.groupEnd();
+  } catch (error) {
+    console.error('Error initializing TOC:', error);
+  }
 });
 
 function initImageZoom() {
@@ -100,76 +106,101 @@ function initImageZoom() {
 }
 
 function initTableOfContents() {
-  // Get all headers and TOC links
-  const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'));
-  const tocLinks = Array.from(document.querySelectorAll('.toc-container a'));
-  
-  console.log('Headers found:', headers.length);
-  headers.forEach(h => console.log('Header:', h.id, h.textContent));
-  
-  console.log('TOC links found:', tocLinks.length);
-  tocLinks.forEach(link => console.log('Link:', link.getAttribute('href'), link.textContent));
+  // Specifically target the TOC container first
+  const tocContainer = document.querySelector('.toc-container');
+  if (!tocContainer) {
+    console.warn('TOC container not found');
+    return;
+  }
 
-  if (headers.length === 0 || tocLinks.length === 0) return;
+  // Get all headers and TOC links
+  const headers = Array.from(document.querySelectorAll('.content h1, .content h2, .content h3'))
+    .filter(header => header.id); // Only get headers with IDs
+
+  const tocLinks = Array.from(tocContainer.querySelectorAll('a'))
+    .filter(link => link.getAttribute('href')?.startsWith('#')); // Only get internal links
+
+  console.log(`Found ${headers.length} headers and ${tocLinks.length} TOC links`);
+  
+  if (headers.length === 0 || tocLinks.length === 0) {
+    console.warn('No headers or TOC links found');
+    return;
+  }
+
+  // Debug info
+  headers.forEach(header => {
+    console.log(`Header: "${header.textContent}" (id: ${header.id})`);
+  });
+
+  tocLinks.forEach(link => {
+    console.log(`TOC link: "${link.textContent}" (href: ${link.getAttribute('href')})`);
+  });
 
   // Create intersection observer
   const observer = new IntersectionObserver(
     (entries) => {
-      entries.forEach(entry => {
-        console.log('Intersection:', entry.target.id, entry.isIntersecting);
-        if (entry.isIntersecting) {
-          const headerId = entry.target.id;
-          tocLinks.forEach(link => {
-            const linkHref = decodeURIComponent(link.getAttribute('href').replace('#', ''));
-            console.log('Comparing:', headerId, 'with', linkHref);
-            if (headerId === linkHref) {
-              console.log('Match found! Activating:', linkHref);
-              link.classList.add('active');
-            } else {
-              link.classList.remove('active');
-            }
-          });
-        }
-      });
+      const visibleHeaders = entries
+        .filter(entry => entry.isIntersecting)
+        .map(entry => entry.target);
+
+      if (visibleHeaders.length > 0) {
+        const currentHeader = visibleHeaders[0];
+        console.log(`Current visible header: "${currentHeader.textContent}"`);
+
+        tocLinks.forEach(link => {
+          const headerId = currentHeader.id;
+          const linkTarget = link.getAttribute('href')?.replace('#', '');
+          
+          if (headerId === linkTarget) {
+            link.classList.add('active');
+            console.log(`Activated link: "${link.textContent}"`);
+          } else {
+            link.classList.remove('active');
+          }
+        });
+      }
     },
     {
-      rootMargin: '-20px 0px -60% 0px',
+      rootMargin: '-10% 0px -50% 0px',
       threshold: [0, 0.5, 1.0]
     }
   );
 
-  // Observe all headers
+  // Observe headers
   headers.forEach(header => {
-    if (header.id) {
-      observer.observe(header);
-      console.log('Observing header:', header.id);
-    } else {
-      console.warn('Header without ID:', header.textContent);
-    }
+    observer.observe(header);
   });
 
   // Add smooth scrolling
   tocLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      const targetId = decodeURIComponent(link.getAttribute('href').replace('#', ''));
+      
+      const href = link.getAttribute('href');
+      if (!href) return;
+      
+      const targetId = href.replace('#', '');
       const targetElement = document.getElementById(targetId);
       
-      console.log('Clicking link to:', targetId);
-      console.log('Target element found:', !!targetElement);
+      console.log(`Clicking link to "${targetId}"`);
       
       if (targetElement) {
+        // Remove active class from all links
+        tocLinks.forEach(l => l.classList.remove('active'));
+        
+        // Add active class to clicked link
+        link.classList.add('active');
+        
+        // Scroll to target
         targetElement.scrollIntoView({
           behavior: 'smooth',
           block: 'start'
         });
         
-        // Manually add active class
-        tocLinks.forEach(l => l.classList.remove('active'));
-        link.classList.add('active');
-        
         // Update URL without jumping
-        history.pushState(null, null, link.getAttribute('href'));
+        history.pushState(null, null, href);
+      } else {
+        console.warn(`Target element "${targetId}" not found`);
       }
     });
   });
