@@ -52,7 +52,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
-    <main class="content cm-s-obsidian {{contentClasses}}">
+    <main class="content cm-s-obsidian {{contentClasses}}" data-aos="fade-up">
       <header data-aos="fade-up" data-aos-delay="100">
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
