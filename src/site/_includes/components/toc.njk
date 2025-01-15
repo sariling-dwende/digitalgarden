@@ -3,7 +3,7 @@
   <nav class="toc">
     <ul>
       {% for heading in headings %}
-        <li><a href="{{ heading.id }}">{{ heading.text | replace('#', '') }}</a></li>
+        <li><a href="#{{ heading.id }}">{{ heading.text | replace('#', '') }}</a></li>
       {% endfor %}
     </ul>
   </nav>

@@ -192,11 +192,29 @@ body {
 // ---------------------------
 .content {
   max-width: 900px !important;
-  margin: $navbar-height + 40px auto 0 auto; // Top margin accounts for fixed navbar and spacing
+  margin: 0 auto; // Center the content horizontally
   font-size: 20px;
   line-height: 1.5;
-  padding: 0 20px;
+  margin-top: 90px; // Top margin accounts for fixed navbar and spacing
   position: relative;
+  padding: 0 20px;
+
+  // Adjust margins to prevent overlap with TOC and Graph
+  @media (min-width: 1200px) {
+    margin-left: 430px; // Reduced by 100px from 530px
+    margin-right: 270px; // Graph container width + spacing
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 320px; // Reduced by 100px from 420px
+    margin-right: 220px; // Graph container width + spacing
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+  }
 
   // Headings Spacing
   h1, h2, h3, h4, h5, h6 {
@@ -208,23 +226,6 @@ body {
   h1 {
     font-weight: 300 !important;
     font-size: 3em !important;
-  }
-
-  // Responsive Adjustments
-  @media (min-width: 1200px) {
-    margin-left: 530px; // TOC (250px) + Graph (250px) + 30px spacing
-    margin-right: 270px; // Graph container width + spacing
-  }
-
-  @media (min-width: 768px) and (max-width: 1199px) {
-    margin-left: 420px; // TOC (200px) + Graph (200px) + 20px spacing
-    margin-right: 220px; // Graph container width + spacing
-  }
-
-  @media (max-width: 767px) {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 10px;
   }
 }
 
