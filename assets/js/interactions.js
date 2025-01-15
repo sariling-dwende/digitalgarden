@@ -18,25 +18,21 @@ function initProgressBar() {
 
   // Update progress on scroll
   function updateProgress() {
-    // Get scroll position and page height
-    const winScroll = window.pageYOffset || document.documentElement.scrollTop;
-    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    // Calculate scroll percentage
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrollPercent = (scrollTop / scrollHeight) * 100;
+
+    // Update progress bar width
+    progressBar.style.width = `${scrollPercent}%`;
     
-    // Calculate percentage
-    const scrolled = (winScroll / height) * 100;
-    
-    // Update width
-    requestAnimationFrame(() => {
-      progressBar.style.width = scrolled + '%';
-    });
+    // Log for debugging
+    console.log('Scroll percentage:', scrollPercent);
   }
 
-  // Add scroll listener
+  // Add scroll event listener
   window.addEventListener('scroll', updateProgress, { passive: true });
   
   // Initial update
   updateProgress();
-  
-  // Log for debugging
-  console.log('Progress bar initialized');
 }
