@@ -248,26 +248,29 @@ body .toc-container {
   }
 }
 
+// Target both header container and site header
+.header-wrapper,
 .site-header {
   width: 100% !important;
-  max-width: 1200px !important;
+  max-width: 1400px !important; // Increased max-width
   padding: 0 20px;
-  position: relative;
-  left: -100px;
+  position: relative !important;
+  left: -150px !important; // More aggressive left positioning
+  margin-right: auto !important;
   
   .header-content-wrapper {
     width: 100% !important;
-    max-width: 1200px !important;
+    max-width: 1400px !important; // Match parent max-width
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; // Align content to the left
     align-items: center;
   }
 
   @media (max-width: 1000px) {
     width: 100% !important;
     max-width: 100% !important;
-    left: 0;
-    margin: 0 auto;
+    left: 0 !important; // Reset position for mobile
+    margin: 0 auto !important; // Center on mobile
     
     .header-content-wrapper {
       max-width: 100% !important;
