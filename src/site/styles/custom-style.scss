@@ -112,6 +112,7 @@ body {
   transition: opacity $transition-duration $transition-ease;
   background: rgba(255, 255, 255, 0); // Ensure transparency
   padding: 10px;
+  margin-top: 400px; // Added top margin
 
   &:hover {
     opacity: 1;
@@ -129,6 +130,7 @@ body {
   .toc {
     list-style: none;
     padding: 0;
+    overflow: visible; // Ensure all content is visible without scrolling
 
     li {
       margin-bottom: 0.5em;
@@ -232,14 +234,12 @@ body {
 @media (min-width: 1200px) {
   .toc-container, .graph-container {
     position: fixed;
-    top: $navbar-height; // Align with navbar
-    height: calc(100% - #{$navbar-height});
+    top: 400px; // Adjusted top margin
+    height: calc(100% - 400px);
     overflow: visible; // Remove scrolling
 
-    /* Center the TOC Container Vertically */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* Remove vertical centering */
+    display: block;
   }
 
   .toc-container {
@@ -257,14 +257,12 @@ body {
 @media (min-width: 768px) and (max-width: 1199px) {
   .toc-container, .graph-container {
     position: fixed;
-    top: $navbar-height;
-    height: calc(100% - #{$navbar-height});
+    top: 400px; // Adjusted top margin
+    height: calc(100% - 400px);
     overflow: visible; // Remove scrolling
 
-    /* Center the TOC Container Vertically */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* Remove vertical centering */
+    display: block;
   }
 
   .toc-container {
@@ -286,6 +284,7 @@ body {
     height: auto;
     padding: 10px 0;
     display: block;
+    margin-top: 400px; // Optional: Adjust if needed
   }
 
   .graph-container {
@@ -328,8 +327,7 @@ body {
 // TOC Container Adjustments
 // ---------------------------
 .toc-container {
-  /* Ensuring the TOC is vertically centered */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  /* Removed flex centering to apply top margin */
+  /* Ensuring the TOC is vertically positioned with top margin */
+  margin-top: 0; // Reset if previously set
 }
