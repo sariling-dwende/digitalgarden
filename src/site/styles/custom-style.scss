@@ -145,58 +145,48 @@ body p a,
   }
 }
 
-/* Table of Contents styling with correct structure */
-.toc {
-  padding: 10px;
-  background-color: var(--background-primary);
-  border-radius: 10px;
-
-  nav.toc {
-    ol {
-      list-style: none;
-      padding-left: 10px;
-      margin: 0;
-    }
-
-    li {
-      margin: 4px 0;
-      
-      &::before {
-        display: none !important;
-      }
-    }
-
-    a {
-      display: block;
-      padding: 4px 8px;
-      margin: 2px 0;
-      border-left: 2px solid transparent;
-      transition: all 0.2s ease;
-      color: var(--text-muted) !important;
-      text-decoration: none !important;
-      
-      &.active {
-        border-left-color: var(--text-accent) !important;
-        background: var(--background-primary);
-        color: var(--text-accent) !important;
-        font-weight: 500;
-      }
-      
-      &:hover {
-        color: var(--text-accent) !important;
-        background: var(--background-primary);
-      }
-    }
-  }
-}
-
-/* Preserve the title styling */
-.toc-title-container {
+/* Table of Contents styling with increased specificity */
+body .toc-container {
+  font-size: 1rem;
+  max-height: none !important;
+  overflow-y: auto;
   margin-bottom: 10px;
   
-  .toc-title {
-    font-weight: 500;
-    color: var(--text-normal);
+  a {
+    display: block !important;
+    padding: 4px 8px !important;
+    margin: 2px 0 !important;
+    border-left: 2px solid transparent !important;
+    transition: all 0.2s ease !important;
+    color: var(--text-muted) !important;
+    text-decoration: none !important;
+    
+    &::before {
+      display: none !important;
+    }
+    
+    &.active {
+      border-left-color: var(--text-accent) !important;
+      background: var(--background-primary) !important;
+      color: var(--text-accent) !important;
+      font-weight: 500 !important;
+    }
+    
+    &:hover {
+      color: var(--text-accent) !important;
+      background: var(--background-primary) !important;
+    }
+  }
+
+  ul {
+    list-style-type: none !important;
+    padding-inline-start: 15px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  li::before {
+    display: none !important;
   }
 }
 
