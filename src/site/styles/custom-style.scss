@@ -21,6 +21,27 @@ body {
   padding: 0;
 }
 
+/* Ensure the main content does not get hidden behind the fixed navbar */
+.content {
+  padding-top: $navbar-height;
+  /* Existing responsive margins */
+  @media (min-width: 1200px) {
+    margin-left: 430px; // Adjusted as per previous steps
+    margin-right: 270px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 320px;
+    margin-right: 220px;
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+  }
+}
+
 // ---------------------------
 // Navbar Styling
 // ---------------------------
@@ -247,11 +268,18 @@ body {
 // TOC Container Styling
 // ---------------------------
 .toc-container {
+  margin-top: 0; /* Reset any previous top margin */
+  /* Ensure proper width and positioning */
+  width: 250px; /* Example width, adjust as needed */
+  position: fixed;
+  top: 100px; /* Adjusted to position below navbar */
+  left: 0;
+  overflow-y: auto;
+  height: calc(100% - 100px); /* Adjust to fit within viewport */
   opacity: 0.5;
   transition: opacity $transition-duration $transition-ease;
   background: rgba(255, 255, 255, 0); // Ensure transparency
   padding: 10px;
-  margin-top: 400px; // Added top margin
 
   &:hover {
     opacity: 1;
@@ -311,10 +339,15 @@ body {
 // Graph Container Styling
 // ---------------------------
 .graph-container {
+  position: fixed;
+  top: 100px; /* Align with TOC container */
+  right: 0;
+  width: 250px; /* Example width, adjust as needed */
+  height: calc(100% - 100px); /* Fit within viewport */
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Background for visibility */
   opacity: 0.5;
   transition: opacity $transition-duration $transition-ease;
-  background: rgba(255, 255, 255, 0); // Ensure transparency
-  padding: 10px;
 
   &:hover {
     opacity: 1;
@@ -414,8 +447,9 @@ body {
 // Z-Index Management
 // ---------------------------
 .toc-container,
-.graph-container {
-  z-index: 1000;
+.graph-container,
+.navbar {
+  z-index: 1000; /* Ensure navbar and containers stay on top */
 }
 
 .content {
