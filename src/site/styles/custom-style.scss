@@ -3,12 +3,12 @@ body {
   --file-margins: 0px !important;
   font-family: Spectral !important;
   
-  // Background image properties
-  background-image: url('path/to/your/image1.jpg'); // Placeholder, will be overridden by JS
+  // Remove background image properties
+  // background-image: url('assets/images/image1.jpg'); // Placeholder
   background-repeat: repeat; // Tiled background
   background-attachment: fixed; // Fixed background
   background-size: cover; // Cover the entire area
-  opacity: 0.1; // Set opacity for the background
+  opacity: 1; // Set opacity for the body content
   position: relative; // Ensure positioning for pseudo-element
 
   // Global link styling
@@ -41,7 +41,7 @@ body {
   }
 }
 
-// Pseudo-element for background overlay
+// Remove pseudo-element for background overlay
 body::before {
   content: '';
   position: absolute;
@@ -49,7 +49,8 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('path/to/your/image1.jpg'); // Placeholder, will be overridden by JS
+  // Remove background image properties
+  // background-image: url('assets/images/image1.jpg'); // Placeholder
   background-repeat: repeat; // Tiled background
   background-attachment: fixed; // Fixed background
   background-size: cover; // Cover the entire area
