@@ -4,6 +4,12 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 <!DOCTYPE html>
 <html lang="{{ meta.mainLanguage }}">
   <head>
+
+    <!-- Add these before your existing scripts -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V2R281MZ4"></script>
     <script>
@@ -13,7 +19,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
       gtag('config', 'G-0V2R281MZ4');
     </script>
-    
+    <script src="/assets/js/interactions.js" defer></script>
       <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
 
@@ -21,7 +27,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     <meta name="twitter:title" content="{{ page.fileSlug }}">
     <meta name="twitter:description" content="{{ content }}">
     <meta name="twitter:image" content="{{ imageUrl }}">
-z
+    
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
     {% for imp in dynamics.common.head %}
@@ -32,6 +38,9 @@ z
     {% endfor %} 
   </head>
   <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section {{meta.bodyClasses}}" style="background-image: url('{{ background | safe }}'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">>
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}
@@ -44,7 +53,7 @@ z
       {%include "components/searchContainer.njk"%}
     {% endif %}
     <main class="content cm-s-obsidian {{contentClasses}}">
-      <header>
+      <header data-aos="fade-up" data-aos-delay="100">
         {% if settings.dgShowInlineTitle === true %}
           <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</h1>
         {% endif %}
@@ -84,7 +93,9 @@ z
       {% for imp in dynamics.notes.beforeContent %}
         {% include imp %}
       {% endfor %}
-      {{ content | hideDataview | taggify | link | safe}}
+      <div data-aos="fade-up" data-aos-delay="200">
+        {{ content | hideDataview | taggify | link | safe}}
+      </div>
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -94,7 +105,9 @@ z
     </main>
 
     {% if settings.dgShowBacklinks === true or settings.dgShowLocalGraph === true or settings.dgShowToc === true%}
-      {%include "components/sidebar.njk"%}
+      <div data-aos="fade-left" data-aos-delay="300">
+        {%include "components/sidebar.njk"%}
+      </div>
     {% endif %}
 
     {% if settings.dgLinkPreview === true %}
