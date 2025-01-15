@@ -10,7 +10,7 @@ body {
     transition: color 0.3s ease !important;
 
     &:hover {
-      color: darken(var(--text-accent), 15%) !important;
+      color: rgb(67, 156, 215) !important;
       text-decoration: underline !important;
     }
   }
