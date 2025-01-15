@@ -248,21 +248,35 @@ body .toc-container {
   }
 }
 
-// Target all possible header containers
-body > .container,
+// Override core layout styles
+body {
+  --file-margins: 0px !important;
+}
+
+// Site header specific styling
+.workspace-split.mod-root,
 .workspace,
 .header-wrapper,
 .site-header {
   width: 100% !important;
-  max-width: none !important; // Remove max-width constraint
+  max-width: none !important;
   padding: 0 !important;
+  margin: 0 !important;
   position: relative !important;
+  left: 0 !important;
 }
 
 .site-header {
-  transform: translateX(-150px) !important; // Use transform instead of left
-  display: flex !important;
-  width: calc(100% + 150px) !important; // Compensate for the transform
+  transform: translateX(-200px) !important;
+  width: calc(100% + 200px) !important;
+  background-color: var(--background-secondary);
+  
+  // Site header h1 specific styling
+  h1 {
+    font-family: Satoshi !important;
+    font-weight: 400 !important;
+    font-size: 4em !important;
+  }
   
   .header-content-wrapper {
     width: 100% !important;
@@ -276,9 +290,32 @@ body > .container,
     transform: none !important;
     width: 100% !important;
     margin: 0 auto !important;
-    
-    .header-content-wrapper {
-      width: 100% !important;
-    }
+  }
+}
+
+// Content styling
+.content {
+  max-width: 900px !important; 
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 90px;
+  position: relative;
+  padding: 0 20px;
+
+  // Content h1 specific styling
+  h1 {
+    font-family: Satoshi !important;
+    font-weight: 400 !important;
+    font-size: 3em !important; // Keep content h1 at original size
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: calc(300px - 50px);
+  }
+
+  @media (max-width: 1000px) {
+    margin-top: 75px;
+    margin-left: auto;
   }
 }
