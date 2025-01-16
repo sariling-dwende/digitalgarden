@@ -108,3 +108,29 @@ body {
 .hover-animate::after {
   width: 100%;
 }
+
+a {
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Position relative for pseudo-element */
+    color: var(--text-accent); /* Use your existing accent color */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust position as needed */
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: var(--text-accent); /* Use your existing accent color */
+    transition: width 0.3s ease; /* Smooth width transition */
+}
+
+a:hover {
+    color: var(--text-accent-hover); /* Change color on hover */
+}
+
+a:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
