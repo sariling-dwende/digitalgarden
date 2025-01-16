@@ -21,6 +21,7 @@ body {
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
   padding-top: $navbar-height;
+  margin-left: -100px;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
     margin-left: 430px; // Adjusted as per previous steps
