@@ -38,9 +38,12 @@ body {
     padding: 0 10px;
   }
 }
-
+.navbar {
+  padding-top: 30px;
+}
 .navbar-inner {
   display: inline !important;
+  max-width: max-content !important;
 }
 
 .nav-links {
