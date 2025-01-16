@@ -258,6 +258,11 @@ class BackgroundManager {
         }
 
         try {
+            // Reset the animation by removing and re-adding the element
+            backgroundWrapper.style.animation = 'none';
+            backgroundWrapper.offsetHeight; // Trigger reflow
+            backgroundWrapper.style.animation = null;
+            
             // Add loading class
             backgroundWrapper.classList.add('loading');
             
@@ -265,9 +270,14 @@ class BackgroundManager {
             const currentBackground = this.getRandomBackground();
             await this.preloadImage(currentBackground);
             
-            // Set the background
+            // Set the background and trigger animation
             backgroundWrapper.style.backgroundImage = `url('${currentBackground}')`;
             backgroundWrapper.classList.remove('loading');
+            
+            // Force animation restart
+            backgroundWrapper.style.animation = 'none';
+            backgroundWrapper.offsetHeight; // Trigger reflow
+            backgroundWrapper.style.animation = 'fadeIn 1.5s ease-in-out forwards';
 
             // Preload next batch in the background
             this.preloadNextBatch();
