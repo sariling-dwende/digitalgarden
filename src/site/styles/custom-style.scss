@@ -110,7 +110,7 @@ body {
 }
 
 a {
-    text-decoration: none; /* Remove default underline */
+    text-decoration: none !important; /* Remove default underline */
     position: relative; /* Position relative for pseudo-element */
     color: var(--text-accent); /* Use your existing accent color */
     transition: color 0.3s ease; /* Smooth color transition */
