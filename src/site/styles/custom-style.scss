@@ -214,3 +214,35 @@ a:hover {
 a:hover::after {
     width: 100%; /* Expand underline on hover */
 }
+
+/* Full graph styling */
+#full-graph {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+#full-graph-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Close button styling */
+#full-graph-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
