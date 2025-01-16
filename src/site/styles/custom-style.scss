@@ -41,9 +41,9 @@ body {
 .navbar {
   padding-top: 30px;
   z-index: 1000;
+  display: inline !important;
 }
 .navbar-inner {
-  display: inline !important;
   max-width: max-content !important;
 }
 
