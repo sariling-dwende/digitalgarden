@@ -21,15 +21,15 @@ body {
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
   padding-top: $navbar-height;
-  margin-left: 0;
+  margin-left: -100px;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
-    margin-left: 0;
+    margin-left: 430px; // Adjusted as per previous steps
     margin-right: 270px;
   }
 
   @media (min-width: 768px) and (max-width: 1199px) {
-    margin-left: 0;
+    margin-left: 320px;
     margin-right: 220px;
   }
 
@@ -66,11 +66,11 @@ body {
 // TOC Container Adjustments
 // ---------------------------
 .toc-container {
-  margin-top: 0; /* Reset any previous top margin */
+  margin-top: 200; /* Reset any previous top margin */
   /* Ensure proper width and positioning */
   width: 250px; /* Example width, adjust as needed */
   position: fixed;
-  top: 100px; /* Adjusted to position below navbar */
+  top: 500px; /* Adjusted to position below navbar */
   left: 0;
   overflow-y: visible;
   height: 100%; /* Adjust to fit within viewport */
