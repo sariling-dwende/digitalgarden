@@ -24,7 +24,7 @@ body {
   margin-left: -100px;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
-    margin-left: 430px; // Adjusted as per previous steps
+    margin-left: 320px; // Adjusted as per previous steps
     margin-right: 270px;
   }
 
@@ -62,18 +62,14 @@ body {
   max-width: max-content !important;
 }
 
-// ---------------------------
-// TOC Container Adjustments
-// ---------------------------
 .toc-container {
-  margin-top: 200; /* Reset any previous top margin */
-  /* Ensure proper width and positioning */
-  width: 250px; /* Example width, adjust as needed */
+  margin-top: 200;
+  width: 300px; 
   position: fixed;
-  top: 500px; /* Adjusted to position below navbar */
+  top: 500px;
   left: 0;
   overflow-y: visible;
-  height: 100%; /* Adjust to fit within viewport */
+  height: 100%;
   opacity: 0.5;
 }
 
