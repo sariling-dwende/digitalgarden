@@ -54,6 +54,7 @@ body {
 .content {
   padding-top: $navbar-height;
   margin-left: -100px;
+  z-index: 1 !important;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
     margin-left: 320px; // Adjusted as per previous steps
