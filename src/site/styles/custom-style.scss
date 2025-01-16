@@ -82,6 +82,38 @@ h1, h2, h3, h4, h5, h6 {
   max-width: max-content !important;
 }
 
+
+/* Make sidebar containers transparent and update styles */
+.sidebar {
+    .toc, 
+    .backlinks {
+        background-color: transparent !important;
+    }
+
+    .toc-container {
+        border-left: 1px solid var(--text-accent);
+        font-family: 'Satoshi', sans-serif;
+    }
+
+    .backlink-list {
+        border-left: 1px solid var(--text-accent);
+        font-family: 'Satoshi', sans-serif;
+    }
+}
+
+/* Update other text elements to use Satoshi */
+.toc-title,
+.backlink-title,
+.backlink-card,
+.no-backlinks-message {
+    font-family: 'Satoshi', sans-serif;
+}
+
+/* Make graph container transparent if needed */
+#link-graph {
+    background-color: transparent !important;
+}
+  
 .toc-container {
   margin-top: 200;
   width: 300px; 
