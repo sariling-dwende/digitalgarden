@@ -162,6 +162,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block; /* Prevent inline spacing issues */
 }
 
+#graph-controls {
+  padding-top: 10px;
+}
+
 #full-graph.show {
   align-items: center !important;
 }
