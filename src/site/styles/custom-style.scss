@@ -74,6 +74,15 @@ body {
   left: 0;
   overflow-y: auto;
   height: calc(100% - 100px); /* Adjust to fit within viewport */
+  opacity: 0.5;
+}
+
+.toc-container:hover {
+  opacity: 0.9;
+}
+
+.toc-container ul li::before {
+  content: none; /* Remove the '#' symbol */
 }
 
 /* Ensure graph-container has appropriate styles */
