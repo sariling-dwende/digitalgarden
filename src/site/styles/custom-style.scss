@@ -166,6 +166,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 10px;
 }
 
+.force-graph-container {
+  z-index: 1000 !important;
+}
+
 #full-graph {
   position: relative !important;
 }
