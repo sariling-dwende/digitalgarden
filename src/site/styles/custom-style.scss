@@ -38,10 +38,10 @@ body {
 }
 
 /* Add a fade-in animation */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 0.2; }
-}
+} */
 
 .background-wrapper {
   animation: fadeIn 0.5s ease-in-out forwards;
@@ -243,7 +243,7 @@ a:hover::after {
 }
 
 #full-graph-container {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.336);
     border-radius: 10px;
     padding: 20px;
     position: relative;
@@ -258,7 +258,7 @@ a:hover::after {
     color: white;
     z-index: 1002;
     cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.349);
     padding: 8px;
     border-radius: 50%;
     display: flex;
