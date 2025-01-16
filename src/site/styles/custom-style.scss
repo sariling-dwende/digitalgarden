@@ -54,7 +54,8 @@ body {
   font-size: 1.3em;
   color: antiquewhite !important;
   background-color: black;
-  display: inherit;
+  display: flex;
+  gap: 20px;
   margin: 0 auto !important;
   max-width: max-content !important;
 }
