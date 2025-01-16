@@ -42,6 +42,7 @@ body {
   padding-top: 30px;
   z-index: 1000;
   display: inline !important;
+  position: fixed;
 }
 
 .navbar-inner {
@@ -50,8 +51,11 @@ body {
 
 .nav-links {
   font-family: Satoshi, sans-serif !important;
+  font-size: 1em;
   background-color: black;
-  display: inherit;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 // ---------------------------
