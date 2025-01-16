@@ -34,24 +34,6 @@ body {
   animation: fadeIn 01.5s ease-in-out forwards !important;
   will-change: opacity;
   transform: translateZ(0);
-
-  &.homepage-background {
-    opacity: 1 !important;
-    canvas {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-
-  &:not(.homepage-background) {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.15 !important;
-    transition: opacity 0.5s ease-in-out !important;
-    animation: fadeIn 1.5s ease-in-out forwards !important;
-  }
 }
 
 .background-wrapper.loading {
