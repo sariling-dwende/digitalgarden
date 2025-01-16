@@ -39,13 +39,13 @@ body {
 
 /* Add a fade-in animation */
 /* @keyframes fadeIn {
-  from { opacity: 0; }
+  /*from { opacity: 0; }
   to { opacity: 0.2; }
 } */
 
-.background-wrapper {
+/* .background-wrapper {
   animation: fadeIn 0.5s ease-in-out forwards;
-}
+} */
 
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
