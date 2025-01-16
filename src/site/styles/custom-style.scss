@@ -274,8 +274,8 @@ a:hover::after {
     z-index: 5;
     width: 100%;
     height: 100%;
-    max-width: 1250px;
-    max-height: 850px;
+    max-width: 1250px !important;
+    max-height: 850px !important;
 }
 
 /* Expanded graph container */
