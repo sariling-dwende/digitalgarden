@@ -569,6 +569,7 @@ module.exports = function (eleventyConfig) {
     return new Date().getTime();
   });
 
+  eleventyConfig.addPassthroughCopy("src/site/assets/js");
   eleventyConfig.addPassthroughCopy("src/site/assets/backgrounds");
 
   return {
