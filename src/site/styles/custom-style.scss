@@ -21,15 +21,15 @@ body {
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
   padding-top: $navbar-height;
-  margin-left: -100px;
+  margin-left: 0;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
-    margin-left: 430px; // Adjusted as per previous steps
+    margin-left: 0;
     margin-right: 270px;
   }
 
   @media (min-width: 768px) and (max-width: 1199px) {
-    margin-left: 320px;
+    margin-left: 0;
     margin-right: 220px;
   }
 
