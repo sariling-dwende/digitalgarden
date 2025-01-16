@@ -43,6 +43,7 @@ body {
   z-index: 1000;
   display: inline !important;
 }
+
 .navbar-inner {
   max-width: max-content !important;
 }
@@ -50,6 +51,7 @@ body {
 .nav-links {
   font-family: Satoshi, sans-serif !important;
   background-color: black;
+  display: inherit;
 }
 
 // ---------------------------
