@@ -112,7 +112,7 @@ body {
 a {
     text-decoration: none !important; /* Remove default underline */
     position: relative; /* Position relative for pseudo-element */
-    color: var(--text-accent); /* Use your existing accent color */
+    color: rgb(67, 156, 215);
     transition: color 0.3s ease; /* Smooth color transition */
 }
 
@@ -123,7 +123,7 @@ a::after {
     bottom: -2px; /* Adjust position as needed */
     width: 0;
     height: 2px; /* Thickness of the underline */
-    background-color: var(--text-accent); /* Use your existing accent color */
+    background-color: rgb(67, 156, 215); /* Use your existing accent color */
     transition: width 0.3s ease; /* Smooth width transition */
 }
 
