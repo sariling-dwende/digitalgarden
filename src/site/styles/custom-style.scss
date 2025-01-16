@@ -31,6 +31,8 @@ body {
   opacity: 0.2 !important;
   pointer-events: none;
   transition: opacity 0.5s ease-in-out;
+  will-change: opacity;
+  transform: translateZ(0);
 }
 
 .background-wrapper.loading {

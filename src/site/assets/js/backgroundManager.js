@@ -1,15 +1,8 @@
-// Create an image preloader
-function preloadImages(urls) {
-    urls.forEach(url => {
-        const img = new Image();
-        img.src = url;
-    });
-}
-
-function getRandomBackground() {
-    // Add your background images to this array
-    const backgrounds = [
-        '/assets/js/backgrounds/image (1).jpeg',
+// Create a more efficient image preloader
+class BackgroundManager {
+    constructor() {
+        this.backgrounds = [
+            '/assets/js/backgrounds/image (1).jpeg',
         '/assets/js/backgrounds/image (2).jpeg',
         '/assets/js/backgrounds/image (3).jpeg',
         '/assets/js/backgrounds/image (4).jpeg',
@@ -215,40 +208,88 @@ function getRandomBackground() {
         '/assets/js/backgrounds/image (204).jpeg',
         '/assets/js/backgrounds/image (205).jpeg',
         '/assets/js/backgrounds/image (206).jpeg',
-    ];
-    
-    // Preload all images when the script loads
-    preloadImages(backgrounds);
-    
-    // Get a random background from the array
-    const randomIndex = Math.floor(Math.random() * backgrounds.length);
-    const selectedBackground = backgrounds[randomIndex];
-    return selectedBackground;
+        ];
+        this.preloadedImages = new Map();
+        this.currentIndex = Math.floor(Math.random() * this.backgrounds.length);
+        this.preloadBatch = 5; // Number of images to preload at a time
+    }
+
+    preloadImage(url) {
+        if (this.preloadedImages.has(url)) {
+            return Promise.resolve(this.preloadedImages.get(url));
+        }
+
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+                this.preloadedImages.set(url, img);
+                resolve(img);
+            };
+            img.onerror = reject;
+            img.src = url;
+        });
+    }
+
+    async preloadNextBatch() {
+        const startIdx = this.currentIndex;
+        const promises = [];
+
+        for (let i = 0; i < this.preloadBatch; i++) {
+            const idx = (startIdx + i) % this.backgrounds.length;
+            promises.push(this.preloadImage(this.backgrounds[idx]));
+        }
+
+        try {
+            await Promise.all(promises);
+        } catch (error) {
+            console.error('Error preloading images:', error);
+        }
+    }
+
+    getRandomBackground() {
+        return this.backgrounds[this.currentIndex];
+    }
+
+    async setBackground() {
+        const backgroundWrapper = document.querySelector('.background-wrapper');
+        if (!backgroundWrapper) {
+            console.error('Background wrapper not found');
+            return;
+        }
+
+        try {
+            // Add loading class
+            backgroundWrapper.classList.add('loading');
+            
+            // Preload current image
+            const currentBackground = this.getRandomBackground();
+            await this.preloadImage(currentBackground);
+            
+            // Set the background
+            backgroundWrapper.style.backgroundImage = `url('${currentBackground}')`;
+            backgroundWrapper.classList.remove('loading');
+
+            // Preload next batch in the background
+            this.preloadNextBatch();
+
+        } catch (error) {
+            console.error('Failed to load background:', error);
+            backgroundWrapper.classList.remove('loading');
+        }
+    }
 }
 
-// Set the background when the page loads
+// Initialize and use the background manager
+const bgManager = new BackgroundManager();
+
+// Set initial background when page loads
 document.addEventListener('DOMContentLoaded', () => {
-    const backgroundWrapper = document.querySelector('.background-wrapper');
-    if (backgroundWrapper) {
-        // Add loading class
-        backgroundWrapper.classList.add('loading');
-        
-        const background = getRandomBackground();
-        const img = new Image();
-        
-        img.onload = () => {
-            backgroundWrapper.style.backgroundImage = `url('${background}')`;
-            // Remove loading class when image is loaded
-            backgroundWrapper.classList.remove('loading');
-        };
-        
-        img.onerror = () => {
-            console.error('Failed to load background:', background);
-            backgroundWrapper.classList.remove('loading');
-        };
-        
-        img.src = background;
-    } else {
-        console.error('Background wrapper not found');
-    }
+    bgManager.setBackground();
 });
+
+// Optional: Preload more images when the user is idle
+if ('requestIdleCallback' in window) {
+    requestIdleCallback(() => {
+        bgManager.preloadNextBatch();
+    });
+}
