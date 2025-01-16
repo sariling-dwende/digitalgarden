@@ -30,11 +30,11 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 | Note                                | Published        |
 | ----------------------------------- | ---------------- |
+| [[_logs/2025-01-16\|2025-01-16]] | January 16, 2025 |
 | [[_logs/2025-01-15\|2025-01-15]] | January 15, 2025 |
 | [[_logs/2025-01-14\|2025-01-14]] | January 14, 2025 |
 | [[_logs/2025-01-13\|2025-01-13]] | January 13, 2025 |
 | [[_logs/2025-01-12\|2025-01-12]] | January 12, 2025 |
-| [[_logs/2025-01-11\|2025-01-11]] | January 11, 2025 |
 
 { .block-language-dataview}
 
