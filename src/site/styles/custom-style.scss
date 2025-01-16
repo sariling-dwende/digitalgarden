@@ -39,9 +39,9 @@ body {
   }
 }
 .navbar {
-  padding-top: 30px;
+  padding-top: 10px;
   z-index: 1000;
-  display: inline !important;
+  display: inline-block !important;
   position: fixed;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .nav-links {
   font-family: Satoshi, sans-serif !important;
-  font-size: 1em;
+  font-size: 2em;
   background-color: black;
   display: inherit;
   padding-left: 10px;
