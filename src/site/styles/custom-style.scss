@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .force-graph-container {
-  z-index: 1000 !important;
+  z-index: 500 !important;
 }
 
 #full-graph {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 #full-graph.show {
   align-items: center !important;
   position: center !important;
-  z-index: 1000 !important;
+  z-index: 900 !important;
 }
 
 /* ---------------------------
