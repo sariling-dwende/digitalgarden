@@ -18,6 +18,20 @@ body {
   position: relative;
 }
 
+.background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
   padding-top: $navbar-height;
