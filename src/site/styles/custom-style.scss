@@ -162,6 +162,10 @@ h1, h2, h3, h4, h5, h6 {
   display: block; /* Prevent inline spacing issues */
 }
 
+#full-graph.show {
+  align-items: center !important;
+}
+
 /* ---------------------------
 // Scrollbar Styling for TOC and Graph
 // ---------------------------
