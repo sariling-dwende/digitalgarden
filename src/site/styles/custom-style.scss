@@ -30,6 +30,21 @@ body {
   background-repeat: no-repeat;
   opacity: 0.2;
   pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.background-wrapper.loading {
+  opacity: 0;
+}
+
+/* Add a fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 0.2; }
+}
+
+.background-wrapper {
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
 
 /* Ensure the main content does not get hidden behind the fixed navbar */
