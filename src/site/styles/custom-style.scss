@@ -72,7 +72,7 @@ body {
   position: fixed;
   top: 100px; /* Adjusted to position below navbar */
   left: 0;
-  overflow-y: auto;
+  overflow-y: visible;
   height: 100%; /* Adjust to fit within viewport */
   opacity: 0.5;
 }
