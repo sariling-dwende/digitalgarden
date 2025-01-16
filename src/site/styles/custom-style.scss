@@ -82,7 +82,7 @@ body {
 }
 
 .toc-container ul li::before {
-  content: none; /* Remove the '#' symbol */
+  content: none !important; /* Remove the '#' symbol */
 }
 
 /* Ensure graph-container has appropriate styles */
