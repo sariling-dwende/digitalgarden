@@ -100,13 +100,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   
   @media (max-width: 768px) {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     
-    /* Hide scrollbar but keep functionality */
     scrollbar-width: none;
     -ms-overflow-style: none;
     &::-webkit-scrollbar {
@@ -149,8 +149,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 1rem;
   white-space: nowrap;
-  margin-left: 320px; /* Align with content */
-  padding-left: 140px; /* Space for social icons */
+  margin-left: 320px;
+  padding-left: 140px;
   
   @media (max-width: 1200px) {
     margin-left: 100px;
@@ -160,7 +160,6 @@ h1, h2, h3, h4, h5, h6 {
   @media (max-width: 768px) {
     margin-left: 80px;
     padding-left: 80px;
-    padding-right: 60px; /* Space for search icon */
   }
   
   a {
@@ -176,15 +175,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Search container adjustments */
 .search-container {
-  position: fixed;
-  right: 20px;
-  z-index: 1000;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 20px;
+  flex-shrink: 0;
   
   @media (max-width: 768px) {
-    right: 10px;
+    margin-right: 10px;
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(8px);
-    padding-left: 10px;
   }
 }
 
@@ -477,4 +477,8 @@ a:hover::after {
       font-weight: 600;
     }
   }
+}
+
+.search-container {
+  display: none;
 }
