@@ -23,6 +23,8 @@ I am still processing this feeling of resignation. I fear I might have become to
 Art became a distant place seen from the side mirror. A place where I look back only to see where I am going. A place whose soil is where I would plant my feet and prosper. Back then, it was clear to me that I belong in the crowd of the contemporary movement — the consciousness of my own generation basking in culture and life of the streets when the working class is in their restless sleep.
 
 Working in the art industry and being involved with the art scene, got me disillusioned by the bourgeoise faux pas passion of the wealthy towards art. The disconnectedness of every critic and connoisseur’s jargon-filled speech amounts to a form of meaningless gibberish elevated by an overpriced admission fee. This cultish obsession left me with a feeling of insincere passion when the environment is paid for by the elite. The patron system and nepotism within the industry that criticism enables killed my passion to create something great for the sake of it. What came after was a series of realizations, which often felt like layers of rugs being pulled beneath my feet until the floor ceases to exist and nothing was left but me floating in an empty space.
+{ #4c4d9a}
+
 
 For three years, I learned how to stand in that empty space. I hated every second of it.
 
