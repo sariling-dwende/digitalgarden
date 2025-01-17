@@ -228,15 +228,30 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add this new function for header highlighting
 function initHeaderHighlighting() {
   const headers = document.querySelectorAll('.content h1, .content h2, .content h3');
-  const tocLinks = document.querySelectorAll('.toc a');
+  const tocLinks = document.querySelectorAll('.toc-content a');
   
-  // Create intersection observer for headers
+  console.log('Found headers:', headers.length);
+  console.log('Found TOC links:', tocLinks.length);
+  
+  // Log all headers and their IDs
+  headers.forEach(header => {
+    console.log('Header:', header.textContent.trim(), 'ID:', header.id);
+  });
+  
+  // Log all TOC links and their hrefs
+  tocLinks.forEach(link => {
+    console.log('TOC link:', link.textContent.trim(), 'href:', link.getAttribute('href'));
+  });
+
   const headerObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        // Find the corresponding TOC link by matching href with header id
         const targetId = entry.target.id;
-        const correspondingLink = document.querySelector(`.toc a[href="#${targetId}"]`);
+        console.log('Intersecting header ID:', targetId);
+        
+        // Find matching TOC link
+        const correspondingLink = document.querySelector(`.toc-content a[href="#${targetId}"]`);
+        console.log('Found corresponding link:', correspondingLink ? 'yes' : 'no');
         
         if (correspondingLink) {
           // Remove active class from all links
@@ -259,10 +274,13 @@ function initHeaderHighlighting() {
     threshold: 0
   });
   
-  // Observe all headers
+  // Only observe headers that have IDs
   headers.forEach(header => {
     if (header.id) {
       headerObserver.observe(header);
+      console.log('Observing header:', header.textContent.trim());
+    } else {
+      console.warn('Header missing ID:', header.textContent.trim());
     }
   });
 }
