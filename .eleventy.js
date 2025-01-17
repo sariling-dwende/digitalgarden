@@ -533,7 +533,8 @@ module.exports = function (eleventyConfig) {
     afterContent: "</nav>",
     transformLink: (href, text) => {
       const cleanText = text.startsWith('#') ? text.substring(1) : text;
-      return `<a href="${href}">${cleanText}</a>`;
+      const cleanHref = href.startsWith('#') ? href : `#${href}`;
+      return `<a href="${cleanHref}">${cleanText}</a>`;
     }
   });
 
