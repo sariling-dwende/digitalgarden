@@ -233,16 +233,16 @@ function initHeaderHighlighting() {
   // Create intersection observer for headers
   const headerObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      // Find the corresponding TOC link
-      const targetId = entry.target.id;
-      const correspondingLink = document.querySelector(`.toc a[href="#${targetId}"]`);
-      
       if (entry.isIntersecting) {
-        // Remove active class from all links
-        tocLinks.forEach(link => link.classList.remove('active-header'));
+        // Find the corresponding TOC link by matching href with header id
+        const targetId = entry.target.id;
+        const correspondingLink = document.querySelector(`.toc a[href="#${targetId}"]`);
         
-        // Add active class to current section's link
         if (correspondingLink) {
+          // Remove active class from all links
+          tocLinks.forEach(link => link.classList.remove('active-header'));
+          
+          // Add active class to current section's link
           correspondingLink.classList.add('active-header');
           
           // Ensure the active link is visible in the TOC
@@ -255,24 +255,24 @@ function initHeaderHighlighting() {
       }
     });
   }, {
-    rootMargin: '-5% 0px -75% 0px', // Adjust these values to change when highlighting occurs
+    rootMargin: '-5% 0px -75% 0px',
     threshold: 0
   });
   
   // Observe all headers
   headers.forEach(header => {
-    if (header.id) { // Only observe headers with IDs
+    if (header.id) {
       headerObserver.observe(header);
     }
   });
 }
 
-// Update the DOMContentLoaded event listener
+// Make sure the initialization happens after DOM content is loaded
 document.addEventListener('DOMContentLoaded', () => {
   try {
     console.group('Initialization');
     initTableOfContents();
-    initHeaderHighlighting(); // Add the new initialization
+    initHeaderHighlighting(); // Make sure this is called
     initImageZoom();
     console.groupEnd();
   } catch (error) {
