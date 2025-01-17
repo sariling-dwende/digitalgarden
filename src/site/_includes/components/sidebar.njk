@@ -9,19 +9,19 @@
                   {%endif%}
 
                   {%if settings.dgShowToc === true%}
-                        {%set tocHtml= (content and (content|toc)) %}
+                        {%set tocHtml = (content and (content|toc)) %}
                         {%if tocHtml %}
                               <div class="toc">
                                     <div class="toc-title-container">
                                           <div class="toc-title">
+                                                On this page
                                           </div>
                                     </div>
                                     <div class="toc-container">
-                                          {{ tocHtml | safe }}
+                                          {{ tocHtml | replace('#', '') | safe }}
                                     </div>
                               </div>
                         {%endif%}
-
                   {%endif%}
 
                         {%if settings.dgShowBacklinks === true %}

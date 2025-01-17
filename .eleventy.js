@@ -528,6 +528,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(tocPlugin, {
     ul: true,
     tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
+    wrapperClass: "toc-content",
+    beforeContent: "<nav class='toc'>",
+    afterContent: "</nav>",
+    transformLink: (href, text) => {
+      const cleanText = text.startsWith('#') ? text.substring(1) : text;
+      return `<a href="${href}">${cleanText}</a>`;
+    }
   });
 
 

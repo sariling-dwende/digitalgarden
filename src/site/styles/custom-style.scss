@@ -362,24 +362,39 @@ a:hover::after {
   100% { background-position: -100% 0; }
 }
 
-/* Remove '#' from TOC items - multiple possible selectors to ensure it works */
-.toc-container li::marker,
-.toc li::marker,
-nav.toc li::marker,
-.toc-container ul li::marker {
-  content: "" !important;
-}
+/* TOC Styles */
+.toc-container,
+.toc {
+  ul {
+    list-style-type: none !important;
+    padding-left: 1em !important;
+    margin: 0.5em 0 !important;
+  }
 
-.toc-container ul,
-.toc ul,
-nav.toc ul {
-  list-style-type: none !important;
-  padding-left: 1em;
-}
+  li {
+    margin: 0.3em 0 !important;
+    padding: 0 !important;
+    
+    &::before,
+    &::marker {
+      display: none !important;
+      content: none !important;
+    }
+  }
 
-.toc-container ul li::before,
-.toc ul li::before,
-nav.toc ul li::before {
-  content: none !important;
-  display: none !important;
+  a {
+    text-decoration: none !important;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      opacity: 1;
+      transform: translateX(3px);
+    }
+    
+    &.active {
+      opacity: 1;
+      font-weight: 600;
+    }
+  }
 }
