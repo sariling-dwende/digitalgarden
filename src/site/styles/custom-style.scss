@@ -306,3 +306,12 @@ a:hover::after {
         background-color: rgba(255, 255, 255, 0.1);
     }
 }
+
+.backlinks-container {
+  overflow: visible;
+  opacity: 0.5;
+}
+
+.backlinks-container:hover {
+  opacity: 0.9;
+}
