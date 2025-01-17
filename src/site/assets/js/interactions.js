@@ -230,21 +230,15 @@ function initHeaderHighlighting() {
   const headers = document.querySelectorAll('.content h1, .content h2, .content h3');
   const tocLinks = document.querySelectorAll('.toc-content a');
   
-  console.log('Found headers:', headers.length);
-  console.log('Found TOC links:', tocLinks.length);
-  
   const headerObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const targetId = entry.target.id;
-        console.log('Intersecting header ID:', targetId);
         
         // Find matching TOC link - check both with and without '#'
         const correspondingLink = document.querySelector(
           `.toc-content a[href="#${targetId}"], .toc-content a[href="${targetId}"]`
         );
-        
-        console.log('Found corresponding link:', correspondingLink ? 'yes' : 'no');
         
         if (correspondingLink) {
           // Remove active class from all links
@@ -268,8 +262,9 @@ function initHeaderHighlighting() {
       }
     });
   }, {
-    rootMargin: '-5% 0px -75% 0px',
-    threshold: 0
+    // Adjusted margins to better handle headers at the bottom
+    rootMargin: '-10% 0px -30% 0px',
+    threshold: [0, 0.1, 1.0] // Added multiple thresholds for better detection
   });
   
   // Fix TOC links on page load
@@ -284,11 +279,23 @@ function initHeaderHighlighting() {
   headers.forEach(header => {
     if (header.id) {
       headerObserver.observe(header);
-      console.log('Observing header:', header.textContent.trim());
-    } else {
-      console.warn('Header missing ID:', header.textContent.trim());
     }
   });
+
+  // Add handler for last section
+  window.addEventListener('scroll', () => {
+    // Check if we're at the bottom of the page
+    if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 100) {
+      const lastHeader = headers[headers.length - 1];
+      if (lastHeader && lastHeader.id) {
+        const lastLink = document.querySelector(`.toc-content a[href="#${lastHeader.id}"]`);
+        if (lastLink) {
+          tocLinks.forEach(link => link.classList.remove('active-header'));
+          lastLink.classList.add('active-header');
+        }
+      }
+    }
+  }, { passive: true });
 }
 
 // Make sure the initialization happens after DOM content is loaded
