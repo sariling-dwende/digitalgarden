@@ -224,3 +224,58 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   */
 });
+
+// Add this new function for header highlighting
+function initHeaderHighlighting() {
+  const headers = document.querySelectorAll('.content h1, .content h2, .content h3');
+  const tocLinks = document.querySelectorAll('.toc a');
+  
+  // Create intersection observer for headers
+  const headerObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      // Find the corresponding TOC link
+      const targetId = entry.target.id;
+      const correspondingLink = document.querySelector(`.toc a[href="#${targetId}"]`);
+      
+      if (entry.isIntersecting) {
+        // Remove active class from all links
+        tocLinks.forEach(link => link.classList.remove('active-header'));
+        
+        // Add active class to current section's link
+        if (correspondingLink) {
+          correspondingLink.classList.add('active-header');
+          
+          // Ensure the active link is visible in the TOC
+          correspondingLink.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest',
+            inline: 'nearest'
+          });
+        }
+      }
+    });
+  }, {
+    rootMargin: '-5% 0px -75% 0px', // Adjust these values to change when highlighting occurs
+    threshold: 0
+  });
+  
+  // Observe all headers
+  headers.forEach(header => {
+    if (header.id) { // Only observe headers with IDs
+      headerObserver.observe(header);
+    }
+  });
+}
+
+// Update the DOMContentLoaded event listener
+document.addEventListener('DOMContentLoaded', () => {
+  try {
+    console.group('Initialization');
+    initTableOfContents();
+    initHeaderHighlighting(); // Add the new initialization
+    initImageZoom();
+    console.groupEnd();
+  } catch (error) {
+    console.error('Error during initialization:', error);
+  }
+});
