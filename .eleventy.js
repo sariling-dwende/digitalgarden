@@ -532,9 +532,15 @@ module.exports = function (eleventyConfig) {
     beforeContent: "<nav class='toc'>",
     afterContent: "</nav>",
     transformLink: (href, text) => {
-      const cleanText = text.startsWith('#') ? text.substring(1) : text;
-      const cleanHref = href.startsWith('#') ? href : `#${href}`;
-      return `<a href="${cleanHref}">${cleanText}</a>`;
+      // Remove any leading/trailing spaces and special characters
+      const headerId = href.replace(/^#/, '').toLowerCase()
+        .replace(/[^\w\s-]/g, '')  // Remove special characters
+        .replace(/\s+/g, '-');     // Replace spaces with hyphens
+      
+      const cleanText = text.replace(/^#/, '').trim();
+      
+      // Create proper anchor link
+      return `<a href="#${headerId}" class="toc-link">${cleanText}</a>`;
     }
   });
 
