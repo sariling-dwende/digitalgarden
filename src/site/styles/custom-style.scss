@@ -307,12 +307,12 @@ a:hover::after {
     }
 }
 
-.backlinks-container {
+.backlink-list {
   overflow: visible;
   opacity: 0.5;
 }
 
-.backlinks-container:hover {
+.backlink-list:hover {
   opacity: 0.9;
 }
 
@@ -360,4 +360,26 @@ a:hover::after {
 @keyframes gradient {
   0% { background-position: 100% 0; }
   100% { background-position: -100% 0; }
+}
+
+/* Remove '#' from TOC items - multiple possible selectors to ensure it works */
+.toc-container li::marker,
+.toc li::marker,
+nav.toc li::marker,
+.toc-container ul li::marker {
+  content: "" !important;
+}
+
+.toc-container ul,
+.toc ul,
+nav.toc ul {
+  list-style-type: none !important;
+  padding-left: 1em;
+}
+
+.toc-container ul li::before,
+.toc ul li::before,
+nav.toc ul li::before {
+  content: none !important;
+  display: none !important;
 }
