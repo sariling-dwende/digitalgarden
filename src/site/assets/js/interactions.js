@@ -233,24 +233,17 @@ function initHeaderHighlighting() {
   console.log('Found headers:', headers.length);
   console.log('Found TOC links:', tocLinks.length);
   
-  // Log all headers and their IDs
-  headers.forEach(header => {
-    console.log('Header:', header.textContent.trim(), 'ID:', header.id);
-  });
-  
-  // Log all TOC links and their hrefs
-  tocLinks.forEach(link => {
-    console.log('TOC link:', link.textContent.trim(), 'href:', link.getAttribute('href'));
-  });
-
   const headerObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const targetId = entry.target.id;
         console.log('Intersecting header ID:', targetId);
         
-        // Find matching TOC link
-        const correspondingLink = document.querySelector(`.toc-content a[href="#${targetId}"]`);
+        // Find matching TOC link - check both with and without '#'
+        const correspondingLink = document.querySelector(
+          `.toc-content a[href="#${targetId}"], .toc-content a[href="${targetId}"]`
+        );
+        
         console.log('Found corresponding link:', correspondingLink ? 'yes' : 'no');
         
         if (correspondingLink) {
@@ -259,6 +252,11 @@ function initHeaderHighlighting() {
           
           // Add active class to current section's link
           correspondingLink.classList.add('active-header');
+          
+          // Add '#' to href if it's missing
+          if (!correspondingLink.getAttribute('href').startsWith('#')) {
+            correspondingLink.href = '#' + correspondingLink.getAttribute('href');
+          }
           
           // Ensure the active link is visible in the TOC
           correspondingLink.scrollIntoView({
@@ -272,6 +270,14 @@ function initHeaderHighlighting() {
   }, {
     rootMargin: '-5% 0px -75% 0px',
     threshold: 0
+  });
+  
+  // Fix TOC links on page load
+  tocLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href && !href.startsWith('#')) {
+      link.href = '#' + href;
+    }
   });
   
   // Only observe headers that have IDs
