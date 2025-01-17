@@ -100,12 +100,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  width: 100%;
+  max-width: 1800px; /* Match your content max-width */
+  padding: 0 20px;
   
   @media (max-width: 768px) {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+    padding: 0 10px;
     
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -149,27 +152,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 1rem;
   white-space: nowrap;
-  margin-left: 320px;
-  padding-left: 140px;
-  
-  @media (max-width: 1200px) {
-    margin-left: 100px;
-    padding-left: 120px;
-  }
+  margin-left: 120px; /* Adjusted to match content */
   
   @media (max-width: 768px) {
     margin-left: 80px;
-    padding-left: 80px;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: $color-accent-hover;
-    }
   }
 }
 
@@ -177,9 +163,15 @@ h1, h2, h3, h4, h5, h6 {
 .search-container {
   display: flex;
   align-items: center;
-  margin-left: 1rem;
-  margin-right: 20px;
-  flex-shrink: 0;
+  margin-left: auto; /* Push to the right */
+  padding-left: 1rem;
+  z-index: 1000;
+  
+  .search-bar {
+    display: flex;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
   
   @media (max-width: 768px) {
     margin-right: 10px;
@@ -481,4 +473,17 @@ a:hover::after {
 
 .search-container {
   display: none;
+}
+
+// Make sure search elements are visible
+.search-button {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.search-container button {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
