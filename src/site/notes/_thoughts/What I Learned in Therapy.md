@@ -58,7 +58,11 @@ If the old me attempted to write these thoughts, it would probably be laden with
 Hell, why did I never take too much attention trying to close read my own writings. See, even then, I knew what I want to say. But I just needed it to have a layer of figurative and the symbolic at the same time to make it more interesting and call myself creative. At some point, I still believe it made me productively creative. I still carry the practice of fusing concepts from different areas of knowledge and seeing a potential unique idea that it may carry.
 
 Then I found out that I was never actually trying to say anything. Writing is my own way of expression but I never had any experience worthy of writing. So everything that I try to write about eventually leads to writing itself. I had no identity when it comes to writing. No foundation upon which my writing stands. So I tried to find the most abstract ideas and write them down because I can never make something concrete and simple deep. I did not know how to look at something ordinary and find the poetry in the mundane. My process was always the opposite: start with the depths. Hit my audience with the truck of the void on their faces and bewilder them with the smokes and mirrors of obscure language. That was how my subconscious handled writing.
+{ #1450fc}
+
 
 Yet, I knew that I have the natural tendency to be honest and this writing practice of mine only developed a subconscious self-distrust. It was a growing self-hatred for my own revered passion. I have been lying to myself for far too long and I intuitively knew that I needed to stop this charade.
+{ #f74241}
+
 
 So I stopped writing.

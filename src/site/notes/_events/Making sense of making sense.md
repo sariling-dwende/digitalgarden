@@ -11,6 +11,8 @@ I have always been a social recluse. Oftentimes, I blame it on my high introvers
 This tendency has left me in a cycle of seclusion and abrupt appearance. I hide from the world to reconstruct the self that I may have long lost at the cost of interacting with other people. Then, when I resurface to the world, I can only tease the world about who I am because of my secretive nature. I deprived myself of the presence of other people that I have become so full of myself, leaving me hungry to express myself as a mode of self-assertion coupled with a faint tinge of my desire for recognition.
 
 What follows is the birth of my propensity to obscure my own expression. This middle ground of pressure between self-preservation and self-expression denies me of any clarity of communication. In this way, I can say too much without saying anything at all. Everything and nothing simultaneously—an oscillation of identities between appearance and disappearance. The perpetual tension of the self and the unself.
+{ #35f81e}
+
 
 Pessoa was here.
 
