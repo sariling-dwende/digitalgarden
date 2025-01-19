@@ -28,13 +28,13 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 
 
-| Note                                | Published        |
-| ----------------------------------- | ---------------- |
-| [[_logs/2025-01-18\|2025-01-18]] | January 18, 2025 |
-| [[_logs/2025-01-17\|2025-01-17]] | January 17, 2025 |
-| [[_logs/2025-01-16\|2025-01-16]] | January 16, 2025 |
-| [[_logs/2025-01-15\|2025-01-15]] | January 15, 2025 |
-| [[_logs/2025-01-14\|2025-01-14]] | January 14, 2025 |
+| Note                                                     | Published        |
+| -------------------------------------------------------- | ---------------- |
+| [[_musings/Against Agnosticism\|Against Agnosticism]] | January 19, 2025 |
+| [[_logs/2025-01-18\|2025-01-18]]                      | January 18, 2025 |
+| [[_logs/2025-01-17\|2025-01-17]]                      | January 17, 2025 |
+| [[_logs/2025-01-16\|2025-01-16]]                      | January 16, 2025 |
+| [[_logs/2025-01-15\|2025-01-15]]                      | January 15, 2025 |
 
 { .block-language-dataview}
 
