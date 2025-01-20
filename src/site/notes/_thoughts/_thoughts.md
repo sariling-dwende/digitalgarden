@@ -14,6 +14,7 @@
 - [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 - [[_thoughts/On Experiencing Art\|On Experiencing Art]]
 - [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]
+- [[_thoughts/Seasons of the Mind\|Seasons of the Mind]]
 - [[_thoughts/Seeing Myself\|Seeing Myself]]
 - [[_thoughts/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]]
 - [[_thoughts/The Creation of God\|The Creation of God]]
