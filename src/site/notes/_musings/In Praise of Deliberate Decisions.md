@@ -9,6 +9,8 @@ There are times when letting go is the key for a peaceful life. It lessens the f
 
 
 It is not a perverse idea on its own. We must permit the world to move us. We must let the world fill us with its vastness to allow us to feel that we can become more than human while at the same time, remind us of our fragile mortality. It is in this duality where we must thrive in accordance with who we are and our objective relationship with the universe. This push and pull of different states, filling us up and then emptying us down with energies that are up to us to express to the world using our emotions and intellect. It is in this struggle, this back-and-forth movement of certain polarities, the ricocheting of various states and its journey that is the foundation not only of life but with what makes us _feel_ alive. It is the core sensibility of claiming your humanity against various attempts of other subjects to claim your humanity for their own.
+{ #bf1f3b}
+
 
 Because it is true that the world has its own system of motions and that we are all caught up in it. The world is the ultimate puppeteer of objects to serve what it must to sustain itself. However, when one fully surrenders to it, the self becomes inanimate.
 

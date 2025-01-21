@@ -30,11 +30,11 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 | Note                                                      | Published        |
 | --------------------------------------------------------- | ---------------- |
+| [[_logs/2025-01-21\|2025-01-21]]                       | January 21, 2025 |
 | [[_thoughts/Seasons of the Mind\|Seasons of the Mind]] | January 20, 2025 |
 | [[_logs/2025-01-20\|2025-01-20]]                       | January 20, 2025 |
 | [[_musings/Against Agnosticism\|Against Agnosticism]]  | January 19, 2025 |
 | [[_logs/2025-01-19\|2025-01-19]]                       | January 19, 2025 |
-| [[_logs/2025-01-18\|2025-01-18]]                       | January 18, 2025 |
 
 { .block-language-dataview}
 
