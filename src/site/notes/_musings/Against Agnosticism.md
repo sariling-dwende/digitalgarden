@@ -3,6 +3,8 @@
 ---
 
 Agnosticism in a highly secularized world has becoming an intellectual fashion. Organized religions still remain to be an immovable object, standing as monumental image of a frozen time with beliefs so enduring to address human's basic instinct to rely to an external being for spiritual guidance, to reveal the path forward for those whose minds are strained from interpreting the world that is becoming more and more complex each day. Belief is the anchor that grounds man. It becomes a requirement for survival in the face of utter uncertainty. Belief creates a space where an unwavering faith can exist.
+{ #aca42c}
+
 
 The world as it is has been consistent in its attempts to disprove the existence of a higher being by eliminating the spaces where it is needed. "God is dead!" as Nietzsche proclaims as we have killed Him with industrialization. God was "killed" by the machines we've built. We have blurred the existence of the heavens with the smoke and steam of progress. We have severed our connection with nature with technology, trading oracles, nymphs, and spirits to movements of data in the air. This alienation is brought by our own undoing.
 
