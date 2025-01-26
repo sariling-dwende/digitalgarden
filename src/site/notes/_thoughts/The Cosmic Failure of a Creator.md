@@ -26,6 +26,8 @@ Trusting yourself is a two-way process where you have to be yourself and you als
 So what's all of this got to do with AI development?
 
 The short answer is that we cannot trust ourselves that we are doing this for our benefit because of the fact that the effects that these developments are producing is transgressing with our own sense of human responsibility.
+{ #de5ae9}
+
 
 We humans still do not have the discipline for ethical decency and moral actions to use a tool that is supposed to help ourselves achieve more with our limited capacity to learn, remember, and apply those learnings. More so, we still have a long way to go for deeper and practical empathy. We still lose ourselves to our own cravings, which is a hint that we as a species still do not understand a lot about ourselves. So why should we trust another human to create artificial intelligence if we still cannot articulate what is it that we are actually doing?
 
