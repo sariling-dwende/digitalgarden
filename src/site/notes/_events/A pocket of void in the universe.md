@@ -25,6 +25,8 @@ We are beings hiding in plain sight, creating pockets of our own voids as we our
 > _These words, as you read them in sequence reveal the pocket of void that I have left using a language to decrypt my secret._
 
 This is how we make secrets sacred—always unrequited and perverse. In prayer: a private communication towards something hidden, a one-way declaration of the recognition of the other, who has created a pocket of a void somewhere in the world, we ask:
+{ #dfcc2b}
+
 
 > _Are these the words that decrypt the language of a universe you locked from us? Grant me entry into this secret, for an unworthy soul, a no-place that I can only think of as Heaven, where in knowing, I shall be set free from the burden of my own curiosity. Just say the word and I shall be healed._
 
