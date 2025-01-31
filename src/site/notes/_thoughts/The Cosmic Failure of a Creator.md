@@ -4,7 +4,7 @@
 
 Lately, I am feeling more and more hopeless about a certain progress that humanity should have done centuries ago. That certain progress is a collective understanding of who we are as humans. Recent news about the developments in AI is saying that it is just a matter of time before our limited human understanding is surpassed by the very thing we are still grasping to understand.
 
-I have been mulling over the possible implications of AI development for a [[_thoughts/Existential Anxiety around the Advancements in Large Language Models\|couple]] of [[_logs/2025-01-04\|days]] now. My feed has been increasingly geared towards [news about AI development](https://youtu.be/ixgunKpy61s) and news about megalomaniacs who are seemingly "pushing the boundaries" of technology for the human civilization.
+I have been mulling over the possible implications of AI development for a [[_thoughts/Existential Anxiety around the Advancements in Large Language Models\|couple]] of [[_logs/_01_January/2025-01-04\|days]] now. My feed has been increasingly geared towards [news about AI development](https://youtu.be/ixgunKpy61s) and news about megalomaniacs who are seemingly "pushing the boundaries" of technology for the human civilization.
 
 But the more we look at it, the more capitalism reveals itself (still the reigning culprit of cultural decline) as the catalyst for a chain of problems it has been causing.
 
