@@ -16,6 +16,8 @@ If we divide agnosticism between epistemology and theology, we can find that:
 
 - **Epistemological Agnosticism and Belief**: Here, the focus is on the limits of human knowledge. When someone maintains this epistemological stance, they can still entertain personal beliefs about God within those acknowledged limitations.
 	- **Following Kant**, *"I have therefore found it necessary to deny knowledge in order to make room for faith alone." (Prolegomena to Any Future Metaphysics, 1783);*
+{ #02921d}
+
 	- **And Russell,** who was an avowed atheist later in life but had a more nuanced view of God's existence earlier on, articulated the problem of not knowing whether God exists:
 		*"I do not myself believe that any definite answer can be given to the question 'Does God exist?' because I think it is based on an illusion. But if I were asked to state what I understand by the word 'God', I should say that I understand by it a limiting concept which we use to denote the maximum conceivable degree of all those qualities which we value most in our universe." (The Value of Philosophy, 1931)*
 
