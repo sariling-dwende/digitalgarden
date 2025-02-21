@@ -31,6 +31,7 @@ As of this moment, I have five points of origin from where we can start. As the 
 This list excludes daily logs that can be found [[_logs/_logs\|here]].
 | Note                                                                                                                                                        | Published         |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [[on Companion (2025)\|on Companion (2025)]]                                                                                                             | February 21, 2025 |
 | [[_musings/Technology and its Discontents\|Technology and its Discontents]]                                                                              | January 26, 2025  |
 | [[_thoughts/Seasons of the Mind\|Seasons of the Mind]]                                                                                                   | January 20, 2025  |
 | [[_musings/Against Agnosticism\|Against Agnosticism]]                                                                                                    | January 19, 2025  |
@@ -40,7 +41,6 @@ This list excludes daily logs that can be found [[_logs/_logs\|here]].
 | [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                                                                               | December 25, 2024 |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]                                                                                                   | December 25, 2024 |
 | [[_events/The breakdown\|The breakdown]]                                                                                                                 | December 22, 2024 |
-| [[_events/The point of it all\|The point of it all]]                                                                                                     | December 22, 2024 |
 
 { .block-language-dataview}
 
