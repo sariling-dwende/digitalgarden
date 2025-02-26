@@ -1,12 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/logs/02-february/2025-02-21/","noteIcon":"","created":"2025-02-21"}
+{"dg-publish":true,"permalink":"/thoughts/on-companion-2025/","noteIcon":"","created":"2025-02-21"}
 ---
-
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/thoughts/on-companion-2025/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
 
 It is the perfect time to release this movie. I guess I might have a different  perception about it because apart from the unsolicited and intrusive screenshots I saw on Twitter about this movie, nothing prepared me for the twist. I see some who felt robbed of the experience because apparently, the core plot was already revealed during the trailer. Well, you know me. I don't watch trailers of films I know I'll watch.
 
@@ -21,5 +15,3 @@ I have held a firm belief that the emergence of LLMs will only feed our own ego.
 It has become a norm for me to always expect that we are here, orchestrating our own demise, unknowingly, as we make ourselves believe that the things that we do for love is the right thing for us. What a shame.
 
 You cannot turn off or shut the Other down whenever it's convenient for you. I love that the film is all about the inability to face the consequences of your own actions. That we always assume that since the future hasn't happened yet, we are free from the chain reaction that our decisions will create. 
-
-</div></div>
