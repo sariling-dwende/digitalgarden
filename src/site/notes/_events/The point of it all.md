@@ -14,7 +14,7 @@ But after I broke away from my creative circle and got a job where writing becam
 
 I used to deliberately direct my work towards obscurity and obfuscation. The purpose was to twist a writing piece, an idea, or a concept, towards abstraction that aims to be its metaphorical bulletproof towards any attempt of criticism. I purposefully abandoned clarity in writing. Eventually, I wrote a lot of things that abandoned the creation of meaning entirely, flipping the idea of writing on itself. My works were not used to communicate an idea. Ironically, it became a representation of my own inability to communicate clearly.
 
-During those days, any sense of honesty in my own self-awareness was absent. I believed I was writing new forms of expression in contemporary Filipino literature. My own delusion consumed every ounce of confidence I had under the weight of the responsibilities of being a writer. I was not writing truth but [[_thoughts/What I Learned in Therapy\|falsehoods of that are fueled by my own insecurities]].
+During those days, any sense of honesty in my own self-awareness was absent. I believed I was writing new forms of expression in contemporary Filipino literature. My own delusion consumed every ounce of confidence I had under the weight of the responsibilities of being a writer. I was not writing truth but [[_thoughts/What I Learned in Therapy\|falsehoods that are fueled by my own insecurities]].
 
 I guess throughout those years, I was still trying to live up to an image of myself that I created, when I was emboldened by my dreams of becoming a poet. 
 
