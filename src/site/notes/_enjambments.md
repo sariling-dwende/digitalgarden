@@ -38,8 +38,8 @@ This list excludes daily logs that can be found [[_logs/_logs\|here]].
 | [[_thoughts/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]]                                                                           | January 06, 2025  |
 | [[_thoughts/Existential Anxiety around the Advancements in Large Language Models\|Existential Anxiety around the Advancements in Large Language Models]] | January 02, 2025  |
 | [[_thoughts/What I Learned in Therapy\|What I Learned in Therapy]]                                                                                       | December 27, 2024 |
-| [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                                                                               | December 25, 2024 |
 | [[_thoughts/Christmas Eve Movie\|Christmas Eve Movie]]                                                                                                   | December 25, 2024 |
+| [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                                                                               | December 25, 2024 |
 | [[_events/The breakdown\|The breakdown]]                                                                                                                 | December 22, 2024 |
 
 { .block-language-dataview}
