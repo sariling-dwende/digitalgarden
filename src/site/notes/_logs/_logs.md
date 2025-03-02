@@ -9,5 +9,6 @@
 - **[[_logs/_02_February/_02_February\|_02_February]]**
 - **_03_March**
 	- [[_logs/_03_March/2025-03-01\|2025-03-01]]
+	- [[_logs/_03_March/2025-03-02\|2025-03-02]]
 
 
