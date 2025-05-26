@@ -14,6 +14,7 @@
 - [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 - [[_thoughts/on Companion (2025)\|on Companion (2025)]]
 - [[_thoughts/On Experiencing Art\|On Experiencing Art]]
+- [[_thoughts/on passionate online reactions\|on passionate online reactions]]
 - [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]
 - [[_thoughts/Seasons of the Mind\|Seasons of the Mind]]
 - [[_thoughts/Seeing Myself\|Seeing Myself]]
