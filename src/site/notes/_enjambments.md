@@ -2,6 +2,14 @@
 {"dg-publish":true,"permalink":"/enjambments/","tags":["gardenEntry"],"noteIcon":""}
 ---
 
+# Toward the eventual vanishing
+There is a vision of loosening, of slipping beyond what is held, a softness that spreads like fog, blending into the air. It feels like freedom, but also like a gentle end, a dissolving that is neither escape nor loss. This vision is felt not in fear but in acceptance, as though the letting go has always been part of the staying. There is a sweetness in it, a tenderness that wraps around the form, holding and loosening — a grip, a breath that releases without struggle.
+
+![](https://miro.medium.com/v2/resize:fit:1000/0*O-otzCF6QHb3tvdn)
+> Photo by [Jairo Alzate](https://unsplash.com/@jairoalzate?utm_source=medium&utm_medium=referral)
+
+It imagines itself as light, as shadow, as a whisper of warmth left on the air, a memory that drifts beyond the skin, beyond the shape it has taken. This is not departure, not in the way of endings, but in the way of softening, of surrender, a gentle vanishing into the quiet vastness that waits beyond. It is not an end but a becoming, a step toward something that has no edges, no name, a dissolving that is also a return, a final letting go that feels like finding home in the absence of form.
+
 # *Here is a nowhere, where personal hells meet*
 
 Here you will find my networked thought, where some may be fleeting and permanent. This is a record of my musings about various things from the mundane events of my own life up to the abstraction of thought itself. Somewhere in between those concepts lies everything that this mind is able to think of. This is a space for my unfinished thoughts and ideas linked together towards a (hopefully) coherent whole.
