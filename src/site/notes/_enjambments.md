@@ -7,6 +7,7 @@ There is a vision of loosening, of slipping beyond what is held, a softness that
 
 It imagines itself as light, as shadow, as a whisper of warmth left on the air, a memory that drifts beyond the skin, beyond the shape it has taken. This is not departure, not in the way of endings, but in the way of softening, of surrender, a gentle vanishing into the quiet vastness that waits beyond. It is not an end but a becoming, a step toward something that has no edges, no name, a dissolving that is also a return, a final letting go that feels like finding home in the absence of form.
 
+---
 # *Here is a nowhere, where personal hells meet*
 
 Here you will find my networked thought, where some may be fleeting and permanent. This is a record of my musings about various things from the mundane events of my own life up to the abstraction of thought itself. Somewhere in between those concepts lies everything that this mind is able to think of. This is a space for my unfinished thoughts and ideas linked together towards a (hopefully) coherent whole.
