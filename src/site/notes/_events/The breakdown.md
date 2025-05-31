@@ -25,4 +25,4 @@ I still made grammatical errors. I still lag behind noticing some writing incons
 
 Deciding to quit took a huge toll on my mental health. Writing is the only thing I know I'm good at and it was such a blow to have my own mind tell me that I'm not even good at it. Feelings of inadequacy and isolation grabbed me by the throat because there was not anyone available who I can expect to understand what I was going through. It was a creative problem and in turn, a spiritual problem for me. My pride and purpose stripped away by my mind because of insecure thoughts.
 
-On the first day of 2020, I broke down and started to isolate myself from my family. That was when I had the self-preservation to talk to my mother and [[_thoughts/What I Learned in Therapy\|put myself into therapy]].
+On the first day of 2020, I broke down and started to isolate myself from my family. That was when I had the self-preservation to talk to my mother and [[_musings/What I Learned in Therapy\|put myself into therapy]].

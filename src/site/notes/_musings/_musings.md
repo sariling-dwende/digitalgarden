@@ -14,6 +14,8 @@
 - [[_musings/In Praise of Deliberate Decisions\|In Praise of Deliberate Decisions]]
 - [[_musings/Liminal Spaces\|Liminal Spaces]]
 - [[_musings/Technology and its Discontents\|Technology and its Discontents]]
+- [[_musings/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]]
 - [[_musings/The only way to live is to dig deeper\|The only way to live is to dig deeper]]
 - [[_musings/To Speak, To Listen\|To Speak, To Listen]]
+- [[_musings/What I Learned in Therapy\|What I Learned in Therapy]]
 
