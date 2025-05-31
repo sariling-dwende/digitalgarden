@@ -175,7 +175,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Search container adjustments */
 .search-container {
-  margin-top: 100px;
   display: none;
   align-items: center;
   margin-left: auto; /* Push to the right */
@@ -196,6 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .search-results {
+  margin-top: 100px;
   max-height: fit-content;
 }
 // Make sure search elements are visible
