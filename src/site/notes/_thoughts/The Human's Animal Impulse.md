@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/thoughts/the-human-s-animal-impulse/","tags":["thoughts","life"],"noteIcon":""}
 ---
 
-
 I have been mulling over the ideas of humanity and what separates us from being humans. I find it to be a truly engaging topic as my mind jumps from morality and ethics, virtuousness, and similar other ideas. The cause of this is most likely due to my recent media consumption: 
 
 - Attack on Titan is finally coming to an end--its moral dilemma, the haunting drive of humanity for survival; 

@@ -54,6 +54,8 @@ what is dead is devoid of a voice but not a presence. a presence that ultimately
 ---
 
 there are no one-word truths. one can only arrive at truth by going beyond every representation of the real, which is to say that representations are the window to the real which has to be broken down, stripped of its illusions in order to arrive at the truth. truth is never the goal but the path of process upon truth is attained. in other words, truth is never a thing or an object of desire. it is a place where nothingness resides and it can be said that the quest for truth is always the path towards self-destruction, to cancel the self, to die, as a sacrifice in order to see the self with the absolute Other. which is to say that every truth is an Other that manifests through representations of the real.
+{ #ea4dd5}
+
 
 ---
 
@@ -62,6 +64,8 @@ for instance, the perceivable real, which is through the senses, the objective m
 ---
 
 it then, brings us forth to the confrontation of nothingness. ever since Heidegger said that anxiety is brought by the direct confrontation of the self with the Nothing. the truth that all truths are empty, a void, a hall of mirrors, which is an aporia in itself, where one is suspended above and below everything, causes all things to disappear in front of our eyes. the sacredness of all things hides behind the fact that _we are all witnesses to the disappearance of our own truths. any attempt to hide the truth becomes sacrilegious despite the anxiety it brings_. before and after all things such that the truth of the illusion of beginnings and ends. there can be no salvation in truth and on the search for it. truth must not be the end goal because it does not end. to make peace with truth is to make peace with death. truth is beyond mortality. to become a ghost is to arrive at truth, where the timelessness of the self can only be achieved. _let me gain another form of consciousness by hiding myself from the world. i am ready to become sacred and become the sole witness of my own disappearance._
+{ #c361ed}
+
 
 ---
 

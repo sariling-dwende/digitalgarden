@@ -9,6 +9,8 @@ Time is an essential factor in experiencing art, which is to say time is a requi
 
 # art in time
 Art requires time. It requires the unfolding of time--the ever so unadulterated attention of creation. The artwork itself is the amalgamation of time that the artwork required for its existence. Entering the creative process to create art always starts with a blood pact for perfection. A blood pact that demands the time of the artist, which in turn is paid for by energy, attention, and their own self. In fulfilling that pact, a good work of art can be created. 
+{ #c7efa9}
+
 
 A work of art that solidifies the artist's time and their soul with it. When the artist creates their artwork, time becomes a vehicle in which the artist's being is being distilled into what is being created. Since art does not have an innate function--it is an aberration of nature also known as human expression, which does not serve anything other than itself--it is almost a hair's breadth into being the same level with trash, while at the same time, its uniqueness as a trash may elevate it exponentially further from being a simple garbage. It may even be said that the artist, as they create their artwork is investing their time into a valueless piece of junk that only serves the purpose of human expression.
 

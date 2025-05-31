@@ -25,6 +25,8 @@ We are beings hiding in plain sight, creating pockets of our own voids as we our
 > _These words, as you read them in sequence reveal the pocket of void that I have left using a language to decrypt my secret._
 
 This is how we make secrets sacred—always unrequited and perverse. In prayer: a private communication towards something hidden, a one-way declaration of the recognition of the other, who has created a pocket of a void somewhere in the world, we ask:
+{ #dfcc2b}
+
 
 > _Are these the words that decrypt the language of a universe you locked from us? Grant me entry into this secret, for an unworthy soul, a no-place that I can only think of as Heaven, where in knowing, I shall be set free from the burden of my own curiosity. Just say the word and I shall be healed._
 
@@ -33,7 +35,11 @@ In forms of meditation and prayer, we travel inward to a void of an intimate lan
 >_Secrets are only accessible by declaring this quiet desire to access them in secret._
 
 I have hidden myself from the world countless times and left countless pockets of voids in this world. In those voids, I have left multitudes of self[^1] that have stopped serving who I want to become, and in doing so I have abandoned countless languages I used to communicate with the world, left to expire in time and to die in secret.
+{ #5167b3}
+
 
 >_How do you spit blood on concrete without leaving a mark?_
 
 [^1]: Containing multitudes necessitates the understanding that it is our prime responsibility to understand and organize those multitudes. Infinity begs chaos, where chaos is an unfamiliar and unrecognized order. What we mean is that order is the consequence of understanding the chaos of the infinite.
+{ #76cbfc}
+
