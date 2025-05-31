@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-links {
   display: flex;
+  max-width: 0;
   font-family: 'Satoshi', sans-serif !important;
   font-size: 1.5em !important;
   align-items: center;
