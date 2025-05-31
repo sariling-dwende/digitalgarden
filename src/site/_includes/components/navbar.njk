@@ -27,12 +27,10 @@
                 <a href="https://enjambments.com/thoughts/thoughts"> thoughts </a>
             <!-- Add more links as needed -->
             </div>
-            <div class="search-bar">
                     <!-- Search Bar (Top-Right) -->
             {% if settings.dgEnableSearch === true %}
                 {% include "components/searchContainer.njk" %}
             {% endif %}
-            </div>
         </div>
     </nav>
     {%else%}
