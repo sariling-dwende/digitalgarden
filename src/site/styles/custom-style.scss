@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Search container adjustments */
 .search-container {
-  display: flex;
+  display: fixed;
   align-items: center;
   margin-left: auto; /* Push to the right */
   padding-left: 1rem;
