@@ -166,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   gap: 1rem;
   white-space: nowrap;
   margin-left: 120px;
+  flex-grow: 1;
   
   @media (max-width: 768px) {
     margin-left: 80px;
