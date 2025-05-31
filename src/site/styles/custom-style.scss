@@ -194,6 +194,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+// Make sure search elements are visible
+.search-button {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.search-container button {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 /* Make sidebar containers transparent and update styles */
 .sidebar {
     .toc, 
@@ -483,21 +496,4 @@ a:hover::after {
       font-weight: 600;
     }
   }
-}
-
-.search-container {
-  display: none;
-}
-
-// Make sure search elements are visible
-.search-button {
-  display: flex !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-}
-
-.search-container button {
-  display: flex !important;
-  opacity: 1 !important;
-  visibility: visible !important;
 }
