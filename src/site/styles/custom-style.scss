@@ -195,6 +195,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.search-results {
+  max-height: fit-content;
+}
 // Make sure search elements are visible
 .search-button {
   display: flex !important;
