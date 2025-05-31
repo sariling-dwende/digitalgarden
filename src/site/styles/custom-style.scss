@@ -57,8 +57,10 @@ body {
 
 /* Ensure the main content does not get hidden behind the fixed navbar */
 .content {
+  text-align: center;
+  margin: auto;
+  max-width: 700;
   padding-top: $navbar-height;
-  margin-left: -100px;
   z-index: 1 !important;
   /* Existing responsive margins */
   @media (min-width: 1200px) {
