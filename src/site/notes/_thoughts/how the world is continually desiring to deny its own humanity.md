@@ -8,7 +8,7 @@ Of course, to address the elephant in the room, there is the looming accusation 
 
 Our sense of purpose have already become muddled by this condition and now that it is becoming an inevitability to remove it from our daily lives, the question for the human search of purpose will also become more incredibly difficult. In this age when young people are deciding to be a walking brand ad, man's sense of self is also being stripped away as the consequence of the capitalist society. As we arrive into the automation of the human sensibility, I feel more confident that this stance is beyond just being a luddite. I have tried these tools and to such an extent that the average person may have gone. I am forced in to a working environment when using AI tools has become second-nature. It doesn't take a year before someone realizes that it will cause more net harm than good.
 
-![screenshot-2025-04-13-at-10.46.58 pm-568 1.png](/img/user/_attachments/screenshot-2025-04-13-at-10.46.58%20pm-568%201.png)
+![hbr-top ai use case in 2025.png](/img/user/_attachments/hbr-top%20ai%20use%20case%20in%202025.png)
 > source: https://hbr.org/2025/04/how-people-are-really-using-gen-ai-in-2025
 
 This infographic that shows the changing use-case of AI in our daily lives has become viral in different social media platforms. It is not surprising to see that the top use-case for 2025 is an actual human interaction being replaced by the machine. And in the way things are going right now, it seems that it is very human to stop desiring being human.
