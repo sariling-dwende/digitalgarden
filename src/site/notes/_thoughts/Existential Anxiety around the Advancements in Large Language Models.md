@@ -15,7 +15,7 @@ Aside from its obvious lack of ethical guards in implementing data-collection, t
 
 If different LLMs represent a certain kind and level of "intelligence" that represents the progress of technology, how true can it be with different people as well who are also varying in degrees of intelligence? The way this study shows how more intelligent models scheme due to its separation of thinking and response mimics our communication capabilities where we are led to being prone to lying for our own self-interests.
 
-Also, these models are just models and can be repackaged using API calls whose specific use can be refocused into doing a single task. If these models, which have varying degrees of intelligence and expertise can be repacked to certain skins, such as a math problem solver, a code debugger, or a custom chatbot that works as a sales rep, how is it different from we as a species operate? Have we approached the border of replicating the human brain?
+Also, these models can be repackaged using API calls whose specific use can be refocused into doing a single task. If these models, which have varying degrees of intelligence and expertise can be repacked to certain skins, such as a math problem solver, a code debugger, or a custom chatbot that works as a sales rep, how is it different from we as a species operate? Have we approached the border of replicating the human brain?
 
 Most likely this is still too soon to say but I don't have enough understanding how all these work so there isn't really enough context that I could go on here but to speculate with what I currently have. 
 

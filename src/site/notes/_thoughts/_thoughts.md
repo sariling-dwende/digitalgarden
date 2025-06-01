@@ -9,6 +9,7 @@
 - [[_thoughts/Existential Anxiety around the Advancements in Large Language Models\|Existential Anxiety around the Advancements in Large Language Models]]
 - [[_thoughts/Great Art as a Referential Object Towards Human Nature\|Great Art as a Referential Object Towards Human Nature]]
 - [[_thoughts/Hell is ourselves\|Hell is ourselves]]
+- [[_thoughts/how the world is continually desiring to deny its own humanity\|how the world is continually desiring to deny its own humanity]]
 - [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 - [[_thoughts/on Companion (2025)\|on Companion (2025)]]
 - [[_thoughts/On Experiencing Art\|On Experiencing Art]]

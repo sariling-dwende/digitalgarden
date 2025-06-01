@@ -37,6 +37,7 @@ As of this moment, I have five points of origin from where we can start. As the 
 This list excludes daily logs that can be found [[_logs/_logs\|here]].
 | Note                                                                                                                                                        | Published         |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [[_thoughts/how the world is continually desiring to deny its own humanity\|how the world is continually desiring to deny its own humanity]]             | June 01, 2025     |
 | [[_thoughts/on the compulsion to search for novel ideas\|on the compulsion to search for novel ideas]]                                                   | May 29, 2025      |
 | [[_thoughts/on passionate online reactions\|on passionate online reactions]]                                                                             | May 26, 2025      |
 | [[_thoughts/on Companion (2025)\|on Companion (2025)]]                                                                                                   | February 21, 2025 |
@@ -46,7 +47,6 @@ This list excludes daily logs that can be found [[_logs/_logs\|here]].
 | [[_musings/The Cosmic Failure of a Creator\|The Cosmic Failure of a Creator]]                                                                            | January 06, 2025  |
 | [[_thoughts/Existential Anxiety around the Advancements in Large Language Models\|Existential Anxiety around the Advancements in Large Language Models]] | January 02, 2025  |
 | [[_musings/What I Learned in Therapy\|What I Learned in Therapy]]                                                                                        | December 27, 2024 |
-| [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]                                                                                               | December 25, 2024 |
 
 { .block-language-dataview}
 
