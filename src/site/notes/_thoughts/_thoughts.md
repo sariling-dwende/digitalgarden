@@ -23,5 +23,6 @@
 - [[_thoughts/The Failure of Hedonistic Search for Happiness\|The Failure of Hedonistic Search for Happiness]]
 - [[_thoughts/The Human's Animal Impulse\|The Human's Animal Impulse]]
 - [[_thoughts/To See the Self\|To See the Self]]
+- [[_thoughts/we breathe critique and we're so bad at it\|we breathe critique and we're so bad at it]]
 - [[_thoughts/What It Means to be Human\|What It Means to be Human]]
 

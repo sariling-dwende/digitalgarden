@@ -34,10 +34,10 @@ As of this moment, I have five points of origin from where we can start. As the 
 
 
 
-This list excludes daily logs that can be found [[_logs/_logs\|here]].
+This list excludes day logs that can be found [[_logs/_logs\|here]].
 | Note                                                                                                                                            | Published         |
 | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
-| [[we breathe critique and we're so bad at it\|we breathe critique and we're so bad at it]]                                                   | June 08, 2025     |
+| [[_thoughts/we breathe critique and we're so bad at it\|we breathe critique and we're so bad at it]]                                         | June 08, 2025     |
 | [[_thoughts/on one's inner oracle\|on one's inner oracle]]                                                                                   | June 03, 2025     |
 | [[_thoughts/how the world is continually desiring to deny its own humanity\|how the world is continually desiring to deny its own humanity]] | June 01, 2025     |
 | [[_thoughts/on the compulsion to search for novel ideas\|on the compulsion to search for novel ideas]]                                       | May 29, 2025      |
