@@ -13,6 +13,7 @@
 - [[_thoughts/Monsters and Overcoming Our Selves\|Monsters and Overcoming Our Selves]]
 - [[_thoughts/on Companion (2025)\|on Companion (2025)]]
 - [[_thoughts/On Experiencing Art\|On Experiencing Art]]
+- [[_thoughts/on one's inner oracle\|on one's inner oracle]]
 - [[_thoughts/on passionate online reactions\|on passionate online reactions]]
 - [[_thoughts/on the compulsion to search for novel ideas\|on the compulsion to search for novel ideas]]
 - [[_thoughts/on twitter drama_no.1\|on twitter drama_no.1]]
@@ -22,5 +23,6 @@
 - [[_thoughts/The Failure of Hedonistic Search for Happiness\|The Failure of Hedonistic Search for Happiness]]
 - [[_thoughts/The Human's Animal Impulse\|The Human's Animal Impulse]]
 - [[_thoughts/To See the Self\|To See the Self]]
+- [[_thoughts/we breathe critique and we're so bad at it\|we breathe critique and we're so bad at it]]
 - [[_thoughts/What It Means to be Human\|What It Means to be Human]]
 
